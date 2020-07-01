@@ -15,7 +15,7 @@ document.querySelectorAll('.week').forEach(function(x){
     else
         x.classList.add('past');
 });
-(document.querySelector('.day:not(.past) div') || document.querySelector('.day div')).parentElement.classList.add('today');
+document.querySelector('.day:not(.past) div').parentElement.classList.add('today');
 
 function saveCookie(key, value) {
     var d = new Date();
