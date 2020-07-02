@@ -21,7 +21,7 @@ function saveCookie(key, value) {
     var d = new Date();
     d.setTime(d.getTime() + (365.24*24*60*60*1000)); // 1 year
     var expires = "expires="+ d.toUTCString();
-    document.cookie = key + '=' + value + ";" + expires;
+    document.cookie = key + '=' + value + ";" + expires+';secure';
 }
 function viewmode(me) {
     if (me.value) me = me.value;
