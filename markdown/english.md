@@ -127,7 +127,7 @@ Logic   $\forall$ people in set "us" . $\exists$ shirt . shirt fits person
 
 ------  -----------------------------------------
 Phrase  There's a bus that fits **each** of us
-Means   Pick any one of us you want; that one can find at least one of the shirts that fits
+Means   Pick any one of us you want; that one can fit in the bus
 Logic   $\exists$ bus . $\forall$ people in set "us" . bus fits person
 ------  -----------------------------------------
 
@@ -142,7 +142,7 @@ Logic   $\forall b \in B \;.\; L(b)$
 ------  -----------------------------------------
 Phrase  I love the commander of **every** soldier
 Means   There's a person who commands all soldiers, and I love that person
-Logic   $\exists p \in P \;.\; \forall s \in S \;,\; C(p,s) \land L(p)$
+Logic   $\exists p \in P \;.\; \forall s \in S \;.\; C(p,s) \land L(p)$
 ------  -----------------------------------------
 
 ------  -----------------------------------------
