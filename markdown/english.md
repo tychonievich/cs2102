@@ -53,12 +53,14 @@ Logic   $Z \rightarrow E$
 
 ------  -----------------------------------------
 Phrase  **If** you propose, I'll marry you
+
 Means   "you propose" and "I'll marry" are either both true or neither is
+
 Logic   $P \leftrightarrow M$
-Means   implies causality: proposing causes marriage
-Now     $\lnot P \land \lnot M$
-Later   If $P$ becomes true, $M$ will become true later
-Note    There are temporal logics that can express ideas like "later", but we will not learn them in this course
+
+Note    implies neither married nor proposed-to yet: $\lnot P \land \lnot M$
+        implies proposed-to will precede marriage
+        there are temporal logics to handle
 ------  -----------------------------------------
 
 # Is
