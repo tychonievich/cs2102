@@ -29,6 +29,27 @@ Means   2 options: "first", "second"
 Logic   presupposes $F \oplus S$
 ------  -----------------------------------------
 
+# And
+
+------  -----------------------------------------
+Phrase  I'm from Trinidad and Tobago
+Means   "Trinidad and Tobago" is the name a nation with two islands: Trinadad and Tobago; I could be from either of those islands, or both
+Logic   $T_1 \lor T_2$
+------  -----------------------------------------
+
+------  -----------------------------------------
+Phrase  I'm from New York and Chicago
+Means   I'm both a New Yorker and a Chicagoan
+Logic   $N \land C$
+------  -----------------------------------------
+
+------  -----------------------------------------
+Phrase  Ghanans and Nigerans speak English
+Means   If you're from either Ghana or Nigeria (or both), then you speak English
+Logic   $(G \lor N) \rightarrow E$
+------  -----------------------------------------
+
+
 # Not
 
 ------  -----------------------------------------
