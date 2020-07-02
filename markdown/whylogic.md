@@ -68,6 +68,25 @@ Math                        English
 -----------                 ---------------------------------------------
 $\forall x \;.\; \Gamma$    $\Gamma$ is true no matter which value $x$ has
 $\exists x \;.\; \Gamma$    There's at least one value $x$ could have that makes $\Gamma$ true
-$\nexists x \;.\; \Gamma$   There's no value $x$ could have that makes $\Gamma$ true<br/>*or, equivalently*<br/>$\Gamma$ is false no matter which $x$ has
+$\nexists x \;.\; \Gamma$   There's no value $x$ could have that makes $\Gamma$ true<br/>  — *or, equivalently* —<br/>$\Gamma$ is false no matter which value $x$ has
 
-These get messier when we combine them.
+These get more confusing when we combine them, and again English starts to fail us. For example, all three of the following have the general structure "there's a $x$ that fits every $y$", meaning $\exists x$ and $\forall y$, but each has a different meaning:
+
+Phrase                                  Commonly means
+-----------------------------------     ------------------------------------
+There's a shirt that fits all of us     Pick any one of us you want; that one can fit in the shirt
+There's a shirt that fits each of us    Pick any one of us you want; that one can find at least one of the shirts that fits
+There's a bus that fits all of us       You can put us all in the bus at the same time
+There's a bus that fits each of us      Pick any one of us you want; that one can fit in the bus
+
+In logic, we distinguish these meanings in part by the order of quantifiers:
+
+Phrase                                  Quantifiers
+-----------------------------------     ------------------------------------
+There's a shirt that fits all of us     $\exists$ shirt . $\forall$ people in set "us" . shirt fits person
+There's a shirt that fits each of us    $\forall$ people in set "us" . $\exists$ shirt . shirt fits person
+There's a bus that fits all of us       $\exists$ bus . bus fits the set "us"
+There's a bus that fits each of us      $\exists$ shirt . $\forall$ people in set "us" . bus fits person
+
+
+
