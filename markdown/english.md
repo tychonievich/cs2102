@@ -58,9 +58,8 @@ Means   "you propose" and "I'll marry" are either both true or neither is
 
 Logic   $P \leftrightarrow M$
 
-Note    implies neither married nor proposed-to yet: $\lnot P \land \lnot M$
-        implies proposed-to will precede marriage
-        there are temporal logics to handle
+Note    Implies neither married nor proposed-to yet: $\lnot P \land \lnot M$;\
+        Also implies proposed-to will precede marriage, but "precede" better handled by a temporal logic, not the first-order logic we use in this class
 ------  -----------------------------------------
 
 # Is
