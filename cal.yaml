@@ -1,0 +1,415 @@
+Special Dates:
+  Courses begin: 2020-08-25
+  Courses end: 2020-12-08
+  Add deadline: 2020-01-27
+  Drop deadline: 2020-02-24
+  Withdraw deadline: 2020-03-16
+  Thanksgiving break:
+    start: 2020-11-25
+    end: 2020-11-29
+
+meta:
+  timezone: America/New_York
+  name: CS 2102
+  lecture exam: true
+  home: https://www.cs.virginia.edu/luther/2102/F2020/
+  final:
+    start: 2020-12-15 19:00:00
+    duration: 180
+    room: online
+
+sections:
+  CS2102-002:
+    type: lecture
+    room: Rice 130
+    days: [Monday, Wednesday, Friday]
+    start: 10:00:00
+    duration: 50
+  CS2102-003:
+    type: lecture
+    room: Rice 130
+    days: [Monday, Wednesday, Friday]
+    start: 15:30:00
+    duration: 50
+  CS2102-004:
+    type: lecture
+    room: Olsson 009
+    days: [Monday, Wednesday, Friday]
+    start: 9:00:00
+    duration: 50
+
+
+
+office hours:
+  .begin: 2020-09-01
+  faculty:
+    Tychonievich:
+      where: TBD
+      when: []
+    Orrico:
+      where: TBD
+      when: []
+  TA:
+    where: TBD
+    TA 1:
+      when: []
+
+
+
+lectures:
+    - welcome
+    - real maths
+
+    - logic roadmap
+    - truth tables
+    - lab01
+    
+    - equivalence rules
+    - equivalence proofs
+    - lab02
+
+    - predicates
+    - quantifiers
+    - lab03
+
+    - [direct proof, proof by cases]
+    - [direct proof, proof by cases]
+    - lab04
+    
+    - sets
+    - sets
+    - lab05
+
+    - induction
+    - induction
+    - lab06
+
+    - primes
+    - contradiction
+    - lab07
+
+    - summation
+    - combination
+    - lab08
+
+    - permutation
+    - permutation
+    - lab09
+
+    - functions
+    - functions
+    - lab10
+
+    - logs
+    - logs
+    - lab11
+    
+    - state machines
+    - state machines
+    - lab12
+    
+    - optional makeup quiz
+
+
+reading:
+    
+    lab01:
+      - txt: list of symbols
+        lnk: symbols.html
+      - txt: lab
+        lnk: files/lab01.pdf
+      - txt: lab key
+        lnk: files/lab01-key.pdf
+      - txt: quiz
+        lnk: files/quiz01.pdf
+      - txt: key
+        lnk: files/quiz01-key.pdf
+        
+    lab02:
+      - txt: lab
+        lnk: files/lab02.pdf
+      - txt: lab key
+        lnk: files/lab02-key.pdf
+      - txt: quiz
+        lnk: files/quiz02.pdf
+      - txt: key
+        lnk: files/quiz02-key.pdf
+
+    lab03:
+      - txt: list of symbols
+        lnk: symbols.html
+      - txt: lab
+        lnk: files/lab03.pdf
+      - txt: lab key
+        lnk: files/lab03-key.pdf
+      - txt: quiz
+        lnk: files/quiz03.pdf
+      - txt: key
+        lnk: files/quiz03-key.pdf
+
+
+    lab04:
+      - txt: lab
+        lnk: files/lab04.pdf
+      - txt: lab key
+        lnk: files/lab04-key.pdf
+      - txt: quiz
+        lnk: files/quiz04.pdf
+      - txt: key
+        lnk: files/quiz04-key.pdf
+
+    lab05:
+      - txt: lab
+        lnk: files/lab05.pdf
+      - txt: lab key
+        lnk: files/lab05-key.pdf
+      - txt: quiz
+        lnk: files/quiz05.pdf
+      - txt: key
+        lnk: files/quiz05-key.pdf
+
+    lab06:
+      - txt: lab
+        lnk: files/lab06.pdf
+      - txt: lab key
+        lnk: files/lab06-key.pdf
+      - txt: quiz
+        lnk: files/quiz06.pdf
+      - txt: key
+        lnk: files/quiz06-key.pdf
+
+    lab07:
+      - txt: lab
+        lnk: files/lab07.pdf
+      - txt: lab key
+        lnk: files/lab07-key.pdf
+      - txt: quiz
+        lnk: files/quiz07.pdf
+      - txt: quiz key
+        lnk: files/quiz07-key.pdf
+
+
+    lab08:
+      - txt: lab
+        lnk: files/lab08.pdf
+      - txt: lab key
+        lnk: files/lab08-key.pdf
+      - txt: quiz
+        lnk: files/quiz08.pdf
+      - txt: quiz key
+        lnk: files/quiz08-key.pdf
+
+    lab09:
+      - txt: lab
+        lnk: files/lab09.pdf
+      - txt: lab key
+        lnk: files/lab09-key.pdf
+      - txt: quiz
+        lnk: files/quiz09.pdf
+      - txt: quiz key
+        lnk: files/quiz09-key.pdf
+
+    lab10:
+      - txt: lab
+        lnk: files/lab10.pdf
+      - txt: lab key
+        lnk: files/lab10-key.pdf
+      - txt: quiz
+        lnk: files/quiz10.pdf
+      - txt: quiz key
+        lnk: files/quiz10-key.pdf
+
+    lab11:
+      - txt: lab
+        lnk: files/lab11.pdf
+      - txt: lab key
+        lnk: files/lab11-key.pdf
+
+    lab12: []
+
+    welcome: 
+      - "MCS Introduction"
+      - "∀x 1.0"
+      - txt: on proofs
+        lnk: proofs.html
+    real maths:
+        lnk: https://medium.com/@jeremyjkun/habits-of-highly-mathematical-people-b719df12d15e
+        txt: six habits
+    propositions:
+        - "MCS 1.1"
+        - "∀x 4.3"
+    operators:
+        - "MCS 3–3.2.0"
+        - "∀x 5"
+    truth tables:
+        - "MCS 3.2.1–3.2.2"
+        - "∀x 8, 10"
+    
+    equivalence rules:
+        - "MCS 3.3–3.4"
+        - "∀x 11.2"
+        - lnk: "axioms.html"
+          txt: "equivalences"
+    equivalence proofs:
+        - "MCS 3.4.2"
+        - "∀x 14–15"
+        - lnk: "axioms.html"
+          txt: "equivalences"
+        - lnk: "demorgan.html"
+          txt: "example proof"
+        - lnk: "techniques-q2.html"
+          txt: "proof techniques"
+        - lnk: "direct.html"
+          txt: "direct proof"
+        
+    predicates:
+        - "MCS 1.2"
+        - "∀x 21.0–21.3"
+        - "skim MCS 4.1.0"
+    quantifiers:
+        - {txt: write-up of class examples, lnk: eng2quant.html}
+        - "∀x 21.4–24"
+        - "MCS 3.6"
+        - "skim ∀x 25–26"
+        - "practice exercises in ∀x 22 and 23"
+    sets:
+        - lnk: "sets.html"
+          txt: "sets writeup"
+        - lnk: "set-practice.html"
+          txt: "practice"
+        - "MCS 4.1.1"
+    
+    direct proofs:
+        - "MCS 1.2–1.6"
+        - "∀x 16"
+        - "∀x 32–33"
+        - "skim ∀x 37"
+        - {lnk: "direct.html", txt: "direct proof"}
+    proof by cases:
+        - "MCS 1.7"
+        - "∀x 15.6"
+        - {txt: techniques, lnk: techniques-q4.html}
+    
+    
+    data types:
+        - "MCS 4.1–4.4"
+        - txt: "MCS 4 addenda"
+          lnk: "chap4.html"
+
+    sequences:
+        - "MCS 4.2"
+        - txt: "MCS 4.2 addenda"
+          lnk: "seq.html"
+    
+    cardinality:
+        - "MCS 4.5"
+        - "MCS 7.1"
+        - txt: pigeonhole principle
+          lnk: https://en.wikipedia.org/wiki/Pigeonhole_principle
+
+    contradiction:
+        - "MCS 1.8"
+        - "MCS 2"
+        - txt: irrationals
+          lnk: irrationality.html
+        - txt: open sets
+          lnk: openset.html
+
+    induction:
+        - "MCS 2"
+        - "MCS 5.1–5.3"
+        - txt: addendum
+          lnk: induction.html
+    
+    summation:
+        - "MCS 13.0–13.2"
+
+    combination:
+        - "MCS 14.5"
+    
+    permutation:
+        - "MCS 14.0—14.6"
+    
+    counting proofs:
+        - "MCS 14.0—14.6"
+        - "MCS 13.0–13.2"
+        - txt: reductions writeup
+          lnk: reducibility.html
+        - txt: proof techniques
+          lnk: techniques-q8.html
+    
+    graphs:
+        - "MCS 9"
+    state machines:
+        - "MCS 5.4"
+    primes:
+        - "MCS 8.0–8.7"
+    functions:
+        - "MCS 4.3–4.4"
+    logs:
+        - txt: wikipedia
+          lnk: https://en.m.wikipedia.org/wiki/Logarithm
+        - txt: writeup
+          lnk: logarithms.html
+
+    make-up:
+        - txt: quiz
+          lnk: files/quiz12.pdf
+
+assignments:
+    ".groups":
+        OQ:
+            portion: "30"
+            link: https://kytos.cs.virginia.edu/cs2102/quizzes/
+        IQ:
+            portion: "70"
+            link: https://kytos.cs.virginia.edu/cs2102/quizzes/
+        Final:
+            portion: "0"
+    
+    IQ01:
+        due: 2020-01-24 10:50:00
+    IQ02:
+        due: 2020-01-31 10:50:00
+    IQ03:
+        due: 2020-02-07 10:50:00
+    IQ04:
+        due: 2020-02-14 10:50:00
+    IQ05:
+        due: 2020-02-21 10:50:00
+    IQ06:
+        due: 2020-02-28 10:50:00
+    IQ07:
+        due: 2020-03-06 10:50:00
+    IQ08:
+        due: 2020-03-27 10:50:00
+    IQ09:
+        due: 2020-04-03 10:50:00
+    IQ10:
+        due: 2020-04-10 10:50:00
+    IQ12:
+        due: 2020-04-27 10:50:00
+
+    OQ00:
+        due: 2020-01-22 08:30:00
+        weight: 0
+    OQ01:
+        due: 2020-01-27 08:30:00
+        weight: 0
+    OQ02:
+        due: 2020-02-03 08:30:00
+    OQ03:
+        due: 2020-02-10 08:30:00
+    OQ05:
+        due: 2020-02-24 08:30:00
+    OQ06:
+        due: 2020-03-02 08:30:00
+    OQ07:
+        due: 2020-03-20 08:30:00
+    OQ08:
+        due: 2020-03-30 08:30:00
+    OQ09:
+        due: 2020-04-06 08:30:00
+    OQ10:
+        due: 2020-04-13 08:30:00
+        
