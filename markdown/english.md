@@ -63,7 +63,7 @@ Logic   $P \leftrightarrow M$
 Phrase  3 **is** an integer
 Means   "is 3" and "is not an integer" cannot both be true
 Logic   $T \rightarrow I$
-Logic   $3 \in \mathbb Z$
+Math    $3 \in \mathbb Z$
 ------  -----------------------------------------
 
 ------  -----------------------------------------
