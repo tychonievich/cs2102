@@ -36,6 +36,7 @@ function viewmode(me) {
 function show(me,val) {
     if (me.value) return show(me.value, me.checked);
     let css = document.getElementById('schedule-css');
+    console.log(me,val,css)
     if (val) {
         for(let i=0; i<css.sheet.cssRules.length; i+=1) {
             if (css.sheet.cssRules[i].cssText == '.'+me+' { display: none; }') {
