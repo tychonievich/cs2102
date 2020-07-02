@@ -76,4 +76,6 @@ Logic   $A \leftrightarrow M$
 Phrase  Alan Turing **is** dead
 Means   "is Alan Turing" and "is not dead" cannot be true of the same person
 Logic   $A \rightarrow D$
+Means   "is Alan Turing" and "is not dead" cannot be true of the same person at this time
+Logic   $T \rightarrow (A \rightarrow D)$
 ------  -----------------------------------------
