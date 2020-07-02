@@ -96,9 +96,9 @@ summary { margin-left: -1em; }
 
 
 <p>View 
-<label><input type="radio" name="show" onchange="show(this)" checked value="CS2102-002"> CS2102-002</label>
-<label><input type="radio" name="show" onchange="show(this)" checked value="CS2102-003"> CS2102-003</label>
-<label><input type="radio" name="show" onchange="show(this)" checked value="CS2102-004"> CS2102-004</label>
+<label><input type="checkbox" name="show" onchange="show(this)" checked value="CS2102-002"> CS2102-002</label>
+<label><input type="checkbox" name="show" onchange="show(this)" checked value="CS2102-003"> CS2102-003</label>
+<label><input type="checkbox" name="show" onchange="show(this)" checked value="CS2102-004"> CS2102-004</label>
 </p>
 
 <p>View as 
