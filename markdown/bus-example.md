@@ -50,6 +50,8 @@ and "$\exists x$" means "it is possible to pick the right $x$".
 
 # One at a time, existential
 
+Everyone can fit in a bus; there are tall buses for tall people, wide buses for wide people, and so on.
+
 ![∀ person ∃ bus, person fits in bus](files/bus-6.svg)
 
 Is there one specific bus that any person can fit into, or might there be different buses for differently shaped people? These two ideas are distinguished by the order of the $\forall$ and $\exists$ symbol: the left-most one applies to the entire expression that follows.
