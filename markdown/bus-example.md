@@ -54,6 +54,16 @@ given a set of buses and a set of people,
 find a mapping between people and buses that satisfied capacity constraints.
 
 Partitions are an important enough concept we have specific jargon for them, but that jargon will not be covered in this course.
+However, that jargon is defined in terms of discrete mathematics, so we can still express this using this courses' content, although the result is rather complicated:
+
+Let $B$ be the set of buses, $P$ be the set of people, and $c : B \rightarrow \mathbb N$ be a function giving the capacity of a bus. 
+Then this case is
+$$
+\exists f : B \rightarrow \mathcal P(P) \;.\;
+\Big(\forall b \in B \;.\; \big|f(b)\big| \le c(b)\Big)
+\land
+\big(\forall p \in B \;.\; \exists b \in B \;.\; p \in f(b)\big)
+$$
 
 # Any can fit the set
 
