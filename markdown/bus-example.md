@@ -65,6 +65,13 @@ $$
 \big(\forall p \in P \;.\; \exists b \in B \;.\; p \in f(b)\big)
 $$
 
+That is, "there's some mapping from buses to set of people
+such that both
+(a) the number of people mapped from each bus is within the bus's capacity
+and (b) every person is mapped to be some bus."
+
+
+
 # Any can fit the set
 
 > Everyone can fit in a bus, so we only need one bus.
