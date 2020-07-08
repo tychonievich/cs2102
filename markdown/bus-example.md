@@ -14,7 +14,7 @@ This is formalized in mathematics as a partition problem:
 given a set of buses and a set of people,
 find a mapping between people and buses that satisfied capacity constraints.
 
-# As a set, universal
+# Any can fit the set
 
 Everyone can fit in a bus, so we only need one bus.
 
@@ -22,7 +22,7 @@ Everyone can fit in a bus, so we only need one bus.
 
 This is formalized in mathematics by saying the "fit in a bus" predicate applies to an entire set of people rather than to individual people.
 
-# One at a time, universal
+# Any can fit each
 
 Everyone can fit in a bus, even the largest person in the world.
 
@@ -30,7 +30,7 @@ Everyone can fit in a bus, even the largest person in the world.
 
 This is formalized in mathematics by saying the "fit in a bus" predicate applies to any person we happen to pick, but individually instead of as a group.
 
-# As a set, existential
+# One can fit the set
 
 Everyone can fit in a bus, so we only need one of the big buses.
 
@@ -39,7 +39,7 @@ Everyone can fit in a bus, so we only need one of the big buses.
 When we say "a bus" we mean one bus, but do we mean a special specific bus or any arbitrary bus we could pick? In math, we distingusih these two ideas with different symbols: "$\forall x$" means "no matter which $x$ we pick"
 and "$\exists x$" means "it is possible to pick the right $x$".
 
-# One at a time, existential
+# One can fits each
 
 Everyone can fit in a bus; even the largest person in the world can fit on a big bus
 
@@ -48,7 +48,7 @@ Everyone can fit in a bus; even the largest person in the world can fit on a big
 When we say "a bus" we mean one bus, but do we mean a special specific bus or any arbitrary bus we could pick? In math, we distingusih these two ideas with different symbols: "$\forall x$" means "no matter which $x$ we pick"
 and "$\exists x$" means "it is possible to pick the right $x$".
 
-# One at a time, existential
+# Each has one that fits
 
 Everyone can fit in a bus; there are tall buses for tall people, wide buses for wide people, and so on.
 
