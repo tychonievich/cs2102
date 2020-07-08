@@ -32,13 +32,25 @@ This is formalized in mathematics by saying the "fit in a bus" predicate applies
 
 # As a set, existential
 
-Everyone can fit in a bus, so we only need one bus if we get the biggest bus.
+Everyone can fit in a bus, so we only need one of the big buses.
 
 ![∃ bus, set fits](files/bus-2.svg)
+
+When we say "a bus" we mean one bus, but do we mean a special specific bus or any arbitrary bus we could pick? In math, we distingusih these two ideas with different symbols: "$\forall x$" means "no matter which $x$ we pick"
+and "$\exists x$" means "it is possible to pick the right $x$".
 
 # One at a time, existential
 
 Everyone can fit in a bus; even the largest person in the world can fit on a big bus
 
-![∀ person ∃ bus, person fits in bus](files/bus-5.svg)
+![∃ bus ∀ person person fits in bus](files/bus-5.svg)
+
+When we say "a bus" we mean one bus, but do we mean a special specific bus or any arbitrary bus we could pick? In math, we distingusih these two ideas with different symbols: "$\forall x$" means "no matter which $x$ we pick"
+and "$\exists x$" means "it is possible to pick the right $x$".
+
+# One at a time, existential
+
+![∀ person ∃ bus, person fits in bus](files/bus-6.svg)
+
+Is there one specific bus that any person can fit into, or might there be different buses for differently shaped people? These two ideas are distinguished by the order of the $\forall$ and $\exists$ symbol: the left-most one applies to the entire expression that follows.
 
