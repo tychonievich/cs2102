@@ -1,5 +1,5 @@
 ---
-title: English quantifiers -- Bus example
+title: Everyone can fit in a bus
 ...
 
 What does the statement "everyone can fit in a bus" mean?
