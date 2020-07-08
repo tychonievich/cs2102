@@ -68,7 +68,7 @@ $$
 That is, "there's some mapping from buses to set of people
 such that both
 (a) the number of people mapped from each bus is within the bus's capacity
-and (b) every person is mapped to be some bus."
+and (b) every person is mapped to by some bus."
 
 
 
