@@ -63,7 +63,7 @@ Partitions are an important enough concept we have specific jargon for them, but
 
 This is formalized in mathematics by saying the "fit in a bus" predicate applies to an entire set of people rather than to individual people.
 
-Let $B$ be the set of buses, $P$ be the set of people, and $f(x,y)$ be a predicate asserting $x can fit in y$.
+Let $B$ be the set of buses, $P$ be the set of people, and $f(x,y)$ be a predicate asserting $x$ can fit in $y$.
 Then this case is $$\forall b \in B \;.\; f(P,b)$$
 
 # Any can fit each
@@ -74,7 +74,7 @@ Then this case is $$\forall b \in B \;.\; f(P,b)$$
 
 This is formalized in mathematics by saying the "fit in a bus" predicate applies to any person we happen to pick, but individually instead of as a group.
 
-Let $B$ be the set of buses, $P$ be the set of people, and $f(x,y)$ be a predicate asserting $x can fit in y$.
+Let $B$ be the set of buses, $P$ be the set of people, and $f(x,y)$ be a predicate asserting $x$ can fit in $y$.
 Then this case is $$\forall p \in P, b \in B \;.\; f(p,b)$$
 
 # One can fit the set
@@ -86,7 +86,7 @@ Then this case is $$\forall p \in P, b \in B \;.\; f(p,b)$$
 When we say "a bus" we mean one bus, but do we mean a special specific bus or any arbitrary bus we could pick? In math, we distingusih these two ideas with different symbols: "$\forall x$" means "no matter which $x$ we pick"
 and "$\exists x$" means "it is possible to pick the right $x$".
 
-Let $B$ be the set of buses, $P$ be the set of people, and $f(x,y)$ be a predicate asserting $x can fit in y$.
+Let $B$ be the set of buses, $P$ be the set of people, and $f(x,y)$ be a predicate asserting $x$ can fit in $y$.
 Then this case is $$\exists b \in B \;.\; f(P,b)$$
 
 # One can fits each
@@ -98,7 +98,7 @@ Then this case is $$\exists b \in B \;.\; f(P,b)$$
 When we say "a bus" we mean one bus, but do we mean a special specific bus or any arbitrary bus we could pick? In math, we distingusih these two ideas with different symbols: "$\forall x$" means "no matter which $x$ we pick"
 and "$\exists x$" means "it is possible to pick the right $x$".
 
-Let $B$ be the set of buses, $P$ be the set of people, and $f(x,y)$ be a predicate asserting $x can fit in y$.
+Let $B$ be the set of buses, $P$ be the set of people, and $f(x,y)$ be a predicate asserting $x$ can fit in $y$.
 Then this case is $$\exists b \in B \;.\; \forall p \in P \;.\; f(p,b)$$
 
 # Each has one that fits
@@ -109,5 +109,5 @@ Then this case is $$\exists b \in B \;.\; \forall p \in P \;.\; f(p,b)$$
 
 Is there one specific bus that any person can fit into, or might there be different buses for differently shaped people? These two ideas are distinguished by the order of the $\forall$ and $\exists$ symbol: the left-most one applies to the entire expression that follows.
 
-Let $B$ be the set of buses, $P$ be the set of people, and $f(x,y)$ be a predicate asserting $x can fit in y$.
+Let $B$ be the set of buses, $P$ be the set of people, and $f(x,y)$ be a predicate asserting $x$ can fit in $y$.
 Then this case is $$\forall p \in P \;.\; \exists b \in B \;.\; f(p,b)$$
