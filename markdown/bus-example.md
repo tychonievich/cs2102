@@ -24,7 +24,7 @@ Answer
 
     Everyone can fit in a   Suggests (to me)
     -----------             -----------------
-    car                     [Partitions]: several cars, more car seats than people
+    car                     [Partition]: several cars, more car seats than people
     costume                 [Any can fit each]: costumes are baggy enough for any build
     auditorium              [Any can fit the set]: each auditorium has more seats than we have people
 
