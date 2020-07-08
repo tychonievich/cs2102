@@ -62,7 +62,7 @@ $$
 \exists f : B \rightarrow \mathcal P(P) \;.\;
 \Big(\forall b \in B \;.\; \big|f(b)\big| \le c(b)\Big)
 \land
-\big(\forall p \in B \;.\; \exists b \in B \;.\; p \in f(b)\big)
+\big(\forall p \in P \;.\; \exists b \in B \;.\; p \in f(b)\big)
 $$
 
 # Any can fit the set
