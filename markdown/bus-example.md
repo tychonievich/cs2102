@@ -64,9 +64,9 @@ $$
 \color{red} \forall b \in B \;.\; \color{orange} \big|f(b)\big| \le c(b)
 \color{black} \Big)
 \color{green} \land
-\color{black} \big(
+\color{black} \Big(
 \color{magenta} \forall p \in P \;.\; \color{gray} \exists b \in B \;.\; \color{brown} p \in f(b)
-\color{black} \big)
+\color{black} \Big)
 $$
 
 That is, "[there's some mapping from buses to sets of people
