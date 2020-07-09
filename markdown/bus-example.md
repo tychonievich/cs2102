@@ -62,7 +62,7 @@ $$
 \color{blue} \exists f : B \rightarrow \mathcal P(P) \;.\;
 \color{red} \Big(\forall b \in B \;.\; \color{orange} \big|f(b)\big| \le c(b)\Big)
 \color{green} \land
-\color{magenta} \big(\forall p \in P \;.\; \color{purple} \exists b \in B \;.\; \color{brown} p \in f(b)\big)
+\color{magenta} \big(\forall p \in P \;.\; \color{gray} \exists b \in B \;.\; \color{brown} p \in f(b)\big)
 $$
 
 That is, "[there's some mapping from buses to sets of people
@@ -76,7 +76,7 @@ such that]{style="color:blue"}
 (b)
 [every person]{style="color:magenta"}
 [is in the set mapped to by]{style="color:brown"}
-[some bus]{style="color:purple"}."
+[some bus]{style="color:gray"}."
 
 
 
