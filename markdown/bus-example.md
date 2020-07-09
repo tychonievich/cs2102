@@ -18,7 +18,7 @@ Question
 :   How do we learn what context means?
 
 Answer
-:   Some is intrinsic ("if this part meant $x$ then that part wouldn't make sense"), but much is **cultural** – that is, based on likely-to-be-shared past experience ("I usually see $x$, so that probably holds here")
+:   Some meaning may be intrinsic ("this part has to mean $x$ or that part wouldn't make sense"), but much is **cultural** – that is, based on likely-to-be-shared past experience ("I usually see $x$, so that probably holds here")
     
     For example, my culture leads me to expect "everyone can fit in a \_\_\_\_" to mean
 
@@ -34,7 +34,7 @@ Question
 :   How can I communicate clearly if I don't share a culture?
 
 Answer
-:   Learn about one another's culture.
+:   Learn about other cultures.
 
     Or, if you have time, learn a common **jargon**: special in-discipline words or symbols that have clearly defined meaning. Jargon lets me communicate across cultures reliably, but also creates a barrier to entry. With English I can communicate easily with people *raised* like me; with jargon I can communicate easily with people *educated* like me.
     
@@ -59,16 +59,24 @@ However, that jargon is defined in terms of discrete mathematics, so we can stil
 Let $B$ be the set of buses, $P$ be the set of people, and $c : B \rightarrow \mathbb N$ be a function giving the capacity of a bus. 
 Then this case is
 $$
-\exists f : B \rightarrow \mathcal P(P) \;.\;
-\Big(\forall b \in B \;.\; \big|f(b)\big| \le c(b)\Big)
-\land
-\big(\forall p \in P \;.\; \exists b \in B \;.\; p \in f(b)\big)
+\color{blue} \exists f : B \rightarrow \mathcal P(P) \;.\;
+\color{red} \Big(\forall b \in B \;.\; \color{orange} \big|f(b)\big| \le c(b)\Big)
+\color{green} \land
+\color{magenta} \big(\forall p \in P \;.\; \color{purple} \exists b \in B \;.\; \color{brown} p \in f(b)\big)
 $$
 
-That is, "there's some mapping from buses to set of people
-such that both
-(a) the number of people mapped from each bus is within the bus's capacity
-and (b) every person is mapped to by some bus."
+That is, "[there's some mapping from buses to sets of people
+such that]{style="color:blue"}
+[both]{style="color:green"}
+(a) 
+[the number of people mapped from]{style="color:orange"}
+[each bus]{style="color:red"}
+[is within the bus's capacity]{style="color:orange"}
+[and]{style="color:green"}
+(b)
+[every person]{style="color:magenta"}
+[is in the set mapped to by]{style="color:brown"}
+[some bus]{style="color:purple"}."
 
 
 
