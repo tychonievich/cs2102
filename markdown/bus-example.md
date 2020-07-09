@@ -41,7 +41,7 @@ Answer
     CS has its own jargon, mostly based on redefining words and symbols from English (e.g. "else") and math (e.g. "=").
     It also uses some jargon from mathematics and formal logic.
 
-What follows is an effort to illustrate one specific phrase and how context changes its meaning, together with examples of how these might be expressed using discrete mathematics.
+What follows is an effort to illustrate one specific phrase and how context changes its meaning, together with examples of how these might be expressed using the jargon of discrete mathematics.
 
 # Partition
 
