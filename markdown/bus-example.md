@@ -15,7 +15,7 @@ Answer
 :   A change in the likely meaning of an ambiguous word or situation based on other nearby words or situations.
 
 Question
-:   How do we learn what context means?
+:   How do we know what a given context means?
 
 Answer
 :   Some meaning may be intrinsic ("this part has to mean $x$ or that part wouldn't make sense"), but much is **cultural** – that is, based on likely-to-be-shared past experience ("I usually see $x$, so that probably holds here")
@@ -36,10 +36,10 @@ Question
 Answer
 :   Learn about other cultures.
 
-    Or, if you have time, learn a common **jargon**: special in-discipline words or symbols that have clearly defined meaning. Jargon lets me communicate across cultures reliably, but also creates a barrier to entry. With English I can communicate easily with people *raised* like me; with jargon I can communicate easily with people *educated* like me.
+    Or, if everyone you communicate with has time, learn a common **jargon**: special in-discipline words or symbols that have clearly defined meaning. Jargon lets me communicate across cultures reliably, but also creates a barrier to entry. With English I can communicate easily with people *raised* like me; with jargon I can communicate precisely with people *educated* like me.
     
-    CS has a lot of its own jargon, mostly based on redefining words and symbols from English (e.g. "else") and math (e.g. "=").
-    It also uses some jargon from Mathematics and Formal Logic.
+    CS has its own jargon, mostly based on redefining words and symbols from English (e.g. "else") and math (e.g. "=").
+    It also uses some jargon from mathematics and formal logic.
 
 What follows is an effort to illustrate one specific phrase and how context changes its meaning, together with examples of how these might be expressed using discrete mathematics.
 
