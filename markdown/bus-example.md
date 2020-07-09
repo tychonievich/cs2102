@@ -60,9 +60,13 @@ Let $B$ be the set of buses, $P$ be the set of people, and $c : B \rightarrow \m
 Then this case is
 $$
 \color{blue} \exists f : B \rightarrow \mathcal P(P) \;.\;
-\color{red} \Big(\forall b \in B \;.\; \color{orange} \big|f(b)\big| \le c(b)\Big)
+\color{black} \Big(
+\color{red} \forall b \in B \;.\; \color{orange} \big|f(b)\big| \le c(b)
+\color{black} \Big)
 \color{green} \land
-\color{magenta} \big(\forall p \in P \;.\; \color{gray} \exists b \in B \;.\; \color{brown} p \in f(b)\big)
+\color{black} \big(
+\color{magenta} \forall p \in P \;.\; \color{gray} \exists b \in B \;.\; \color{brown} p \in f(b)
+\color{black} \big)
 $$
 
 That is, "[there's some mapping from buses to sets of people
