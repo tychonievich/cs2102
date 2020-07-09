@@ -2,6 +2,9 @@
 title: Policies
 ...
 
+This entire document is likely to be adjusted before the semester begins.
+[Red text indicates something we plan on changing.]{style="color:red"}
+
 # Logistics
 
 ## Meetings
