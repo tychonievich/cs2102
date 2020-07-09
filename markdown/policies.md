@@ -151,7 +151,7 @@ Getting 100% in three and 0% in one is far worse than getting 75% in all four.
 To reflect this, your grade will be computed as
 
 :::{style="color:red"}
-not yet certain; possibly the fours scores for a set $S$ and your score is
+not yet certain; possibly the fours scores form a set $S$ and your overall score is
 $\max\big(\min(S)+15, \max(s)\big)$
 :::
 

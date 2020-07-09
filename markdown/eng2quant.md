@@ -2,6 +2,8 @@
 title: English to Quantifiers
 ...
 
+This page was based on a lecture from Spring 2020.
+
 ----------  -----------------------
    domain:  people
    $H(x)$:  $x$ is happy
