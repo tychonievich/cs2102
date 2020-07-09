@@ -126,7 +126,7 @@ and "$\exists x$" means "it is possible to pick the right $x$".
 Let $B$ be the set of buses, $P$ be the set of people, and $f(x,y)$ be a predicate asserting $x$ can fit in $y$.
 Then this case is $$\exists b \in B \;.\; \forall p \in P \;.\; f(p,b)$$
 
-# Each has one that fits
+# Each has one that can fit it
 
 > Everyone can fit in a bus; there are buses with high doors and ceilings for tall people, buses with wide doors and aisles for wide people, and so on.
 
