@@ -8,7 +8,7 @@ title: Policies
 
 Due to COVID-19 space restrictions, we do not have assigned classrooms for this course, so all class meetings will happen online.
 
-[Details of those meetings will be posted her later.]{style="color:red"}
+[Details of those meetings will be added.]{style="color:red"}
 
 ## Tasks {#tasks}
 
