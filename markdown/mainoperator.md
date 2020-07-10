@@ -15,7 +15,7 @@ Often, main operators are most easily found by fully parenthesizing the expressi
 :::example
 What is the *main operator* in $1 + 2 \times 3 \div -(4 + 5) - 6$?
 
-1. Fully parenthesize as $\Big(1 + \big((2 \times 3) \div -(4 + 5)\big)\Big) - 6$?
+1. Fully parenthesize as $\Big(1 + \big((2 \times 3) \div -(4 + 5)\big)\Big) - 6$
 2. The operator not in any parentheses is the last $-$, so that's the main operator
 :::
 
