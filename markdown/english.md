@@ -49,6 +49,13 @@ Means   If you're from either Ghana or Nigeria (or both), then you speak English
 Logic   $(G \lor N) \rightarrow E$
 ------  -----------------------------------------
 
+------  -----------------------------------------
+Phrase  Ask me no questions and I'll tell you no lies
+Means   if you don't ask questions, then I'll not tell lies
+Logic   $(\lnot Q) \rightarrow (\lnot L)$
+------  -----------------------------------------
+
+
 
 # Not
 
