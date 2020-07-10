@@ -31,7 +31,7 @@ Do
     2.     **for each** $i$ from $1$ to $n-1$
     3.         **if** $x_i$ is *out of order* **then**
     4.             swap $x_i$ and $x_{i+1}$
-    5.        **end if**
+    5.         **end if**
     6.     **end for**
     7. **end repeat**
 
