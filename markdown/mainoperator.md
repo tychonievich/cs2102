@@ -58,6 +58,7 @@ Thus, the main operator for a first-order logic expression is
 # Main operators and English
 
 Identifying main operators is a useful way to convert between logic and English.
+The basic process is to identify what the main operator is, convert it, and then look at what's left over and repeat.
 
 Logic           English
 ------          -----------------
