@@ -190,5 +190,5 @@ $\forall p \;.\; P(p) \rightarrow\Big(\exists i \;.\; I(i,p) \land\big(\forall j
     
     - Every program has an input that it solves along the way to solving every input.
     - For any program you care to pick, its has some "base" input: an input whose solution is part of every other inputs' solution.
-    - Every program has an input it solves during the solution of every other input
+    - Every program has an input it solves during the solution of every other input.
 :::
