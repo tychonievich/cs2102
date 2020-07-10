@@ -131,15 +131,7 @@ $P(x)$      $x$ is a program
 $I(x,p)$    $x$ is an input to program $p$
 $Q(p,x,y)$  program $p$ solves input $x$ as part of working on input $y$
 
-$
-\forall p \;.\; P(p) \rightarrow
-\Big(
-    \exists i \;.\; I(i,p) \land
-    \big(
-        \forall j \;.\; I(j,p) \rightarrow Q(p,i,j)
-    \big)
-\Big)
-$
+$\forall p \;.\; P(p) \rightarrow\Big(\exists i \;.\; I(i,p) \land\big(\forall j \;.\; I(j,p) \rightarrow Q(p,i,j)\big)\Big)$
 
 1. The main operator is $\forall p$,
     so we have "Every $p$ ..."
