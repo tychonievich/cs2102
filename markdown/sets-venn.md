@@ -18,7 +18,7 @@ There are three main techniques used within those shapes to illustrate additiona
 : Set-Creating Operators
 
 |Operator|New set highlighted|
-|:------:|:------------------|
+|:------:|:-----------------:|
 |$A \cap B$| ![](files/venn-cap.svg) |
 |$A \cup B$| ![](files/venn-cup.svg) |
 |$A \setminus B$| ![](files/venn-A-B.svg) |
@@ -28,7 +28,7 @@ There are three main techniques used within those shapes to illustrate additiona
 : Set-Limiting Predicates
 
 |Predicate|Picture where true|
-|:------:|:------------------|
+|:------:|:-----------------:|
 |$A \subseteq B$| ![](files/venn-AsubB.svg) |
 |$A \supseteq B$| ![](files/venn-AsupB.svg) |
 |$A = B$| ![](files/venn-same.svg) |
@@ -38,7 +38,7 @@ There are three main techniques used within those shapes to illustrate additiona
 : Sets as Propositions
 
 |Expression|Colored where true|
-|:--------:|:------------------|
+|:--------:|:----------------:|
 |$A$| ![](files/venn-A.svg) |
 |$B$| ![](files/venn-B.svg) |
 |$\lnot A$| ![](files/venn-nA.svg) |
