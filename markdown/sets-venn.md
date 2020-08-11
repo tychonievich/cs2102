@@ -46,6 +46,6 @@ There are three main techniques used within those shapes to illustrate additiona
 |$A \land B$| ![](files/venn-cap.svg) | ![](files/venn-allAB.svg) |
 |$A \lor B$| ![](files/venn-cup.svg) | *no suitable image* |
 |$A \leftrightarrow B$| ![](files/venn-eq.svg) | ![](files/venn-same.svg) |
-|$A \oplus B$| ![](files/venn-xor.svg) | ![](files/venn-disjoint.svg) |
+|$A \oplus B$| ![](files/venn-xor.svg) | ![](files/venn-partition.svg) |
 |$A \rightarrow B$| ![](files/venn-AiB.svg) | ![](files/venn-AsubB.svg) |
 |$B \rightarrow A$| ![](files/venn-BiA.svg) | ![](files/venn-AsupB.svg) |
