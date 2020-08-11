@@ -37,15 +37,15 @@ There are three main techniques used within those shapes to illustrate additiona
 
 : Sets as Propositions
 
-|Expression|Colored where true|
-|:--------:|:----------------:|
-|$A$| ![](files/venn-A.svg) |
-|$B$| ![](files/venn-B.svg) |
-|$\lnot A$| ![](files/venn-nA.svg) |
-|$\lnot B$| ![](files/venn-nB.svg) |
-|$A \land B$| ![](files/venn-cap.svg) |
-|$A \lor B$| ![](files/venn-cup.svg) |
-|$A \leftrightarrow B$| ![](files/venn-eq.svg) |
-|$A \oplus B$| ![](files/venn-xor.svg) |
-|$A \rightarrow B$| ![](files/venn-AiB.svg) |
-|$B \rightarrow A$| ![](files/venn-BiA.svg) |
+|Expression|Colored where true|Universally True|
+|:--------:|:----------------:|:--------------:|
+|$A$| ![](files/venn-A.svg) | ![](files/venn-allA.svg) |
+|$B$| ![](files/venn-B.svg) | ![](files/venn-allB.svg) |
+|$\lnot A$| ![](files/venn-nA.svg) | ![](files/venn-noA.svg) |
+|$\lnot B$| ![](files/venn-nB.svg) | ![](files/venn-noA.svg) |
+|$A \land B$| ![](files/venn-cap.svg) | ![](files/venn-allAB.svg) |
+|$A \lor B$| ![](files/venn-cup.svg) | |
+|$A \leftrightarrow B$| ![](files/venn-eq.svg) | ![](files/venn-same.svg) |
+|$A \oplus B$| ![](files/venn-xor.svg) | ![](files/venn-disjoint.svg) |
+|$A \rightarrow B$| ![](files/venn-AiB.svg) | ![](files/venn-AsubB.svg) |
+|$B \rightarrow A$| ![](files/venn-BiA.svg) | ![](files/venn-AsupB.svg) |
