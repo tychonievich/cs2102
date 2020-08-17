@@ -24,7 +24,9 @@ The course is organized around four 3-week modules:
 
 Each module will have the following components:
 
-- Two manually-graded paper quizzes
+- Between 6 and 10 **lectures**
+
+- Two manually-graded **paper quizzes**
     - You will
         - be given a prompt and a time limit
         - write a solution on paper
@@ -35,7 +37,7 @@ Each module will have the following components:
         - discuss common mistakes in class
     - Occur during the Friday class time of the second and third week of the module
 
-- Two automatically-graded online quizzes
+- Two automatically-graded **online quizzes**
     - You will
         - be given a set of questions with a web form for answering them
         - write clarifying comments if the question is confusingly worded
@@ -46,12 +48,12 @@ Each module will have the following components:
         - review comments and adjust grades if appropriate
     - Occur between Friday and Monday classes after the second and third week of the module
 
-- Optionally, one makeup quiz
+- Optionally, one **makeup quiz**
     - A mix of manually-graded and automatically-graded components
     - Delivered the week after a module concludes
     - If taken, replaces your grade for the module (better or worse)
 
-- Group project
+- One **group project** (except for the fourth module, which has no project)
     - You will
         - work with a partner during scheduled class time
         - finish on your own time, if needed
