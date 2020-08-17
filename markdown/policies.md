@@ -221,7 +221,7 @@ If we are not able to come to an agreement, or if the case is particularly egreg
 
 ### Disability
 
-If you qualify for accommodations from [the SDAC](http://studenthealth.virginia.edu/sdac), please let your instructor know, preferably [in their office]{style="color:red"} so we can discuss how your accommodations will interplay with the content delivery and assessment structure of this course.
+If you qualify for accommodations from [the SDAC](http://studenthealth.virginia.edu/sdac), please let your instructor know, preferably in a private conversation so we can discuss how your accommodations will interplay with the content delivery and assessment structure of this course.
 
 ### Religious observances
 
