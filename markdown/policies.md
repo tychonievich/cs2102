@@ -15,11 +15,16 @@ Due to COVID-19 space restrictions, we do not have assigned classrooms for this 
 
 ## Tasks {#tasks}
 
-You will be expected to read instructional material and either understand it or ask questions to clarify what you found confusing. We strongly recommend forming study groups that meet at least weekly all semester long to discuss readings, as even if they appear simple at first they will often contain nuances that will only emerge with conversions.
+The course is organized around four 3-week modules:
 
-You will be asked to perform two:
+1. **Propositions**: sets, propositions, direct proof, proof by cases
+2. **First Order Logic**: predicates, quantifiers, and English
+3. **Proof techniques**: induction, contradiction, prose proof style
+4. **Operations**: functions, summation, combinatorics, logaritms
 
-- Manually-graded paper quizzes
+Each module will have the following components:
+
+- Two manually-graded paper quizzes
     - You will
         - be given a prompt and a time limit
         - write a solution on paper
@@ -28,8 +33,9 @@ You will be asked to perform two:
         - grade based on a rubric
         - upload your grade and comments
         - discuss common mistakes in class
+    - Occur during the Friday class time of the second and third week of the module
 
-- Automatically-graded online quizzes
+- Two automatically-graded online quizzes
     - You will
         - be given a set of questions with a web form for answering them
         - write clarifying comments if the question is confusingly worded
@@ -38,15 +44,36 @@ You will be asked to perform two:
     - We will
         - discuss common mistakes in class
         - review comments and adjust grades if appropriate
-    
-At the end of the semester, you will also be able to take a final quiz, which is graded and is intended to help you show increased mastery of topics where you previously failed to show mastery.
+    - Occur between Friday and Monday classes after the second and third week of the module
+
+- Optionally, one makeup quiz
+    - A mix of manually-graded and automatically-graded components
+    - Delivered the week after a module concludes
+    - If taken, replaces your grade for the module (better or worse)
+
+- Group project
+    - You will
+        - work with a partner during scheduled class time
+        - finish on your own time, if needed
+    - We will
+        - review your work
+        - award credit based on progress
+        - discuss common mistakes in class
+    - Occurs during the Friday class the week after a module ends
+
+You will also be expected to read instructional material and either understand it or ask questions to clarify what you found confusing. We strongly recommend forming study groups that meet at least weekly all semester long to discuss readings, as even if they appear simple at first they will often contain nuances that will only emerge with conversions.
+
+At the end of the semester, you will also be able to take a final quiz.
+The final will be a set of four additional makeup quizzes, one for each module, of similar format to earlier makeup quizzes. 
+If you chose to take any of these four, your results will replace your grade for that module.
+You may chose to take 0, 1, 2, 3, or all 4 of these modules' finals, at your discretion, and can make that choice after you see the contents of the quiz.
 
 ## Contact
 
 All
 :   We recommend using [Piazza or Discord; we haven't decided which one yet]{style="color:red"} for any communication with course staff about course content.
     
-    For communication about personal circumstances, contact a professor directly via email, telephone, or office hours.
+    For communication about personal circumstances, contact a instructor directly via email, telephone, or office hours.
 
 Luther Tychonievich
 :   Office hours
@@ -115,53 +142,42 @@ If not, think of proof writing as being more similar to code writing than to oth
 # Grading
 
 In February 2019 the CS faculty approved [a definition](http://ugrads.cs.virginia.edu/grading-guidelines.html) of what we believe grades mean.
-We try to approximate that definition in this course.
-As a brief summary,
+We hope that the following numerical system will approximate that.
+If you think your score in the course does not reflect your understanding of course material, please let us know.
 
-Letter  Student demonstrated                Recommendation re future courses[^future]
-------  ---------------------------         ------------------------------------
-A       mastery of all topics               likely to do well
-B       competence in significant topics    able to do well with some review
-C       sufficient competence               likely to be challenging
-D       minimal competence                  unlikely to succeed
-F       less than minimal competence        retake this course first
+Your grade is divided into 4 modules, each with 23.5% of your grade.
+Each part's is either your average on the four module quizzes,
+or your score on the module makeup,
+or your score on the module final.
 
-[^future]:
-    Most of our courses depend on CS 2102 topics in some way.
-    Theory (CS 3102) and Algo (CS 4102) have particularly strong dependencies, as do many of our electives.
+The three group projects are counted separately and are each worth 2% of your grade.
 
-To achieve this goal, our grading system is a bit more complicated than a simple point total, as we want to ensure that you have adequate exposure to each topic that later courses depend on.
+After combining your scores, we will round to a GPA and record the corresponding letter grade in SIS, as follows:
 
-Each individual autograded-quiz question and hand-graded rubric item will be assigned to one or more of the following topics:
+You get     if you score     Which is worth
+----------  ------------    ----------------
+A+          near the top           4.0
+A           &ge; 93%               4.0
+A&minus;    &ge; 90%               3.7
+B+          &ge; 86%               3.3
+B           &ge; 83%               3.0
+B&minus;    &ge; 80%               2.7
+C+          &ge; 76%               2.3
+C           &ge; 73%               2.0
+C&minus;    &ge; 70%               1.7
+D+          &ge; 66%               1.3
+D           &ge; 63%               1.0
+D&minus;    &ge; 60%               0.7
+F           otherwise              0.0
 
-Logical expression
-:   understanding what logical expressions mean and converting between English and logic
-
-Logical operation
-:   using axioms and rules to manipulate and evaluate logic, including direct proof and proof by cases
-
-Proof strategies
-:   induction, contradiction, and the form of prose proofs
-
-Mathematical terminology
-:   sets, functions, relations, sequences, factorization, logarithms, and counting
-    
-To do well in subsequent courses, you need to attain adequate understanding of all four of these concepts.
-Getting 100% in three and 0% in one is far worse than getting 75% in all four.
-To reflect this, your grade will be computed as
-
-:::{style="color:red"}
-not yet certain; possibly the fours scores form a set $S$ and your overall score is
-$\max\big(\min(S)+15, \max(s)\big)$
-:::
 
 Missed auto-graded evaluations will not be rescheduled, extended, nor made up during the semester.
 Missed hand-graded evaluations [may be rescheduled with adequate notice and reasoning.]{style="color:red"}
 
-The final quiz will be an opportunity to show mastery in topics that you failed to show mastery of during the semester, whether because you failed to take the relevant assessments or because you did not perform well on them.
-It will be organized as a separate evaluation for each course evaluation area as noted above. You pick and choose which to take; those you do take will replace your score in that area. If you do not need such an opportunity (i.e., you have already shown mastery before the final) you will not need to take the final quiz.
-
-UVA does not award credit for placement tests. If you have not shown continuing evidence of engagement and learning throughout the course, the final quiz may not be enough to change that.
+UVA does not award credit for placement tests.
+Hence, you must show continuing evidence of engagement and learning throughout the course.
+Doing well on the final quiz alone will not result in a passing grade unless such evidence is in hand.
+If you feel you deserve an exception to this rule, please contact your instructor for more.
 
 # Miscellanea
 
@@ -203,7 +219,7 @@ If we are not able to come to an agreement, or if the case is particularly egreg
 
 ### Disability
 
-If you qualify for accommodations from [the SDAC](http://studenthealth.virginia.edu/sdac), please let your professor know, preferably [in their office]{style="color:red"} so we can discuss how your accommodations will interplay with the content delivery and assessment structure of this course.
+If you qualify for accommodations from [the SDAC](http://studenthealth.virginia.edu/sdac), please let your instructor know, preferably [in their office]{style="color:red"} so we can discuss how your accommodations will interplay with the content delivery and assessment structure of this course.
 
 ### Religious observances
 
@@ -221,6 +237,7 @@ Because no member of our course staff has the same context and experience as you
 Bad things happen.
 People forget things and make mistakes.
 Bad days coincide with due dates.
+People get sick.
 Etc.
 
-If you believe that circumstances warrant an change in deadline, a second chance, or some other accommodation in order to more accurately synchronize grade with knowledge, talk to your professor and we'll resolve the situation as best we can.
+If you believe that circumstances warrant an change in deadline, a second chance, or some other accommodation in order to more accurately synchronize grade with knowledge, talk to your instructor and we'll resolve the situation as best we can.

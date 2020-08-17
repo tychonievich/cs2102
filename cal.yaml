@@ -60,55 +60,55 @@ lectures:
     - welcome
     - real maths
 
-    - logic roadmap
-    - truth tables
-    - lab01
+    - sets
+    - sets
+    - sets
     
-    - equivalence rules
+    - [propositions, operators]
     - equivalence proofs
-    - lab02
+    - module 1 lab 1
+
+    - [direct proof, proof by cases]
+    - [direct proof, proof by cases]
+    - module 1 lab 2
 
     - predicates
     - quantifiers
-    - lab03
-
-    - [direct proof, proof by cases]
-    - [direct proof, proof by cases]
-    - lab04
+    - [module 1 group project, module 2 makeup]
     
-    - sets
-    - sets
-    - lab05
+    - quantifiers
+    - english
+    - module 2 lab 1
 
-    - induction
-    - induction
-    - lab06
+    - english
+    - english
+    - module 2 lab 1
 
-    - primes
+    - proofs
+    - proofs
+    - [module 2 group project, module 2 makeup]
+
+    - integers
     - contradiction
-    - lab07
+    - module 3 lab 1
 
-    - summation
-    - combination
-    - lab08
+    - induction
+    - induction
+    - module 3 lab 2
 
-    - permutation
-    - permutation
-    - lab09
+    - [summation, combination]
+    - [permutation, counting proofs]
+    - [module 3 group project, module 3 makeup]
 
     - functions
-    - functions
-    - lab10
-
+    - state machines
+    - module 4 lab 1
+    
     - logs
     - logs
-    - lab11
+    - module 4 lab 2
     
-    - state machines
-    - state machines
-    - lab12
-    
-    - optional makeup quiz
+    - review
 
 
 reading:
