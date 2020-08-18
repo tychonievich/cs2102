@@ -72,8 +72,11 @@ You may chose to take 0, 1, 2, 3, or all 4 of these modules' finals, at your dis
 
 ## Contact
 
+We'll use 
+
 All
-:   We recommend using [Piazza or Discord; we haven't decided which one yet]{style="color:red"} for any communication with course staff about course content.
+:   We will use [Discord](https://discord.gg/2vQseJS) to emulate offices, office hours, office hours queues, etc.
+    We recommend downloading the desktop app, but the browser version should also work.
     
     For communication about personal circumstances, contact a instructor directly via email, telephone, or office hours.
 
