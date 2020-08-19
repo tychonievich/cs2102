@@ -3,10 +3,9 @@ title: Discrete Mathematics
 ...
 
 # Course Overview 
-TeSt
 This is one of two offerings of Discrete Mathematics this semester,
 a course designed to provide the mathematical tools needed for later CS courses.
-This version is shared by Elizabeth Orrico and Luther Tychonievich (sections 002, 003, and 004).
+This version is shared by Elizabeth Orrico and Luther Tychonievich (sections 002 through 008).
 
 If you are in Kevin Sullivan's section (001), please see <http://provablesystems.com/> instead.
 
