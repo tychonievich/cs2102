@@ -75,8 +75,10 @@ You may chose to take 0, 1, 2, 3, or all 4 of these modules' finals, at your dis
 We'll use 
 
 All
-:   We will use [Discord](https://discord.gg/2vQseJS) to emulate offices, office hours, office hours queues, etc.
-    We recommend downloading the desktop app, but the browser version should also work.
+:   We will use discord to emulate offices, office hours, office hours queues, etc.
+    A Discord server join link is in the course's Collab site.
+    
+    We recommend downloading the desktop app (at <https://discord.com/>), which has more features and better-quality audio and video, but the browser version should also work.
     
     For communication about personal circumstances, contact a instructor directly via email, telephone, or office hours.
 
@@ -85,7 +87,7 @@ Luther Tychonievich
     :   [TBA]{style="color:red"}
 
     Phone
-    :   [TBA]{style="color:red"}
+    :   +1 434 243 3789
 
     Email
     :   <a href="mailto:tychonievich@virginia.edu?subject=2102">tychonievich@virginia.edu</a>; include 2102 in the subject
@@ -110,7 +112,7 @@ TAs
         Our TAs are students too, with duties and work outside of their TAing. Please do not ask them to act as your TA except at the scheduled on-the-clock times they have listed as their office hours. They are also kind people; please don't put them in the position of having to say no or (worse) being nice to you at the expense of their own schooling.
     
     Names
-    :   Emily Feng, Zachary Heidel, Annie Zhu, [more TBA]{style="color:red"}
+    :   Aidan, Annie, Chloe, Emily, Giovanni, Hayden, Isabelle, Kallie, Keerat, Ketian, Miriam, Rushil, and Zachary
 
 
 ## Readings
