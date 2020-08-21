@@ -11,7 +11,7 @@ This entire document is likely to be adjusted before the semester begins.
 
 Due to COVID-19 student density restrictions, we do not have adequate classroom space for this course, so all class meetings will happen online.
 
-A link to join your section is in your section's Collab site.
+A link to join your section's lectures via Zoom can be fond in your section's Collab site.
 
 ## Tasks {#tasks}
 
