@@ -9,9 +9,9 @@ This entire document is likely to be adjusted before the semester begins.
 
 ## Meetings
 
-Due to COVID-19 space restrictions, we do not have assigned classrooms for this course, so all class meetings will happen online.
+Due to COVID-19 student density restrictions, we do not have adequate classroom space for this course, so all class meetings will happen online.
 
-[Details of those meetings will be added.]{style="color:red"}
+A link to join your section is in your section's Collab site.
 
 ## Tasks {#tasks}
 
@@ -76,7 +76,7 @@ We'll use
 
 All
 :   We will use discord to emulate offices, office hours, office hours queues, etc.
-    A Discord server join link is in the course's Collab site.
+    A discord server join link is in the course's Collab site.
     
     We recommend downloading the desktop app (at <https://discord.com/>), which has more features and better-quality audio and video, but the browser version should also work.
     
