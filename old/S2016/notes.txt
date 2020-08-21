@@ -1,0 +1,4 @@
+1st-time TA observations
+    1. Kevin Sullivan's 1113 is the right approach to CS1.  I have never seen so much consensus of praise from TAs for a course before.
+    2. 2110 should (0) be different in some way; (1) be harder, particularly with more homework; (2) teach git and use github; (3) not include software models and methodologies.  But beyond that no consensus; each paper on this topic basically took some other course (2150, 2102, 3240, 4970) and said "do part of this in 2110" (with a few that said simply "remove 2110, we don't need it at all").
+    3. 3240 isn't quite right... somehow.  Most TAs who mentioned 3240s seemed to me to be stumbling about for why it felt off-target without any great insight.
