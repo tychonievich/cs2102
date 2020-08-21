@@ -100,7 +100,7 @@ Elizabeth Orrico
     :   [TBA]{style="color:red"}
 
     Email
-    :   <a href="mailto:emp7bf@virginia.edu?subject=2102">emp7bf@virginia.edu</a>; include 2102 in the subject
+    :   <a href="mailto:emo7bf@virginia.edu?subject=2102">emo7bf@virginia.edu</a>; include 2102 in the subject
 
 TAs
 :   Office hours
