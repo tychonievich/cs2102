@@ -13,6 +13,16 @@ Due to COVID-19 student density restrictions, we do not have adequate classroom 
 
 A link to join your section's lectures via Zoom can be fond in your section's Collab site.
 
+You can engage with this course in several ways:
+
+| You can | Notes |
+| ------- | ----- |
+| Skip Monday and Wednesday classes | Recordings will be posted on the schedule by end-of-day so you can catch up |
+| Attend via zoom with camera off | We'll respond to what you say or type |
+| Attend via zoom with camera on | We'll respond to your expression and what you say or type |
+
+Note that some quizzes will be given with the time window of Friday class as the only time they can be taken, so skipping Friday class is not advised.
+
 ## Tasks {#tasks}
 
 The course is organized around four 3-week modules:
@@ -20,7 +30,7 @@ The course is organized around four 3-week modules:
 1. **Propositions**: sets, propositions, direct proof, proof by cases
 2. **First Order Logic**: predicates, quantifiers, and English
 3. **Proof techniques**: induction, contradiction, prose proof style
-4. **Operations**: functions, summation, combinatorics, logaritms
+4. **Operations**: functions, summation, combinatorics, logarithms
 
 Each module will have the following components:
 
@@ -179,7 +189,7 @@ F           otherwise              0.0
 
 
 Missed auto-graded evaluations will not be rescheduled, extended, nor made up during the semester.
-Missed hand-graded evaluations [may be rescheduled with adequate notice and reasoning.]{style="color:red"}
+Missed hand-graded evaluations may be rescheduled with adequate notice and reasoning (sent to your instructor via email).
 
 UVA does not award credit for placement tests.
 Hence, you must show continuing evidence of engagement and learning throughout the course.
