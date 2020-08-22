@@ -61,7 +61,7 @@ Each module will have the following components:
 - Optionally, one **makeup quiz**
     - A mix of manually-graded and automatically-graded components
     - Delivered the week after a module concludes
-    - If taken, replaces your grade for the module (better or worse)
+    - If taken, replaces your grade for the module (whether better or worse)
 
 - One **group project** (except for the fourth module, which has no project)
     - You will
@@ -75,7 +75,7 @@ Each module will have the following components:
 
 You will also be expected to read instructional material and either understand it or ask questions to clarify what you found confusing. We strongly recommend forming study groups that meet at least weekly all semester long to discuss readings, as even if they appear simple at first they will often contain nuances that will only emerge with conversions.
 
-At the end of the semester, you will also be able to take a final quiz.
+At the end of the semester, you will also be able to take a **final quiz**.
 The final will be a set of four additional makeup quizzes, one for each module, of similar format to earlier makeup quizzes. 
 If you chose to take any of these four, your results will replace your grade for that module.
 You may chose to take 0, 1, 2, 3, or all 4 of these modules' finals, at your discretion, and can make that choice after you see the contents of the quiz.
