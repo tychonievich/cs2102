@@ -19,41 +19,24 @@ meta:
     room: online
 
 sections:
-  Orrico-1000:
+  CS2102-1000:
     type: lecture
-    room: Rice 130
+    room: online
     days: [Monday, Wednesday, Friday]
     start: 10:00:00
     duration: 50
-  Orrico-1530:
+  CS2102-1530:
     type: lecture
-    room: Rice 130
+    room: online
     days: [Monday, Wednesday, Friday]
     start: 15:30:00
     duration: 50
-  Tychonievich-0900:
+  CS2102-0900:
     type: lecture
-    room: Olsson 009
+    room: online
     days: [Monday, Wednesday, Friday]
     start: 9:00:00
     duration: 50
-
-
-
-office hours:
-  .begin: 2020-09-01
-  faculty:
-    Tychonievich:
-      where: TBD
-      when: []
-    Orrico:
-      where: TBD
-      when: []
-  TA:
-    where: TBD
-    TA 1:
-      when: []
-
 
 
 lectures:
@@ -233,8 +216,9 @@ reading:
       - txt: on proofs
         lnk: proofs.html
     real maths:
-        lnk: https://medium.com/@jeremyjkun/habits-of-highly-mathematical-people-b719df12d15e
+      - lnk: https://medium.com/@jeremyjkun/habits-of-highly-mathematical-people-b719df12d15e
         txt: six habits
+      - "MCS 1.9"
     propositions:
         - "MCS 1.1"
         - "∀x 4.3"
