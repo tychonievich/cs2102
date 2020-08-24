@@ -207,12 +207,12 @@ def cal2html(cal):
         newweek = True
         for day in week:
             if day is not None and not all(_.get('kind') == 'oh' for _ in day['events']):
-                for i in range(len(day['events'])-1, -1, -1):
-                    e = day['events'][i]
-                    if 'section' in e:
-                        del e['section']
-                        if e in day['events'][i+1:]: del day['events'][i]
-                        else: day['events'][i] = e
+                # for i in range(len(day['events'])-1, -1, -1):
+                    # e = day['events'][i]
+                    # if 'section' in e:
+                        # del e['section']
+                        # if e in day['events'][i+1:]: del day['events'][i]
+                        # else: day['events'][i] = e
                 ldat = day['date']
                 ans.append('<div class="day {}" date="{}">'.format(day['date'].strftime('%a') + (' newweek' if newweek else ''), day['date'].strftime('%Y-%m-%d')))
                 newweek = False
