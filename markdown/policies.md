@@ -9,9 +9,19 @@ This entire document is likely to be adjusted before the semester begins.
 
 ## Meetings
 
-Due to COVID-19 space restrictions, we do not have assigned classrooms for this course, so all class meetings will happen online.
+Due to COVID-19 student density restrictions, we do not have adequate classroom space for this course, so all class meetings will happen online.
 
-[Details of those meetings will be added.]{style="color:red"}
+A link to join your section's lectures via Zoom can be found in your section's Collab site.
+
+You can engage with this course in several ways:
+
+| You can | Notes |
+| ------- | ----- |
+| Skip Monday and Wednesday classes | Recordings will be posted on the schedule by end-of-day so you can catch up |
+| Attend via zoom with camera off | We'll respond to what you say or type |
+| Attend via zoom with camera on | We'll respond to your expression and what you say or type |
+
+Note that some quizzes will be given with the time window of Friday class as the only time they can be taken, so skipping Friday class is not advised.
 
 ## Tasks {#tasks}
 
@@ -20,7 +30,7 @@ The course is organized around four 3-week modules:
 1. **Propositions**: sets, propositions, direct proof, proof by cases
 2. **First Order Logic**: predicates, quantifiers, and English
 3. **Proof techniques**: induction, contradiction, prose proof style
-4. **Operations**: functions, summation, combinatorics, logaritms
+4. **Operations**: functions, summation, combinatorics, logarithms
 
 Each module will have the following components:
 
@@ -51,7 +61,7 @@ Each module will have the following components:
 - Optionally, one **makeup quiz**
     - A mix of manually-graded and automatically-graded components
     - Delivered the week after a module concludes
-    - If taken, replaces your grade for the module (better or worse)
+    - If taken, replaces your grade for the module (whether better or worse)
 
 - One **group project** (except for the fourth module, which has no project)
     - You will
@@ -65,7 +75,7 @@ Each module will have the following components:
 
 You will also be expected to read instructional material and either understand it or ask questions to clarify what you found confusing. We strongly recommend forming study groups that meet at least weekly all semester long to discuss readings, as even if they appear simple at first they will often contain nuances that will only emerge with conversions.
 
-At the end of the semester, you will also be able to take a final quiz.
+At the end of the semester, you will also be able to take a **final quiz**.
 The final will be a set of four additional makeup quizzes, one for each module, of similar format to earlier makeup quizzes. 
 If you chose to take any of these four, your results will replace your grade for that module.
 You may chose to take 0, 1, 2, 3, or all 4 of these modules' finals, at your discretion, and can make that choice after you see the contents of the quiz.
@@ -75,8 +85,10 @@ You may chose to take 0, 1, 2, 3, or all 4 of these modules' finals, at your dis
 We'll use 
 
 All
-:   We will use [Discord](https://discord.gg/2vQseJS) to emulate offices, office hours, office hours queues, etc.
-    We recommend downloading the desktop app, but the browser version should also work.
+:   We will use discord to emulate offices, office hours, office hours queues, etc.
+    A discord server join link is in the course's Collab site.
+    
+    We recommend downloading the desktop app (at <https://discord.com/>), which has more features and better-quality audio and video, but the browser version should also work.
     
     For communication about personal circumstances, contact a instructor directly via email, telephone, or office hours.
 
@@ -85,7 +97,7 @@ Luther Tychonievich
     :   [TBA]{style="color:red"}
 
     Phone
-    :   [TBA]{style="color:red"}
+    :   +1 434 243 3789
 
     Email
     :   <a href="mailto:tychonievich@virginia.edu?subject=2102">tychonievich@virginia.edu</a>; include 2102 in the subject
@@ -98,7 +110,7 @@ Elizabeth Orrico
     :   [TBA]{style="color:red"}
 
     Email
-    :   <a href="mailto:emp7bf@virginia.edu?subject=2102">emp7bf@virginia.edu</a>; include 2102 in the subject
+    :   <a href="mailto:emo7bf@virginia.edu?subject=2102">emo7bf@virginia.edu</a>; include 2102 in the subject
 
 TAs
 :   Office hours
@@ -110,7 +122,7 @@ TAs
         Our TAs are students too, with duties and work outside of their TAing. Please do not ask them to act as your TA except at the scheduled on-the-clock times they have listed as their office hours. They are also kind people; please don't put them in the position of having to say no or (worse) being nice to you at the expense of their own schooling.
     
     Names
-    :   Emily Feng, Zachary Heidel, Annie Zhu, [more TBA]{style="color:red"}
+    :   Aidan, Annie, Chloe, Emily, Giovanni, Hayden, Isabelle, Kallie, Keerat, Ketian, Miriam, Rushil, and Zachary
 
 
 ## Readings
@@ -177,7 +189,7 @@ F           otherwise              0.0
 
 
 Missed auto-graded evaluations will not be rescheduled, extended, nor made up during the semester.
-Missed hand-graded evaluations [may be rescheduled with adequate notice and reasoning.]{style="color:red"}
+Missed hand-graded evaluations may be rescheduled with adequate notice and reasoning (sent to your instructor via email).
 
 UVA does not award credit for placement tests.
 Hence, you must show continuing evidence of engagement and learning throughout the course.
