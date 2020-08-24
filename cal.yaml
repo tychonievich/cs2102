@@ -17,24 +17,19 @@ meta:
     start: 2020-12-05 19:00:00
     duration: 180
     room: online
+  days: [Monday, Wednesday, Friday]
 
 sections:
   CS2102-1000:
-    type: lecture
     room: online
-    days: [Monday, Wednesday, Friday]
     start: 10:00:00
     duration: 50
   CS2102-1530:
-    type: lecture
     room: online
-    days: [Monday, Wednesday, Friday]
     start: 15:30:00
     duration: 50
   CS2102-0900:
-    type: lecture
     room: online
-    days: [Monday, Wednesday, Friday]
     start: 9:00:00
     duration: 50
 
