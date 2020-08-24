@@ -19,19 +19,19 @@ meta:
     room: online
 
 sections:
-  CS2102-002:
+  Orrico-1000:
     type: lecture
     room: Rice 130
     days: [Monday, Wednesday, Friday]
     start: 10:00:00
     duration: 50
-  CS2102-003:
+  Orrico-1530:
     type: lecture
     room: Rice 130
     days: [Monday, Wednesday, Friday]
     start: 15:30:00
     duration: 50
-  CS2102-004:
+  Tychonievich-0900:
     type: lecture
     room: Olsson 009
     days: [Monday, Wednesday, Friday]
