@@ -211,7 +211,7 @@ def cal2html(cal):
                     e = day['events'][i]
                     if 'section' in e:
                         del e['section']
-                        if e in day['events']: del day['events'][i]
+                        if e in day['events'][i+1:]: del day['events'][i]
                         else: dat['events'][i] = e
                 ldat = day['date']
                 ans.append('<div class="day {}" date="{}">'.format(day['date'].strftime('%a') + (' newweek' if newweek else ''), day['date'].strftime('%Y-%m-%d')))
