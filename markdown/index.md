@@ -58,8 +58,4 @@ I have no obvious place to list those supplements so I'm listing them here. They
 - [MCS 4 addenda](chap4.html)
 - [Glossary of logical terms](glossary.html)
 - Example proofs, including [De Morgan's laws](demorgan.html), [bubble sort](bubble.html), [Cantor diagonalization](cantor.html), [open sets](openset.html), [irrationality of various numbers](irrationality.html)
-- All in-class labs and quizzes from
-    - [Fall 2019](files/f2019)
-    - [Spring 2020](files/s2020)
-    - [Fall 2020](files/f2020) -- added after they are graded
-
+- [All in-class practice and quiz questions](https://kytos.cs.virginia.edu/cs2102/quizzes/review.php) from previous semesters
