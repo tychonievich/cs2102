@@ -1,6 +1,11 @@
 import re, markdown, dateutil, json
 from datetime import timedelta, datetime
 
+TEXTBOOKS = {
+    'MCS': 'files/mcs.pdf',
+    u'\u2200x': 'files/forallx.pdf'
+}
+
 def yamlfile(f):
     from yaml import load
     try:
@@ -106,6 +111,13 @@ def raw2cal(data, links):
                         if subtitle in data['reading']:
                             tmp = data['reading'][subtitle]
                             if type(tmp) is not list: tmp = [tmp]
+
+                            for (i, reading) in enumerate(tmp):
+                                if type(reading) == str:
+                                    for name, link in TEXTBOOKS.items():
+                                        if name in reading:
+                                            tmp[i] = {'txt': reading, 'lnk': link}
+
                             if 'reading' in ans[-1]:
                                 ans[-1]['reading'].extend(tmp)
                             else:
