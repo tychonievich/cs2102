@@ -90,118 +90,6 @@ lectures:
 
 
 reading:
-    
-    lab01:
-      - txt: list of symbols
-        lnk: symbols.html
-      - txt: lab
-        lnk: files/lab01.pdf
-      - txt: lab key
-        lnk: files/lab01-key.pdf
-      - txt: quiz
-        lnk: files/quiz01.pdf
-      - txt: key
-        lnk: files/quiz01-key.pdf
-        
-    lab02:
-      - txt: lab
-        lnk: files/lab02.pdf
-      - txt: lab key
-        lnk: files/lab02-key.pdf
-      - txt: quiz
-        lnk: files/quiz02.pdf
-      - txt: key
-        lnk: files/quiz02-key.pdf
-
-    lab03:
-      - txt: list of symbols
-        lnk: symbols.html
-      - txt: lab
-        lnk: files/lab03.pdf
-      - txt: lab key
-        lnk: files/lab03-key.pdf
-      - txt: quiz
-        lnk: files/quiz03.pdf
-      - txt: key
-        lnk: files/quiz03-key.pdf
-
-
-    lab04:
-      - txt: lab
-        lnk: files/lab04.pdf
-      - txt: lab key
-        lnk: files/lab04-key.pdf
-      - txt: quiz
-        lnk: files/quiz04.pdf
-      - txt: key
-        lnk: files/quiz04-key.pdf
-
-    lab05:
-      - txt: lab
-        lnk: files/lab05.pdf
-      - txt: lab key
-        lnk: files/lab05-key.pdf
-      - txt: quiz
-        lnk: files/quiz05.pdf
-      - txt: key
-        lnk: files/quiz05-key.pdf
-
-    lab06:
-      - txt: lab
-        lnk: files/lab06.pdf
-      - txt: lab key
-        lnk: files/lab06-key.pdf
-      - txt: quiz
-        lnk: files/quiz06.pdf
-      - txt: key
-        lnk: files/quiz06-key.pdf
-
-    lab07:
-      - txt: lab
-        lnk: files/lab07.pdf
-      - txt: lab key
-        lnk: files/lab07-key.pdf
-      - txt: quiz
-        lnk: files/quiz07.pdf
-      - txt: quiz key
-        lnk: files/quiz07-key.pdf
-
-
-    lab08:
-      - txt: lab
-        lnk: files/lab08.pdf
-      - txt: lab key
-        lnk: files/lab08-key.pdf
-      - txt: quiz
-        lnk: files/quiz08.pdf
-      - txt: quiz key
-        lnk: files/quiz08-key.pdf
-
-    lab09:
-      - txt: lab
-        lnk: files/lab09.pdf
-      - txt: lab key
-        lnk: files/lab09-key.pdf
-      - txt: quiz
-        lnk: files/quiz09.pdf
-      - txt: quiz key
-        lnk: files/quiz09-key.pdf
-
-    lab10:
-      - txt: lab
-        lnk: files/lab10.pdf
-      - txt: lab key
-        lnk: files/lab10-key.pdf
-      - txt: quiz
-        lnk: files/quiz10.pdf
-      - txt: quiz key
-        lnk: files/quiz10-key.pdf
-
-    lab11:
-      - txt: lab
-        lnk: files/lab11.pdf
-      - txt: lab key
-        lnk: files/lab11-key.pdf
 
     lab12: []
 
@@ -210,6 +98,8 @@ reading:
       - "∀x 1.0"
       - txt: on proofs
         lnk: proofs.html
+      - txt: course overview diagram
+        lnk: files/course.svg
     real maths:
       - lnk: https://medium.com/@jeremyjkun/habits-of-highly-mathematical-people-b719df12d15e
         txt: six habits
