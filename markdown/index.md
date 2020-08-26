@@ -7,6 +7,14 @@ This is one of two offerings of Discrete Mathematics this semester,
 a course designed to provide the mathematical tools needed for later CS courses.
 This version is shared by Elizabeth Orrico and Luther Tychonievich (sections 002 through 008).
 
+Connecting to the course is managed through Collab:
+
+- 09:00 section: <https://collab.its.virginia.edu/portal/site/87b0131b-78ba-4d1a-9eec-ed65343647a4>
+- 10:00 section: <https://collab.its.virginia.edu/portal/site/4dbc9ed7-f832-466a-ac19-657a3a14b5af>
+- 15:30 section: <https://collab.its.virginia.edu/portal/site/4dbc9ed7-f832-466a-ac19-657a3a14b5af>
+
+Collab pulls participant information once each day from SIS. If you add the course, you may need to wait up to 24 hours before you have Collab access.
+
 If you are in Kevin Sullivan's section (001), please see <http://provablesystems.com/> instead.
 
 ## Eligibility
@@ -58,8 +66,4 @@ I have no obvious place to list those supplements so I'm listing them here. They
 - [MCS 4 addenda](chap4.html)
 - [Glossary of logical terms](glossary.html)
 - Example proofs, including [De Morgan's laws](demorgan.html), [bubble sort](bubble.html), [Cantor diagonalization](cantor.html), [open sets](openset.html), [irrationality of various numbers](irrationality.html)
-- All in-class labs and quizzes from
-    - [Fall 2019](files/f2019)
-    - [Spring 2020](files/s2020)
-    - [Fall 2020](files/f2020) -- added after they are graded
-
+- [All in-class practice and quiz questions](https://kytos.cs.virginia.edu/cs2102/quizzes/review.php) from previous semesters
