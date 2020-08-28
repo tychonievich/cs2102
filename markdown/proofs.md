@@ -17,7 +17,7 @@ Fallacies
 :   Arguments some people accept as proofs, but which are actually unsound.
     There are [many](https://en.wikipedia.org/wiki/List_of_fallacies) varieties of fallacy.
     
-    {.example} I have a gradaute degree and you don't, so if we disagree I'm right and you are wrong
+    {.example} I have a graduate degree and you don't, so if we disagree I'm right and you are wrong
 
 Hand-waving proofs
 :    Arguments that skip a lot of material, implying that it is tedious to verify and I did the tedium so you don't have too.
