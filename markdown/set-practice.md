@@ -33,11 +33,6 @@ Each of the following is either true or false; which one?
 - $3.5 \in \mathbb R$^[true]
 - $\pi \in \mathbb R$^[true]
 
-- $3 \in \big\{x + y \;\big|\; x,y \in \mathbb{Z}^{+} \land x > y \big\}$^[true]
-- $3.5 \in \big\{x + y \;\big|\; x \in \mathbb{Z}^{+} \land y \in \mathbb{R}^{+} \big\}$^[true]
-- $0 \in \big\{x + y \;\big|\; x,y \in \mathbb{Z}^{+} \land x > y \big\}$^[false]
-- $0 \in \big\{x - y \;\big|\; x,y \in \mathbb{R} \land x > y \big\}$^[false]
-
 - $3 \in \{\{1\}, \{2, 3\}, \{4, 5, 6\}\}$^[false]
 - $\{3\} \in \{\{1\}, \{2, 3\}, \{4, 5, 6\}\}$^[false]
 - $\{2, 3\} \in \{\{1\}, \{2, 3\}, \{4, 5, 6\}\}$^[true]
@@ -120,20 +115,16 @@ For each of the following, fill in the blank with the first element of the follo
 |$\{1, 3, 5\}$ |<input></input>^[disjoint] |$\{\{1\}, \{3\}, \{5\}\}$|
 |$\{1, 3, 5\}$ |<input></input>^[=] |$\{5, 3, 1\}$|
 |$\{1, 3, 5\}$ |<input></input>^[$\supset$] |$\{5, 3\}$|
-|$\{0, 1\}$ |<input></input>^[=] |$\big\{ x \;\big|\; x \in \mathbb{R} \land x^2 = x\big\}$|
-|$\mathbb{N}$ |<input></input>^[$\supset$ (would be = if $\mathbb Z^{+}$ instead of $\mathbb N$] |$\Big\{ x \;\Big|\; x \in \mathbb{R}^{+} \land \big(x - \lfloor x \rfloor = 0\big)\Big\}$|
 |$\mathbb R \setminus \mathbb Z$|<input></input>^[$\supset$] |$\mathbb R \setminus \mathbb Q$|
 |$\mathbb Q \setminus \mathbb Z$|<input></input>^[disjoint] |$\{1, 2, 4\}$|
 |$\emptyset$|<input></input>^[$\subset$] |$\mathcal{P}(\emptyset)$|
 |$\{1\}$|<input></input>^[disjoint] |$\mathcal{P}(\{1\})$|
-|$R^{+} \cup \{0\}$|<input></input>^[=] |$\big\{ x \;\big|\; x \in \mathbb R \land \sqrt{x^2} = x \big\}$|
 
 
 # Listing members and cardinality
 
 For each of the following, list the members of the set:
 
-- $\big\{\frac{x}{y} \;\big|\; x\in\{0,1,2\} \land y\in\{1,2,4\} \big\}$^[$\big\{0, \frac{1}{4}, \frac{1}{2}, 1, 2\big\}$]
 - $\mathcal P \big(\mathcal P(\emptyset)\big)$^[$\Big\{ \{\}, \big\{\{\}\big\} \Big\}$]
 - $\mathcal P \Big(\mathcal P \big(\mathcal P(\emptyset)\big)\Big)$^[$\bigg\{ \{\}, \big\{\{\}\big\}, \Big\{\big\{\{\}\big\}\Big\}, \Big\{\{\}, \big\{\{\}\big\}\Big\} \bigg\}$]
 - Assume that $A = \{1,2,3,4,5\}$ and $B = \{2,3,5,7\}$; $\big\{ x \;\big|\; (x \in A) \oplus (x \in B) \big\}$^[\{1, 4, 7\}]

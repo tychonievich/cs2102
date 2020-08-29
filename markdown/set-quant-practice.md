@@ -4,6 +4,17 @@ title: Practice problems with sets and quantifiers
 
 This is an extension to [sets practice](sets-practice.html).
 
+# Logic in set-builder notation
+
+Each of the following is either true or false; which one?
+
+- $3 \in \big\{x + y \;\big|\; x,y \in \mathbb{Z}^{+} \land x > y \big\}$^[true]
+- $3.5 \in \big\{x + y \;\big|\; x \in \mathbb{Z}^{+} \land y \in \mathbb{R}^{+} \big\}$^[true]
+- $0 \in \big\{x + y \;\big|\; x,y \in \mathbb{Z}^{+} \land x > y \big\}$^[false]
+- $0 \in \big\{x - y \;\big|\; x,y \in \mathbb{R} \land x > y \big\}$^[false]
+
+
+
 # Qualified membership
 
 Each of the following is either true or false; which one?
@@ -41,11 +52,18 @@ For each of the following, fill in the blank with the first element of the follo
 
 |Set 1 |  |Set 2|
 |------|--|-----|
+|$\{0, 1\}$ |<input></input>^[=] |$\big\{ x \;\big|\; x \in \mathbb{R} \land x^2 = x\big\}$|
+|$R^{+} \cup \{0\}$|<input></input>^[=] |$\big\{ x \;\big|\; x \in \mathbb R \land \sqrt{x^2} = x \big\}$|
 |$\mathbb R \setminus \mathbb Z$|<input></input>^[=] |$\Big\{ x \;\Big|\; (x \in \mathbb R) \land \big(\forall y \in \mathbb Z \;.\; x \neq y\big) \Big\}$|
 |even numbers |<input></input>^[=] |$\big\{x \;\big|\; \exists y \in \mathbb Z \;.\; 2y = x\big\}$|
+|$\mathbb{N}$ |<input></input>^[$\supset$ (would be = if $\mathbb Z^{+}$ instead of $\mathbb N$] |$\Big\{ x \;\Big|\; x \in \mathbb{R}^{+} \land \big(x - \lfloor x \rfloor = 0\big)\Big\}$|
+
+
+
 
 # Listing members and cardinality
 
 For each of the following, list the members of the set:
 
+- $\big\{\frac{x}{y} \;\big|\; x\in\{0,1,2\} \land y\in\{1,2,4\} \big\}$^[$\big\{0, \frac{1}{4}, \frac{1}{2}, 1, 2\big\}$]
 - $\Big\{ x + y \;\Big|\; (x,y \in \mathbb Z) \land (1 < x < y < 10)$ $\land$ $\big(\forall w \in \mathbb Z^{+} \setminus \{1\} \;.\; (x \neq w \rightarrow 0 \neq x \mod{w}) \land (y \neq w \rightarrow 0 \neq y \mod{w}) \big) \Big\}$^[$\{5,7,8,9,10,12\}$]
