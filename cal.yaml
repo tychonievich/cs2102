@@ -142,6 +142,8 @@ reading:
         - "skim ∀x 25–26"
         - "practice exercises in ∀x 22 and 23"
     sets:
+        - lnk: "values.html"
+          txt: "sets are values"
         - lnk: "sets.html"
           txt: "sets writeup"
         - lnk: "set-practice.html"
