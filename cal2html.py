@@ -200,7 +200,7 @@ def cal2html(cal):
                             more.append('<a target="_blank" href="{}">{}{}</a>'.format(
                                 e[media],
                                 media,
-                                e[media][e[media].rfind('.'):]
+                                e[media][e[media].rfind('.',e[media].rfind('/')+1):]
                             ))
                     for reading in e.get('reading',[]):
                         if type(reading) is str:
