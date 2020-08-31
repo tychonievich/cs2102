@@ -1,5 +1,6 @@
 import re, markdown, dateutil, json
 from datetime import timedelta, datetime
+from sys import stderr
 
 TEXTBOOKS = {
     'MCS': 'files/mcs.pdf',
@@ -126,6 +127,7 @@ def raw2cal(data, links):
                 
                 # handle links files
                 for section, notes in links.items():
+                    print("Section",section,"keys",notes.keys(), file=stderr)
                     if d in notes:
                         ans.append({
                             'title':section,
