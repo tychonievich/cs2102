@@ -7,5 +7,9 @@
   audio: lectures/tychonievich-2020-08-28.mp3
   files:
   - lectures/tychonievich-2020-08-28-2020-08-28-slides.pdf
-  mkv: /tmp/2020-08-28 09-00-03-clipped.mkv
   video: lectures/tychonievich-2020-08-28.webm
+2020-08-31:
+  audio: lectures/tychonievich-2020-08-31.mp3
+  files:
+  - lectures/tychonievich-2020-08-31-2020-08-31-slides.pdf
+  video: lectures/tychonievich-2020-08-31.webm
