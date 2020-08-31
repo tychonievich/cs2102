@@ -67,3 +67,4 @@ For each of the following, list the members of the set:
 
 - $\big\{\frac{x}{y} \;\big|\; x\in\{0,1,2\} \land y\in\{1,2,4\} \big\}$^[$\big\{0, \frac{1}{4}, \frac{1}{2}, 1, 2\big\}$]
 - $\Big\{ x + y \;\Big|\; (x,y \in \mathbb Z) \land (1 < x < y < 10)$ $\land$ $\big(\forall w \in \mathbb Z^{+} \setminus \{1\} \;.\; (x \neq w \rightarrow 0 \neq x \mod{w}) \land (y \neq w \rightarrow 0 \neq y \mod{w}) \big) \Big\}$^[$\{5,7,8,9,10,12\}$]
+- Assume that $A = \{1,2,3,4,5\}$ and $B = \{2,3,5,7\}$; $\big\{ x \;\big|\; (x \in A) \oplus (x \in B) \big\}$^[\{1, 4, 7\}]

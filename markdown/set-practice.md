@@ -127,7 +127,6 @@ For each of the following, list the members of the set:
 
 - $\mathcal P \big(\mathcal P(\emptyset)\big)$^[$\Big\{ \{\}, \big\{\{\}\big\} \Big\}$]
 - $\mathcal P \Big(\mathcal P \big(\mathcal P(\emptyset)\big)\Big)$^[$\bigg\{ \{\}, \big\{\{\}\big\}, \Big\{\big\{\{\}\big\}\Big\}, \Big\{\{\}, \big\{\{\}\big\}\Big\} \bigg\}$]
-- Assume that $A = \{1,2,3,4,5\}$ and $B = \{2,3,5,7\}$; $\big\{ x \;\big|\; (x \in A) \oplus (x \in B) \big\}$^[\{1, 4, 7\}]
 - Assume that $A = \{25,0,1\}$; $A \cup \mathcal P(A)$^[$\big\{25, 0, 1, \emptyset, \{25\}, \{0\}, \{1\}, \{25,0\}, \{25,1\}, \{0,1\}, \{25,0,1\}\big\}$]
 - Assume that $A$ is the set of all 2-digit numbers; $|\mathcal{P}(A)|$^[$2^{90}$ which is 1,237,940,039,285,380,274,899,124,224]
 - Assume that $A$ is the set of all 2-digit numbers; $|\mathcal{P}(A) \cap A|$^[$0$]
