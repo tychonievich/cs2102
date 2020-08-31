@@ -194,7 +194,7 @@ pow$(A)$ or $\mathcal{P}(A)$ is defined to mean "a set $S$ such that $\forall x.
     
     Note that every set (even {}) has at least one subset: {}; thus a power set is *never* empty, $\emptyset \in \mathcal{P}(A)$ is a tautology, and $\emptyset = \mathcal{P}(A)$ is a contradiction regardless of what set $A$ is.
 
-        $A$     $\mathcal{P}(B)$
+        $A$     $\mathcal{P}(A)$
     ----------- --------------------------------------------------------------
     {}          {{}}
     {1}         {{}, {1}}
