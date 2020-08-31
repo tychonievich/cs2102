@@ -128,7 +128,6 @@ def raw2cal(data, links):
                 # handle links files
                 for section, notes in links.items():
                     if d in notes:
-                        print("Section",section,"keys",notes[d].keys(), file=stderr)
                         ans.append({
                             'title':section,
                             'kind':'notes',
