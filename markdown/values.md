@@ -53,7 +53,7 @@ In programming, the name `x` can appear in several scopes to refer to different 
 This can also happen in mathematics; in each problem $x$ might refer to a different value.
 However, within a single problem $x$ cannot change.
 
-We will learn about quantifiers in this class, which will add another kind of mathematical scope beyond just problems.
+We will learn about quantifiers in this class, which will add another kind of mathematical scope beyond just the "in this problem"-kind.
 
 ## Discrete math values have related programming entities
 
@@ -64,11 +64,10 @@ Most programming languages have a datatype they call a set
 which is not a value but an entity:
 changeable objects with durable identity.
 
-This can be confusing, so we'll try to point this out from time to time.
-Which means you'll hear us say "a set is just a value, it can't change"
-and so on.
+The fact that this class refers to mathematical sets while other classes refer to mutable data structure sets can be confusing, so we'll try to point out "in math, it's not mutable" from time to time.
 Know that these assertions are trying to contrast math from programming,
 not one math concept from another.
 Everything in this class (sets, sequences, strings, relations, functions, sums, permutations, logarithms, ...) is a mathematical construct
 and thus a value, not an entity.
 
+Even once we get to mathematical models of changing systems (state machines in this course, others in subsequent courses) we'll still use unchanging values to describe them, talking about an immutable sequence of immutable states as a mathematical model of a moving, changing machine.
