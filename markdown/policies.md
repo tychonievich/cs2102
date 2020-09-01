@@ -85,38 +85,31 @@ You may chose to take 0, 1, 2, 3, or all 4 of these modules' finals, at your dis
 We'll use 
 
 All
-:   We will use discord to emulate offices, office hours, office hours queues, etc.
+:   We will use **discord** to emulate offices, office hours, office hours queues, etc.
     A discord server join link is in the course's Collab site.
-    
     We recommend downloading the desktop app (at <https://discord.com/>), which has more features and better-quality audio and video, but the browser version should also work.
-    
-    For communication about personal circumstances, contact a instructor directly via email, telephone, or office hours.
+
+    We will use **piazza** for longer discussions and questions.
+    See <https://piazza.com/class/kbqiscuy2ns55a> or the link in Piazza.
+        
+    For communication about personal circumstances, contact an instructor **directly** via email, telephone, or office hours.
 
 Luther Tychonievich
-:   Office hours
-    :   [TBA]{style="color:red"}
-
-    Phone
+:   Phone
     :   +1 434 243 3789
 
     Email
     :   <a href="mailto:tychonievich@virginia.edu?subject=2102">tychonievich@virginia.edu</a>; include 2102 in the subject
 
 Elizabeth Orrico
-:   Office hours
-    :   [TBA]{style="color:red"}
-
-    Phone
+:   Phone
     :   [TBA]{style="color:red"}
 
     Email
     :   <a href="mailto:emo7bf@virginia.edu?subject=2102">emo7bf@virginia.edu</a>; include 2102 in the subject
 
 TAs
-:   Office hours
-    :   [TBA]{style="color:red"}
-
-    Contact
+:   Contact
     :   Do not contact TAs individually unless specifically invited to do so by course staff.
         
         Our TAs are students too, with duties and work outside of their TAing. Please do not ask them to act as your TA except at the scheduled on-the-clock times they have listed as their office hours. They are also kind people; please don't put them in the position of having to say no or (worse) being nice to you at the expense of their own schooling.
