@@ -131,3 +131,54 @@ For each of the following, list the members of the set:
 - Assume that $A$ is the set of all 2-digit numbers; $|\mathcal{P}(A)|$^[$2^{90}$ which is 1,237,940,039,285,380,274,899,124,224]
 - Assume that $A$ is the set of all 2-digit numbers; $|\mathcal{P}(A) \cap A|$^[$0$]
 - Assume that $A$ is the set of all 2-digit numbers; $|\mathcal{P}(A) \cup A|$^[$2^{90}+90$ which is 1,237,940,039,285,380,274,899,124,314]
+
+# Set-builder notation
+
+Assume $A = \{1,2,3\}$ and $B = \{2,3,5\}$.
+Write out each of the following in full.
+
+Note that
+"$\land$" means "and" (like `and`{.py} in Python or `&&` in Java);
+"$\lor$" means "or" (like `or`{.py} in Python or `||` in Java); and
+"$\lnot$" means "not" (like `not`{.py} in Python or `!` in Java).
+
+
+- $\big\{ x \;\big|\; x \in A \big\}$ ^[$\{1,2,3\}$]
+- $\big\{ x \;\big|\; x+1 \in A \big\}$ ^[$\{0,1,2\}$]
+- $\big\{ x \;\big|\; x \in A \land x \in B \big\}$ ^[$\{2,3\}$]
+- $\big\{ x \;\big|\; x \in A \lor x \in B \big\}$ ^[$\{1,2,3,5\}$]
+- $\big\{ x \;\big|\; x \in A \land x \notin B \big\}$ ^[$\{1\}$]
+- $\big\{ x+1 \;\big|\; x \in A \big\}$ ^[$\{2,3,4\}$]
+- $\big\{ x+y \;\big|\; x \in A \land y \in B \big\}$ ^[$\{3,4,5,6,7,8\}$]
+- $\big\{ \{x\} \;\big|\; x \in A \big\}$ ^[$\big\{ \{1\}, \{2\}, \{3\} \big\}$]
+- $\big\{ \{x,y\} \;\big|\; x \in A \land y \in B \land x \ne y \big\}$ 
+    ^[$\big\{\{1,2\}, \{1,3\}, \{1,5\}, \{2,3\}, \{2,5\}, \{3,5\}\big\}$]
+- $\big\{ \{x,y\} \;\big|\; x \in A \land y \in B \big\}$ 
+    ^[$\big\{\{1,2\}, \{1,3\}, \{1,5\}, \{2\}, \{2,3\}, \{2,5\}, \{3\}, \{3,5\}\big\}$]
+- $\big\{ x \;\big|\; x \subseteq A \big\}$ 
+    ^[$\big\{ \{\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\} \big\}$]
+- $\big\{ x \;\big|\; x \subset A \big\}$ 
+    ^[$\big\{ \{\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\} \big\}$]
+- $\big\{ x \;\big|\; x \subseteq A \land x \subseteq B \big\}$ 
+    ^[$\big\{ \{\}, \{2\}, \{3\}, \{2,3\}, \big\}$]
+- $\big\{ x \;\big|\; x \subseteq (A \cap B) \big\}$ 
+    ^[$\big\{ \{\}, \{2\}, \{3\}, \{2,3\}, \big\}$]
+- $\big\{ x \;\big|\; x \subseteq A \lor x \subseteq B \big\}$ 
+    ^[$\big\{ 
+    \{\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\},
+    \{5\}, \{2,5\}, \{3,5\}, \{2,3,5\}
+    \big\}$]
+- $\big\{ x \;\big|\; x \subseteq (A \cup B) \big\}$ 
+    ^[$\big\{ 
+    \{\},
+    \{1\}, \{2\}, \{3\}, \{5\}, 
+    \{1,2\}, \{1,3\}, \{1,5\}, \{2,3\}, \{2,5\}, \{3,5\},
+    \{1,2,3\}, \{1,2,5\}, \{1,3,5\}, \{2,3,5\},
+    \{1,2,3,5\},
+    \big\}$]
+- $\Big\{ \mathcal P\big(\{x\}\big) \;\Big|\; x \in A\Big\}$ 
+    ^[$\Big\{ 
+    \big\{\{\},\{1\}\big},
+    \big\{\{\},\{2\}\big},
+    \big\{\{\},\{3\}\big}
+    \Big\}$]
