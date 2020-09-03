@@ -178,7 +178,7 @@ Note that
     \big\}$]
 - $\Big\{ \mathcal P\big(\{x\}\big) \;\Big|\; x \in A\Big\}$ 
     ^[$\Big\{ 
-    \big\{\{\},\{1\}\big},
-    \big\{\{\},\{2\}\big},
-    \big\{\{\},\{3\}\big}
+    \big\{\{\},\{1\}\big\},
+    \big\{\{\},\{2\}\big\},
+    \big\{\{\},\{3\}\big\}
     \Big\}$]
