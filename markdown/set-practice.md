@@ -182,3 +182,5 @@ Note that
     \big\{\{\},\{2\}\big\},
     \big\{\{\},\{3\}\big\}
     \Big\}$]
+- $\big\{ x \;\big|\; x \notin A \big\}$ ^[An ill-defined set; as written, would contain "everything except 1, 2, and 3" but "everything" is not a mathematically valid concept.]
+- $\big\{ x \;\big|\; x \in \mathbb Z \land x \notin A \big\}$ ^[all integers except 1, 2, and 3. Roughly, $\{\dots, -3, -2, -1, 0, 4, 5, 6, 7, \dots\}$, though $\dots$ is not a mathematically rigorous symbol.]
