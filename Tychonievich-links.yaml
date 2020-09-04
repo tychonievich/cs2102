@@ -20,6 +20,9 @@
   - lectures/tychonievich-2020-09-02-2020-09-02-slides.pdf
   video: lectures/tychonievich-2020-09-02.webm
 2020-09-04:
+  audio: lectures/tychonievich-2020-09-04.mp3
   files:
-  - lectures/2020-09-04-inclass.txt
-
+  - lectures/tychonievich-2020-09-04-2020-09-04-slides.pdf
+  - lectures/tychonievich-2020-09-04-2020-09-04-and_demo.sh
+  - lectures/tychonievich-2020-09-04-inclass.txt
+  video: lectures/tychonievich-2020-09-04.webm
