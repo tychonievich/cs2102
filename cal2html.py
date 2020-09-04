@@ -136,6 +136,7 @@ def raw2cal(data, links):
                         for f in notes[d].get('files',[]):
                             n = os.path.basename(f)
                             n = n[n.find('-')+1:]
+                            n = re.sub('^([0-9]*-)*', '', n)
                             ans[-1].setdefault('reading',[]).append({'txt':n,'lnk':f})
                         if 'video' in notes[d]: ans[-1]['video'] = notes[d]['video']
                         if 'audio' in notes[d]: ans[-1]['audio'] = notes[d]['audio']
