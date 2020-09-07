@@ -43,11 +43,11 @@ lectures:
     - sets
     
     - [propositions, operators]
-    - equivalence proofs
+    - operators
     - module 1 lab 1
 
-    - [direct proof, proof by cases]
-    - [direct proof, proof by cases]
+    - [equivalence proofs, direct proof]
+    - proof by cases
     - module 1 lab 2
 
     - predicates
@@ -110,6 +110,8 @@ reading:
     operators:
         - "MCS 3–3.2.0"
         - "∀x 5"
+        - txt: "about →"
+          lnk: "if.html"
     truth tables:
         - "MCS 3.2.1–3.2.2"
         - "∀x 8, 10"
