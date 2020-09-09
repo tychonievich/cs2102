@@ -19,9 +19,9 @@ Logical part
     Yes             Yes             Yes
     
 Beyond logic
-:   There's a temporal implication (rain starts shortly before wetness) which propositional logic cannot encode.
+:   There's a temporal connotation (rain starts shortly before wetness) which propositional logic cannot encode.
     
-    There's a causal implication (rain creates the wetness) which propositional logic cannot encode.
+    There's a causal connotation (rain creates the wetness) which propositional logic cannot encode.
 
 
 ## If you earn 93% or more, you get an A
@@ -37,13 +37,13 @@ Logical part
     Yes             Yes             Yes
     
 Beyond logic
-:   There's a temporal implication (93% precedes A) which propositional logic cannot encode.
+:   There's a temporal connotation (you get the 93% before you get the A) which propositional logic cannot encode.
     
     The $\leftarrow$ part is "fuzzy": a 92.8% might get an A, but a 81% won't.
     The $\rightarrow$ part is implicitly "or more": an A+ would not be a problem.
     Propositional logic cannot encode this "fuzz".
 
-## This program crashes it you type Ctrl+Q
+## This program crashes if you type Ctrl+Q
 
 Logical part
 :   $C \leftarrow Q$
@@ -56,7 +56,10 @@ Logical part
     Yes             Yes             Yes
 
 Beyond logic
-:   This one is close to just logic. ☺
+:   There's a temporal connotation (you type Ctrl+Q before it crashes) which propositional logic cannot encode.
+    
+    There's a causal connotation (typing Ctrl+Q triggers the crash) which propositional logic cannot encode.
+    
 
 
 # When
@@ -74,8 +77,8 @@ Logical part
     Yes             Yes             Yes
 
 Beyond logic
-:   "When" implies that the truth of $R$ comes and goes.
-    It also implies that rain *will* happen;
+:   "When" connotes that the truth of $R$ comes and goes.
+    It also connotes that rain *will* happen eventually;
     "if" in this phrase would have the same *logical* meaning,
     but would imply doubt that rain would ever occur.
 
@@ -94,7 +97,7 @@ Logical part
 
 Beyond logic
 :   This means that there exist some times when I am both in the shower and singing, but does not rule out either singing outside the shower nor that I might have some in-shower time when I'm not singing.
-    We can encode that with first-order logic (i.e. $\exist t \;.\; S(t) \land H(t)$) but not with just propositional logic.
+    We can encode that "there exists some time" idea with first-order logic (i.e. $\exist t \;.\; S(t) \land H(t)$) but not with propositional logic.
 
 
 # Only
