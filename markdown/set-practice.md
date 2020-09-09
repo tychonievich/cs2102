@@ -47,52 +47,52 @@ Each of the following is either true or false; which one?
 A set is said to be **closed over** an operation if applying that operation to members of the set always results in another member of that set.
 
 - Which (if any, or all) of the following operators is $\mathbb Z$ closed over?
-    - <lable><input type="checkbox"></input> addition ($+$)</label>^[true]
-    - <lable><input type="checkbox"></input> subtraction ($-$)</label>^[true]
-    - <lable><input type="checkbox"></input> multiplication ($\times$)</label>^[true]
-    - <lable><input type="checkbox"></input> division ($\div$)</label>^[false]
-    - <lable><input type="checkbox"></input> modulo ($\mod{}$ in math, `%` in code)</label>^[mostly true, except for 0 divisors]
-    - <lable><input type="checkbox"></input> root extraction ($\sqrt{}$)</label>^[false]
+    - <label><input type="checkbox"></input> addition ($+$)</label>^[true]
+    - <label><input type="checkbox"></input> subtraction ($-$)</label>^[true]
+    - <label><input type="checkbox"></input> multiplication ($\times$)</label>^[true]
+    - <label><input type="checkbox"></input> division ($\div$)</label>^[false]
+    - <label><input type="checkbox"></input> modulo ($\mod{}$ in math, `%` in code)</label>^[mostly true, except for 0 divisors]
+    - <label><input type="checkbox"></input> root extraction ($\sqrt{}$)</label>^[false]
 
 - Which (if any, or all) of the following operators is $\mathbb N$ closed over?
-    - <lable><input type="checkbox"></input> addition ($+$)</label>^[true]
-    - <lable><input type="checkbox"></input> subtraction ($-$)</label>^[false]
-    - <lable><input type="checkbox"></input> multiplication ($\times$)</label>^[true]
-    - <lable><input type="checkbox"></input> division ($\div$)</label>^[false]
-    - <lable><input type="checkbox"></input> modulo ($\mod{}$ in math, `%` in code)</label>^[mostly true, except for 0 divisors]
-    - <lable><input type="checkbox"></input> root extraction ($\sqrt{}$)</label>^[false]
+    - <label><input type="checkbox"></input> addition ($+$)</label>^[true]
+    - <label><input type="checkbox"></input> subtraction ($-$)</label>^[false]
+    - <label><input type="checkbox"></input> multiplication ($\times$)</label>^[true]
+    - <label><input type="checkbox"></input> division ($\div$)</label>^[false]
+    - <label><input type="checkbox"></input> modulo ($\mod{}$ in math, `%` in code)</label>^[mostly true, except for 0 divisors]
+    - <label><input type="checkbox"></input> root extraction ($\sqrt{}$)</label>^[false]
 
 - Which (if any, or all) of the following operators is $\mathbb R^{-}$ closed over?
-    - <lable><input type="checkbox"></input> addition ($+$)</label>^[true]
-    - <lable><input type="checkbox"></input> subtraction ($-$)</label>^[false]
-    - <lable><input type="checkbox"></input> multiplication ($\times$)</label>^[false]
-    - <lable><input type="checkbox"></input> division ($\div$)</label>^[false]
-    - <lable><input type="checkbox"></input> modulo ($\mod{}$ in math, `%` in code)</label>^[false. At a minimum, $-1 \mod -1 = 0 \notin \mathbb Z^{-}$. Also, there are two interpetations of $-4 \mod -3$; either it is $-1$ or it is $2$. $-1$ is more common in programmign languages, $2$ is more common in the mathematics used in encryption.]
-    - <lable><input type="checkbox"></input> root extraction ($\sqrt{}$)</label>^[false]
+    - <label><input type="checkbox"></input> addition ($+$)</label>^[true]
+    - <label><input type="checkbox"></input> subtraction ($-$)</label>^[false]
+    - <label><input type="checkbox"></input> multiplication ($\times$)</label>^[false]
+    - <label><input type="checkbox"></input> division ($\div$)</label>^[false]
+    - <label><input type="checkbox"></input> modulo ($\mod{}$ in math, `%` in code)</label>^[false. At a minimum, $-1 \mod -1 = 0 \notin \mathbb Z^{-}$. Also, there are two interpretations of $-4 \mod -3$; either it is $-1$ or it is $2$. $-1$ is more common in programming languages, $2$ is more common in the mathematics used in encryption.]
+    - <label><input type="checkbox"></input> root extraction ($\sqrt{}$)</label>^[false]
 
 - Which (if any, or all) of the following operators is $\mathbb Q$ closed over?
-    - <lable><input type="checkbox"></input> addition ($+$)</label>^[true]
-    - <lable><input type="checkbox"></input> subtraction ($-$)</label>^[true]
-    - <lable><input type="checkbox"></input> multiplication ($\times$)</label>^[true]
-    - <lable><input type="checkbox"></input> division ($\div$)</label>^[mostly true, except for 0 divisors]
-    - <lable><input type="checkbox"></input> modulo ($\mod{}$ in math, `%` in code)</label>^[mostly true, except for 0 divisors]
-    - <lable><input type="checkbox"></input> root extraction ($\sqrt{}$)</label>^[false]
+    - <label><input type="checkbox"></input> addition ($+$)</label>^[true]
+    - <label><input type="checkbox"></input> subtraction ($-$)</label>^[true]
+    - <label><input type="checkbox"></input> multiplication ($\times$)</label>^[true]
+    - <label><input type="checkbox"></input> division ($\div$)</label>^[mostly true, except for 0 divisors]
+    - <label><input type="checkbox"></input> modulo ($\mod{}$ in math, `%` in code)</label>^[mostly true, except for 0 divisors]
+    - <label><input type="checkbox"></input> root extraction ($\sqrt{}$)</label>^[false]
 
 - Which (if any, or all) of the following operators is $\mathbb Q \setminus \{0\}$ closed over?
-    - <lable><input type="checkbox"></input> addition ($+$)</label>^[false]
-    - <lable><input type="checkbox"></input> subtraction ($-$)</label>^[false]
-    - <lable><input type="checkbox"></input> multiplication ($\times$)</label>^[true]
-    - <lable><input type="checkbox"></input> division ($\div$)</label>^[true]
-    - <lable><input type="checkbox"></input> modulo ($\mod{}$ in math, `%` in code)</label>^[false; $1 \mod 1 = 0$]
-    - <lable><input type="checkbox"></input> root extraction ($\sqrt{}$)</label>^[false]
+    - <label><input type="checkbox"></input> addition ($+$)</label>^[false]
+    - <label><input type="checkbox"></input> subtraction ($-$)</label>^[false]
+    - <label><input type="checkbox"></input> multiplication ($\times$)</label>^[true]
+    - <label><input type="checkbox"></input> division ($\div$)</label>^[true]
+    - <label><input type="checkbox"></input> modulo ($\mod{}$ in math, `%` in code)</label>^[false; $1 \mod 1 = 0$]
+    - <label><input type="checkbox"></input> root extraction ($\sqrt{}$)</label>^[false]
 
 - Which (if any, or all) of the following operators is $\mathbb R$ closed over?
-    - <lable><input type="checkbox"></input> addition ($+$)</label>^[true]
-    - <lable><input type="checkbox"></input> subtraction ($-$)</label>^[true]
-    - <lable><input type="checkbox"></input> multiplication ($\times$)</label>^[true]
-    - <lable><input type="checkbox"></input> division ($\div$)</label>^[mostly true, except for 0 divisors]
-    - <lable><input type="checkbox"></input> modulo ($\mod{}$ in math, `%` in code)</label>^[mostly true, except for 0 divisors]
-    - <lable><input type="checkbox"></input> root extraction ($\sqrt{}$)</label>^[false because $\mathbb R$ contains negative numbers]
+    - <label><input type="checkbox"></input> addition ($+$)</label>^[true]
+    - <label><input type="checkbox"></input> subtraction ($-$)</label>^[true]
+    - <label><input type="checkbox"></input> multiplication ($\times$)</label>^[true]
+    - <label><input type="checkbox"></input> division ($\div$)</label>^[mostly true, except for 0 divisors]
+    - <label><input type="checkbox"></input> modulo ($\mod{}$ in math, `%` in code)</label>^[mostly true, except for 0 divisors]
+    - <label><input type="checkbox"></input> root extraction ($\sqrt{}$)</label>^[false because $\mathbb R$ contains negative numbers]
 
 
 
