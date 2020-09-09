@@ -1,5 +1,5 @@
 ---
-title: "If" and Logic
+title: '"If" and Logic'
 ...
 
 "If" and related words are used in many logical and beyond-logic ways. This writeup is an effort to explore them.
