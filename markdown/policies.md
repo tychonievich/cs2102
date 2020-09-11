@@ -102,10 +102,7 @@ Luther Tychonievich
     :   <a href="mailto:tychonievich@virginia.edu?subject=2102">tychonievich@virginia.edu</a>; include 2102 in the subject
 
 Elizabeth Orrico
-:   Phone
-    :   [TBA]{style="color:red"}
-
-    Email
+:   Email
     :   <a href="mailto:emo7bf@virginia.edu?subject=2102">emo7bf@virginia.edu</a>; include 2102 in the subject
 
 TAs
