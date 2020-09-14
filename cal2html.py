@@ -200,7 +200,7 @@ def cal2html(cal):
                     for media in ('video', 'audio'):
                         if media in e:
                             more.append('<a target="_blank" href="{}">{}{}</a>'.format(
-                                e[media],
+                                'player.html#'+e[media] if e[media].endswith('.webm') else e[media],
                                 media,
                                 e[media][e[media].rfind('.',e[media].rfind('/')+1):] if e[media].rfind('.',e[media].rfind('/')+1) > 0 else ''
                             ))
