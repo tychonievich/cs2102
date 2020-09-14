@@ -31,8 +31,21 @@ and the rest are either less commonly useful or can be derived from the five abo
 |$\top$|$\bot \rightarrow P$<br/>$P \rightarrow \top$<br/>$P \rightarrow P$|$P \leftrightarrow P$|$P \oplus \lnot P$||$\top \lor P$<br/>$P \lor \lnot P$|
 |$\bot$||$P \leftrightarrow \lnot P$|$P \oplus P$|$\bot \land P$<br/>$P \land \lnot P$||
 
+## Associative and Commutative properties
 
+A binary operator is commutative if its operands can be swapped without changing the meaning of the operation.
+A binary operator is associative if a pair of them can be re-parenthesized without changing the meaning of their joint operation.
 
+|Operator|Associativity|Commutativity|
+|:------:|:-----------:|:-----------:|
+|$\lnot$ |*not a binary operator*|*not a binary operator*|
+|$\land$ |$(P \land Q) \land R \equiv P \land (Q \land R)$|$P \land Q \equiv Q \land P$|
+|$\lor$ |$(P \lor Q) \lor R \equiv P \lor (Q \lor R)$|$P \lor Q \equiv Q \lor P$|
+|$\oplus$ |$(P \oplus Q) \oplus R \equiv P \oplus (Q \oplus R)$|$P \oplus Q \equiv Q \oplus P$|
+|$\rightarrow$|*not associative*|*not commutative*|
+|$\leftrightarrow$|*not associative*|$P \leftrightarrow Q \equiv Q \leftrightarrow P$|
+
+Note that mixing associative operators does not create mutual associativity; for example $(P \land Q) \lor R$ is *not* equivalent to $P \land (Q \lor R)$.
 
 ## Other equivalences
 
