@@ -43,7 +43,7 @@ A binary operator is associative if a pair of them can be re-parenthesized witho
 |$\lor$ |$(P \lor Q) \lor R \equiv P \lor (Q \lor R)$|$P \lor Q \equiv Q \lor P$|
 |$\oplus$ |$(P \oplus Q) \oplus R \equiv P \oplus (Q \oplus R)$|$P \oplus Q \equiv Q \oplus P$|
 |$\rightarrow$|*not associative*|*not commutative*|
-|$\leftrightarrow$|*not associative*|$P \leftrightarrow Q \equiv Q \leftrightarrow P$|
+|$\leftrightarrow$|$(P \leftrightarrow Q) \leftrightarrow R \equiv P \leftrightarrow (Q \leftrightarrow R)$|$P \leftrightarrow Q \equiv Q \leftrightarrow P$|
 
 Note that mixing associative operators does not create mutual associativity; for example $(P \land Q) \lor R$ is *not* equivalent to $P \land (Q \lor R)$.
 
