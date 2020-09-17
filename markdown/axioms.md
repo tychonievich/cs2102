@@ -47,6 +47,9 @@ A binary operator is associative if a pair of them can be re-parenthesized witho
 
 Note that mixing associative operators does not create mutual associativity; for example $(P \land Q) \lor R$ is *not* equivalent to $P \land (Q \lor R)$.
 
+When several associative operators are used, it is common to write them without parentheses;
+for example, writing "$P \lor Q \lor R \lor S$" instead of "$P \lor \big(Q \lor (R \lor S)\big)$"
+
 ## Other equivalences
 
 The following operators are both **associative** (you can add and remove parentheses around them) and **commutative** (you can swap their operands' position): $\land$, $\lor$, $\oplus$
