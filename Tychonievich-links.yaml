@@ -51,10 +51,12 @@
   - lectures/tychonievich-2020-09-16-2020-09-16-slides.pdf
   video: lectures/tychonievich-2020-09-16.webm
 2020-09-18:
-  mkv: "/tmp/2020-09-18 08-59-49.mkv"
+  audio: lectures/tychonievich-2020-09-18.mp3
   files:
-    - /tmp/2020-09-18-slides.pdf
+  - lectures/tychonievich-2020-09-18-2020-09-18-slides.pdf
+  video: lectures/tychonievich-2020-09-18.webm
 2020-09-21:
-  mkv: "/tmp/2020-09-21 09-00-11.mkv"
+  audio: lectures/tychonievich-2020-09-21.mp3
   files:
-    - /tmp/2020-09-21-slides.pdf
+  - lectures/tychonievich-2020-09-21-2020-09-21-slides.pdf
+  video: lectures/tychonievich-2020-09-21.webm
