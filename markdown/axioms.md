@@ -43,9 +43,12 @@ A binary operator is associative if a pair of them can be re-parenthesized witho
 |$\lor$ |$(P \lor Q) \lor R \equiv P \lor (Q \lor R)$|$P \lor Q \equiv Q \lor P$|
 |$\oplus$ |$(P \oplus Q) \oplus R \equiv P \oplus (Q \oplus R)$|$P \oplus Q \equiv Q \oplus P$|
 |$\rightarrow$|*not associative*|*not commutative*|
-|$\leftrightarrow$|*not associative*|$P \leftrightarrow Q \equiv Q \leftrightarrow P$|
+|$\leftrightarrow$|$(P \leftrightarrow Q) \leftrightarrow R \equiv P \leftrightarrow (Q \leftrightarrow R)$|$P \leftrightarrow Q \equiv Q \leftrightarrow P$|
 
 Note that mixing associative operators does not create mutual associativity; for example $(P \land Q) \lor R$ is *not* equivalent to $P \land (Q \lor R)$.
+
+When several associative operators are used, it is common to write them without parentheses;
+for example, writing "$P \lor Q \lor R \lor S$" instead of "$P \lor \big(Q \lor (R \lor S)\big)$"
 
 ## Other equivalences
 
@@ -53,13 +56,13 @@ Of the other rules here, the first several are worth memorizing
 
  form 1                  form 2                                         Name of rule
 ----------------------  -------------------------------                 ----------------------------
-$A \rightarrow B$       $\lnot A \lor B$
+$A \rightarrow B$       $\lnot A \lor B$                                definition of implication
 $A \land (B \lor C)$    $(A \land B) \lor (A \land C)$                  Distributive law
 $A \lor (B \land C)$    $(A \lor B) \land (A \lor C)$                   Distributive law
 $\lnot (A \land B)$     $(\lnot A) \lor (\lnot B)$                      De Morgan's law
 $\lnot (A \lor B)$      $(\lnot A) \land (\lnot B)$                     De Morgan's law
-$(A \leftrightarrow B)$ $(A \rightarrow B) \land (B \rightarrow A)$
-$(A \oplus B)$          $(A \lor B) \land \lnot (A \land B)$
+$(A \leftrightarrow B)$ $(A \rightarrow B) \land (B \rightarrow A)$     definition of bimplication
+$(A \oplus B)$          $(A \lor B) \land \lnot (A \land B)$            definition of exclusive or
 
 and the rest are either less commonly useful or can be derived easily from other worth-memorizing rules
 
@@ -86,7 +89,7 @@ $A \rightarrow B$ and $B \rightarrow C$                     ${A \rightarrow C}$ 
 $A \rightarrow B$ and $A$                                   ${B}$                           modus ponens
 $A \rightarrow B$ and $\lnot B$                             ${\lnot A}$                     modus tolens
 $A \leftrightarrow B$                                       ${A \rightarrow B}$
-${A \rightarrow C}$, ${B \rightarrow B}$, and ${A \lor B}$  ${C}$
+${A \rightarrow C}$, ${B \rightarrow C}$, and ${A \lor B}$  ${C}$
 ${A \rightarrow B}$, ${C \rightarrow D}$, and ${A \lor C}$  ${B \lor D}$
 $A \rightarrow B$                                           ${A \rightarrow (A \land B)}$
 $\lnot(A \land B)$, $A$                                     ${\lnot B}$
