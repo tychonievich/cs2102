@@ -49,10 +49,6 @@ Note that mixing associative operators does not create mutual associativity; for
 
 ## Other equivalences
 
-The following operators are both **associative** (you can add and remove parentheses around them) and **commutative** (you can swap their operands' position): $\land$, $\lor$, $\oplus$
-
-The following operator is *commutative* but not *associative*: $\leftrightarrow$
-
 Of the other rules here, the first several are worth memorizing
 
  form 1                  form 2                                         Name of rule
