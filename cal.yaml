@@ -138,11 +138,12 @@ reading:
         - "∀x 21.0–21.3"
         - "skim MCS 4.1.0"
     quantifiers:
-        - {txt: write-up of class examples, lnk: eng2quant.html}
         - "∀x 21.4–24"
         - "MCS 3.6"
         - "skim ∀x 25–26"
+        - {txt: bus example, lnk: bus-example.html}
         - "practice exercises in ∀x 22 and 23"
+        - {txt: Spring 2020 class examples, lnk: eng2quant.html}
     sets:
         - lnk: "values.html"
           txt: "sets are values"
@@ -151,6 +152,10 @@ reading:
         - lnk: "set-practice.html"
           txt: "practice"
         - "MCS 4.1.1"
+    
+    english:
+        - {txt: writeup, lnk: mainoperator.html}
+        - {txt: bus example, lnk: bus-example.html}
     
     direct proofs:
         - "MCS 1.2–1.6"
