@@ -166,8 +166,8 @@ reading:
     proof by cases:
         - "MCS 1.7"
         - "∀x 15.6"
+        - {txt: DeMorgan proved, lnk: demorgan.html}
         - {txt: techniques, lnk: techniques-q4.html}
-    
     
     data types:
         - "MCS 4.1–4.4"
