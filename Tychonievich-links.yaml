@@ -80,3 +80,7 @@
   files:
   - lectures/tychonievich-2020-10-02-2020-10-02-slides.pdf
   video: lectures/tychonievich-2020-10-02.webm
+2020-10-05:
+  mkv: "/tmp/2020-10-05 09-00-28.mkv"
+  files:
+    - /tmp/2020-10-05-slides.pdf
