@@ -102,8 +102,6 @@ A proof that assumes $A$ and derives $\bot$ entails that $\lnot A$. This is call
 
 
 
-<!--
-
 ## Set entailment
 
 Given                                                       Entails
@@ -129,6 +127,7 @@ $P(s) \land s \in S$              $\exists x \in S \;.\; P(x)$                  
 These also all have versions that use a defined domain instead of set membership.
 Universal generalization is sometimes called "skolemization."
 
+<!--
 
 # Mathematical Identities
 
