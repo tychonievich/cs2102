@@ -42,7 +42,7 @@ Not
     Thus $\lnot A \lor B$ means $(\lnot A) \lor B$, not $\lnot (A \lor B)$.
 
 Quantifiers
-:   The scope of a q quantifier is the entire expression that follows its terminating dot, though its scope cannot scape from parentheses.
+:   The scope of a q quantifier is the entire expression that follows its terminating dot, though its scope cannot escape from parentheses.
     Thus, $\forall x \;.\; A \land B$ means $\forall x \;.\; (A \land B)$ not $(\forall x \;.\; A) \land B$.
 
     {.aside ...}
