@@ -24,7 +24,7 @@ Logic has operators with three different ways of determining scope.
 
 Binary operators
 :   These have two operands, which comprise the operators scope.
-    Examples include $\land$, $\lor$, $\rightarrow$, $oplus$, etc.
+    Examples include $\land$, $\lor$, $\rightarrow$, $\oplus$, etc.
     
     Logic does not define an order of operations for binary operators: $P \land Q \lor R$ is invalid notation; you must write either $(P \land Q) \lor R$ or $P \land (Q \lor R)$.
     The only time parentheses can be omitted is when the operators are associative^[
