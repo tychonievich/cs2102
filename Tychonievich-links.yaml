@@ -76,6 +76,7 @@
   - lectures/tychonievich-2020-09-30-2020-09-30-slides.pdf
   video: lectures/tychonievich-2020-09-30.webm
 2020-10-02:
-  mkv: "/tmp/2020-10-02 09-00-10.mkv"
+  audio: lectures/tychonievich-2020-10-02.mp3
   files:
-    - /tmp/2020-10-02-slides.pdf
+  - lectures/tychonievich-2020-10-02-2020-10-02-slides.pdf
+  video: lectures/tychonievich-2020-10-02.webm
