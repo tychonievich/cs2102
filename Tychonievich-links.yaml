@@ -83,3 +83,9 @@
 2020-10-05:
   audio: lectures/tychonievich-2020-10-05.mp3
   video: lectures/tychonievich-2020-10-05.webm
+2020-10-07:
+  audio: lectures/tychonievich-2020-10-07.mp3
+  files:
+  - lectures/tychonievich-2020-10-07-2020-10-07-examples.txt
+  - lectures/tychonievich-2020-10-07-2020-10-07-slides.pdf
+  video: lectures/tychonievich-2020-10-07.webm
