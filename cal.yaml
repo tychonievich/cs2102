@@ -62,12 +62,12 @@ lectures:
     - english
     - module 2 lab 2
 
-    - proofs
-    - proofs
-    - [module 2 group project, module 2 makeup]
-
     - integers
     - contradiction
+    - [module 2 group project, module 2 makeup]
+
+    - proofs
+    - proofs
     - module 3 lab 1
 
     - induction
@@ -220,7 +220,7 @@ reading:
         - "MCS 9"
     state machines:
         - "MCS 5.4"
-    primes:
+    integers:
         - "MCS 8.0–8.7"
     functions:
         - "MCS 4.3–4.4"
