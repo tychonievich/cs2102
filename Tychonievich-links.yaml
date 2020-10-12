@@ -94,3 +94,8 @@
   files:
   - lectures/tychonievich-2020-10-09-2020-10-09-slides.pdf
   video: lectures/tychonievich-2020-10-09.webm
+2020-10-12:
+  files:
+  - txt: main recording failed; backup video on Collab
+    lnk: https://collab.its.virginia.edu/portal/site/87b0131b-78ba-4d1a-9eec-ed65343647a4/tool-reset/e2f86177-a938-46e3-b4e7-7c9c3cb438d3
+  video: lectures/tychonievich-2020-10-09.webm
