@@ -73,3 +73,7 @@
   video: 'https://343772.kaf.kaltura.com/media/Orrico_Lesson_22.mp4/1_4u02gkpr/178398422' 
   files:
       - 'http://www.cs.virginia.edu/~emo7bf/Oct14Slides.pdf'  
+
+2020-10-21: 
+  files:
+      - 'http://www.cs.virginia.edu/~emo7bf/Oct21Slides.pdf'  
