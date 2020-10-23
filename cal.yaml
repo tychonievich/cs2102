@@ -194,7 +194,6 @@ reading:
           lnk: openset.html
 
     induction:
-        - "MCS 2"
         - "MCS 5.1–5.3"
         - txt: addendum
           lnk: induction.html

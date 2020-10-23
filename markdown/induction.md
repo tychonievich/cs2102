@@ -70,7 +70,7 @@ Inductive step
 By the principle of induction, it follows that all Fibonacci numbers are positive.
 :::
 
-All well and good. But how do we make this fit the formal variation?
+All well and good. But how do we make this fit the formal definition of induction?
 We define a special $P(n)$ to mean "the $(n+1)$^th^ and $(n+2)$^th^ Fibonacci number are both positive".
 With this special predicate, our base case becomes just $P(0)$ (i.e., the 1^st^ and 2^nd^ are positive) and our inductive step becomes a proof that $P(n) \rightarrow P(n+1)$.
 {/}
