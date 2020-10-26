@@ -113,9 +113,12 @@
   files:
   - lectures/tychonievich-2020-10-21-2020-10-21-slides.pdf
   video: lectures/tychonievich-2020-10-21.webm
-2020-10-21:
-  mkv: "/tmp/2020-10-21 16-07-22.mkv"
-  files:
 2020-10-23:
-  mkv: "/tmp/2020-10-23 09-00-03.mkv"
+  audio: lectures/tychonievich-2020-10-23.mp3
+  video: lectures/tychonievich-2020-10-23.webm
+2020-10-26:
+  audio: lectures/tychonievich-2020-10-26.mp3
   files:
+  - lectures/tychonievich-2020-10-26-2020-10-26-slides.pdf
+  - lectures/tychonievich-2020-10-26-2020-10-26-proofs.txt
+  video: lectures/tychonievich-2020-10-26.webm
