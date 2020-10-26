@@ -106,9 +106,9 @@
 2020-10-19:
   files:
   - lectures/tychonievich-2020-10-19-2020-10-19-slides.pdf
-  webm: /tmp/2102/2020-10-19.mkv
+  mkv: /tmp/2102/2020-10-19.mkv
 2020-10-21:
-  webm: /tmp/2102/2020-10-21.mkv
+  mkv: /tmp/2102/2020-10-21.mkv
 2020-10-23:
   audio: lectures/tychonievich-2020-10-23.mp3
   video: lectures/tychonievich-2020-10-23.webm
