@@ -104,10 +104,14 @@
   - lectures/tychonievich-2020-10-14-2020-10-14-slides.pdf
   video: lectures/tychonievich-2020-10-14.webm
 2020-10-19:
-  audio: lectures/tychonievich-2020-10-19.mp3
-  video: lectures/tychonievich-2020-10-19.webm
+  mkv: '/tmp/2020-10-19 09-00-19.mkv'
   files:
   - lectures/tychonievich-2020-10-19-2020-10-19-slides.pdf
+2020-10-21:
+  audio: lectures/tychonievich-2020-10-21.mp3
+  video: lectures/tychonievich-2020-10-21.webm
+  files:
+  - lectures/tychonievich-2020-10-21-2020-10-21-slides.pdf
 2020-10-23:
   audio: lectures/tychonievich-2020-10-23.mp3
   video: lectures/tychonievich-2020-10-23.webm
