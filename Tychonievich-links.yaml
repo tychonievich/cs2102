@@ -105,14 +105,14 @@
   video: lectures/tychonievich-2020-10-14.webm
 2020-10-19:
   audio: lectures/tychonievich-2020-10-19.mp3
-  video: lectures/tychonievich-2020-10-19.webm
   files:
   - lectures/tychonievich-2020-10-19-2020-10-19-slides.pdf
+  video: lectures/tychonievich-2020-10-19.webm
 2020-10-21:
   audio: lectures/tychonievich-2020-10-21.mp3
-  video: lectures/tychonievich-2020-10-21.webm
   files:
   - lectures/tychonievich-2020-10-21-2020-10-21-slides.pdf
+  video: lectures/tychonievich-2020-10-21.webm
 2020-10-23:
   audio: lectures/tychonievich-2020-10-23.mp3
   video: lectures/tychonievich-2020-10-23.webm
@@ -122,3 +122,8 @@
   - lectures/tychonievich-2020-10-26-2020-10-26-slides.pdf
   - lectures/tychonievich-2020-10-26-2020-10-26-proofs.txt
   video: lectures/tychonievich-2020-10-26.webm
+2020-10-28:
+  audio: lectures/tychonievich-2020-10-28.mp3
+  files:
+  - lectures/tychonievich-2020-10-28-2020-10-28-slides.pdf
+  video: lectures/tychonievich-2020-10-28.webm
