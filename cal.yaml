@@ -71,11 +71,11 @@ lectures:
     - module 3 lab 1
 
     - induction
-    - induction
+    - [induction, counting proofs]
     - module 3 lab 2
 
     - [summation, combination]
-    - [permutation, counting proofs]
+    - [permutation]
     - [module 3 group project, module 3 makeup]
 
     - functions
