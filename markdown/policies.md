@@ -161,22 +161,28 @@ The three group projects are counted separately and are each worth 2% of your gr
 
 After combining your scores, we will round to a GPA and record the corresponding letter grade in SIS, as follows:
 
-You get     if you score     Which is worth
-----------  ------------    ----------------
-A+          near the top           4.0
-A           &ge; 93%               4.0
-A&minus;    &ge; 90%               3.7
-B+          &ge; 86%               3.3
-B           &ge; 83%               3.0
-B&minus;    &ge; 80%               2.7
-C+          &ge; 76%               2.3
-C           &ge; 73%               2.0
-C&minus;    &ge; 70%               1.7
-D+          &ge; 66%               1.3
-D           &ge; 63%               1.0
-D&minus;    &ge; 60%               0.7
-F           otherwise              0.0
+You get     or  if you score     Which is worth
+----------  --- ------------    ----------------
+A+          CR  near the top           4.0
+A           CR  &ge; 93%               4.0
+A&minus;    CR  &ge; 90%               3.7
+B+          CR  &ge; 86%               3.3
+B           CR  &ge; 83%               3.0
+B&minus;    CR  &ge; 80%               2.7
+C+          CR  &ge; 76%               2.3
+C           CR  &ge; 73%               2.0
+also[^1] C  CR  &ge; 70%               1.7
+D+          GC  &ge; 66%               1.3
+D           GC  &ge; 63%               1.0
+D&minus;    GC  &ge; 60%               0.7
+F           NC  otherwise              0.0
 
+[^1]:
+    Why no C&minus;?
+    
+    CS prereqs require a C&minus or better grad in CS 2102.
+    But the university has defined the line between GC and CR as the line between C and C&minus;.
+    To avoid any "I would have made the prereq if I'd chosen a different grading system" concerns, we've removed the C&minus; grade so these two systems become compatible.
 
 Missed auto-graded evaluations will not be rescheduled, extended, nor made up during the semester.
 Missed hand-graded evaluations may be rescheduled with adequate notice and reasoning (sent to your instructor via email).
