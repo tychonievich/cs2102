@@ -127,7 +127,6 @@ $P(s) \land s \in S$              $\exists x \in S \;.\; P(x)$                  
 These also all have versions that use a defined domain instead of set membership.
 Universal generalization is sometimes called "skolemization."
 
-<!--
 
 # Mathematical Identities
 
@@ -147,4 +146,3 @@ The following are also true:
 - $(a \in \mathbb Z) \land (a > 1) \land (a$ has exactly two factors$) \equiv (a$ is prime$)$
 - Each integer greater than 1 has exactly one prime factorization
 
--->
