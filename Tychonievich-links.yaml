@@ -172,3 +172,9 @@
   files:
   - lectures/tychonievich-2020-11-20-2020-11-20-slides.pdf
   video: lectures/tychonievich-2020-11-20.webm
+2020-11-23:
+  audio: lectures/tychonievich-2020-11-23.mp3
+  files:
+  - lectures/tychonievich-2020-11-23-2020-11-23-slides.pdf
+  - lectures/tychonievich-2020-11-23-2020-11-23-qa.txt
+  video: lectures/tychonievich-2020-11-23.webm
