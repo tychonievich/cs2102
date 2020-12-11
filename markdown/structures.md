@@ -52,7 +52,7 @@ Subset
 :   $S \subseteq T = \forall x \in S \;.\; x \in T$
 
 Proper Subset
-:   $S \subset T = (S \subseteq T) \land (\exists x \in T \;.\; x \notin S)$
+:   $S \subset T = (S \subseteq T) \land (S \ne T)$
 
 Superset
 :   $S \supseteq T = T \subseteq S$
@@ -165,15 +165,15 @@ $\big(\{1\} \times \{2\}\big) \times \{3\}$ contains one pair, $\big((1,2),3\big
 $\{1\} \times \big(\{2\} \times \{3\}\big)$ contains one pair, $\big(1,(2,3)\big)$.
 :::
 
-The **Cartesian power** is defined analogously to the power in mathematics: $S^k = \overbrace{S\timesS\times\dots\timesS}^{k\text{~}S\text{s}}$.
+The **Cartesian power** is defined analogously to the power in mathematics: $S^k = \overbrace{S\times S\times\dots\times S}^{k\text{~}S\text{s}}$.
 In other words, $S^k$ is the set of all sequences of length $k$
 where all elements of each sequence in the set are members of $S$.
 
 $|S^k| = |S|^k$
 
-The **Kleene star** is the union of all Cartesian powers,
-$S^* = \big\{x\;\big|\;\exists k \in \mathbb N \;.\; x \in S^k\big\}$.
+The **Kleene star** is the union of all Cartesian powers, $S^* = S^0 \cup S^1 \cup S^2 \cup \S^3 \cup dots$.
 In other words, $S^*$ is the set of all sequences where all elements of each sequence in the set are members of $S$.
+More formally, $S^* = \big\{x\;\big|\;\exists k \in \mathbb N \;.\; x \in S^k\big\}$.
 
 :::example
 $\{1,2\}^4$ contains $(1,1,1,1)$, $(2,2,1,1)$, and 14 other sequences.
