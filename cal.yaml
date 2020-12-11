@@ -1,20 +1,21 @@
 Special Dates:
-  Courses begin: 2020-08-25
-  Courses end: 2020-11-24
-  Add deadline: 2020-01-27
-  Drop deadline: 2020-02-24
-  Withdraw deadline: 2020-03-16
-  Thanksgiving break:
-    start: 2020-11-25
-    end: 2020-11-29
+  Courses begin: 2021-02-01
+  Courses end: 2021-05-06
+  Add deadline: 2020-02-16
+  Drop deadline: 2020-03-23
+  Withdraw deadline: 2020-04-06
+  Monday break: 2020-03-29
+  Tuesday break: 2020-03-09
+  Wednesday break: 2020-02-17
+  Thursday break: 2020-04-15
 
 meta:
   timezone: America/New_York
   name: CS 2102
   lecture exam: true
-  home: https://www.cs.virginia.edu/luther/2102/F2020/
+  home: https://www.cs.virginia.edu/luther/2102/S2021/
   final:
-    start: 2020-12-05 19:00:00
+    start: 2020-05-07 19:00:00
     duration: 180
     room: online
   days: [Monday, Wednesday, Friday]
@@ -24,13 +25,13 @@ sections:
     room: online
     start: 10:00:00
     duration: 50
-  CS2102-1530:
+  CS2102-1100:
     room: online
-    start: 15:30:00
+    start: 11:00:00
     duration: 50
-  CS2102-0900:
+  CS2102-1400:
     room: online
-    start: 9:00:00
+    start: 14:00:00
     duration: 50
 
 
