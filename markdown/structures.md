@@ -465,7 +465,7 @@ For $R(x,y) : \mathbb Z^2 \rightarrow \{\bot,\top\}$,
 *note: logarithms are not technically part of _discrete_ mathematics, being instead a topic within continuous mathematics. However, they are widely used in computing and not universally understood by entering students, so we'll cover them in this course.*
 
 The logarithm is a family of functions that are the inverses of exponentiation.
-They are defined by the following identity:
+It is defined by the following identity:
 $$\big(x^y = z\big) \equiv \big(\log_x(z) = y\big)$$
 The expression $\log_x(y)$ is read "the log base $x$ of $y$".
 
@@ -475,7 +475,8 @@ though we almost always assume the base is greater than 1.
 For any given base $b > 1$,
 
 - $\log_b : \mathbb R^+ \rightarrow \mathbb R$ is bijective
-- monotonically increasing; that is $(x > y) \equiv \big(\log_b(x) > \log_b(y)\big)$
+- $\log_b$ is monotonically increasing; that is $(x > y) \equiv \big(\log_b(x) > \log_b(y)\big)$
+    - (note if $0 < b < 1$, $\log_b$ is monotonically decreasing instead)
 - $\displaystyle \log_b(b^x) = x$
 - $\displaystyle b^{\log_b(x)} = x$
 - $\displaystyle \log_b(x y) = \log_b(x) + \log_b(y)$
