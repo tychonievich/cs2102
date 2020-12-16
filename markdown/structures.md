@@ -247,7 +247,7 @@ where all elements of each sequence in the set are members of $S$.
 
 $|S^k| = |S|^k$
 
-The **Kleene star** is the union of all Cartesian powers, $S^* = S^0 \cup S^1 \cup S^2 \cup \S^3 \cup dots$.
+The **Kleene star** is the union of all Cartesian powers, $S^* = S^0 \cup S^1 \cup S^2 \cup S^3 \cup dots$.
 In other words, $S^*$ is the set of all sequences where all elements of each sequence in the set are members of $S$.
 More formally, $S^* = \big\{x\;\big|\;\exists k \in \mathbb N \;.\; x \in S^k\big\}$.
 
@@ -284,7 +284,7 @@ Although both positive and negative integers can be divisors of both positive an
 
 If $x$ is a *divisor* of $y$, then $y$ is a **multiple** of $x$.
 
-We can denote the concept "$x$ is a *divisor* of $y$" as "$x|y$", but this notation is unusual in computing because $|$ is already used for so many other concepts (e.g, for absolute values, set-builder notation, conditional probability, etc).
+We can denote the concept "$x$ is a *divisor* of $y$" as "$x|y$", but this notation is unusual in computing because $|$ is already used for so many other concepts (e.g, for absolute values, cardinality, set-builder notation, conditional probability, complex magnitude, determinant, etc).
 
 :::example
 $2$ is a divisor of $2102$ because $2102 \div 2 = 1501$, an integer.
@@ -484,3 +484,4 @@ For any given base $b > 1$,
 - $\displaystyle \log_b(x) = \frac{\log_a(x)}{\log_a(b)}$
 - $\displaystyle \log_{a^c}(x) = c^{-1}\log_a(x)$
 
+Logarithms have many other interesting properties and show up in many areas of computing; the above identities will be sufficient for this class.
