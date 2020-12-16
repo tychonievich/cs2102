@@ -309,7 +309,7 @@ $2102$ is not prime because it has non-trivial factors, including $2$.
 
 $1051$ is prime because it has no non-trivial factors.
 
-$1$ and $-1051$ also has no non-trivial factors, but neither is prime because neither is not greater than $1$.
+$1$ and $-1051$ also have no non-trivial factors, but neither is prime because neither is not greater than $1$.
 :::
 
 The **fundamental theorem of arithmetic** states that every positive integer $x$ has one and only one **prime factorization**, meaning a product of one or more prime numbers equaling $x$.
