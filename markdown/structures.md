@@ -483,7 +483,7 @@ is shorthand for $\displaystyle{ \sum_{x \in S} f(x) }$
 where $S = \big\{ x \;\big|\; (x \in \mathbb Z) \land (x \ge a) \land (x \le b) \big\}$.
 
 :::example
-$\displaystyle{ \sum_{n=0}^{3} 2^n = 2^0 + 2^1 + 2^2 + 2^3 = 15 ]$
+$\displaystyle{ \sum_{n=0}^{3} 2^n = 2^0 + 2^1 + 2^2 + 2^3 = 15 }$
 
 $\displaystyle{ \sum_{n=3}^{0} 2^n = 0 }$ because there are no integers $x$ such that both $x\ge 3$ and $x \le 0$.
 :::
