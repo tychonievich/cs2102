@@ -278,7 +278,9 @@ There is no standard way of determining which context is being used.
 
 The [set] of all integers is denoted $\mathbb Z$.
 
-The [set] of all non-negative integers is denoted $\mathbb N$.
+The set of all non-negative integers is denoted $\mathbb N$.
+
+The set of all positive integers is denoted $\mathbb Z^+$ or $\mathbb N^+$. In general, a superscript $+$ after a set means "only the positive elements" and a superscript $-$ means "only the negative elements".
 
 An integer $x$ is a **divisor** of an integer $y$ if and only if $y \div x$ is an integer. $y$ is said to be **divisible by** $x$.
 **Factor** is a synonym for *divisor*.
