@@ -142,7 +142,8 @@ and can also be written $\{ T \;|\; T \subseteq S\}$.
 
 $\big|S\big| = 2^{\big|\mathcal P(S)\big|}$.
 
-The number of distinct $k$-member subsets of a $n$-member set is denoted $\displaystyle{ n \choose k }$, read "$n$ choose $k$", and is equal to $\displaystyle{ n! \over (n-k)! k! }$
+The number of distinct $k$-member subsets of a $n$-member set is denoted $\displaystyle{ n \choose k }$, read "$n$ choose $k$", and is equal to $\displaystyle{ n! \over (n-k)! k! }$,
+where $!$ is the [factorial](#summation)
 
 :::example
 The power set of $\{1,2,3\}$ is 
@@ -463,6 +464,35 @@ For $R(x,y) : \mathbb Z^2 \rightarrow \{\bot,\top\}$,
     - it is not transitive because $R(9,6)$ and $R(6,4)$ but not $R(9,4)$
     - it is antisymmetric because the system of equations $2x=3y$ and $2y=3x$ has only one solution: $x=y=0$
 :::
+
+# Summation
+
+The notation $\displaystyle{ \sum_{x \in S} f(x) }$
+is called **summation notation**
+and means "the sum of all $f(x)$ where $x$ is an element of $S$".
+
+:::example
+Let $S = \{0,1,2,4\}$.
+Then $\sum_{n\in S} 2^n = 2^0 + 2^1 + 2^2 + 2^4 = 23$.
+:::
+
+By definition, the sum of an empty set is 0.
+
+The notation $\displaystyle{ \sum_{x = a}^{b} f(x) }$
+is shorthand for $\displaystyle{ \sum_{x \in S} f(x) }$
+where $S = \big{ x \;\big|\; (x \in \mathbb Z) \land (x \ge a) \land (x \le b) \big}$.
+
+:::example
+$\sum_{n=0}^{3} 2^n = 2^0 + 2^1 + 2^2 + 2^3 = 15$
+
+$\sum_{n=3}^{0} 2^n = 0$ because there are no integers $x$ such that both $x\ge 3$ and $x \le 0$.
+:::
+
+The notation $\prod_{x \in S}$ and $\prod_{x=a}^{b}$ are equivalently defined, but are products, not sums.
+The product of an empty set is defined to be 1.
+
+$n!$ is called the **factorial** of $n$ and is defined as
+$\prod_{x=1}^{n} x$.
 
 # Logarithm
 
