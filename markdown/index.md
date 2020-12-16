@@ -52,6 +52,7 @@ At the conclusion of this course, a successful student will be able to
 From time to time I create reference pages intended to supplement the textbooks ([MCS](files/mcs.pdf) and [∀x](files/forallx.pdf), the latter also having a [solution book](http://forallx.openlogicproject.org/solutions/forallxsol.pdf));
 I have no obvious place to list those supplements so I'm listing them here. They are:
 
+- [A summary](structures.html) of many different structures and vocabulary terms
 - [On Proofs](proofs.html), including four different uses of the word "proof"
 - [Symbols we'll use](symbols.html), which is made available during in-class quizzes
 - [Six meanings of "everyone can fit in a bus"](bus-example.html), an introduction to quantifiers and the purpose of jargon
