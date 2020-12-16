@@ -142,7 +142,7 @@ and can also be written $\{ T \;|\; T \subseteq S\}$.
 
 $\big|S\big| = 2^{\big|\mathcal P(S)\big|}$.
 
-The number of distinct $k$-member subsets of a $n$-member set is denoted $\displaystyle n \choose k$, read "$n$ choose $k$", and is equal to $\displaystyle n! \over (n-k)! k!$
+The number of distinct $k$-member subsets of a $n$-member set is denoted $\displaystyle{ n \choose k }$, read "$n$ choose $k$", and is equal to $\displaystyle n! \over (n-k)! k!$
 
 :::example
 The power set of $\{1,2,3\}$ is 
@@ -340,12 +340,12 @@ where $y$ is a positive integer, $x$ is an integer, and $x$ and $y$ are co-prime
 
 :::example
 $34 / -20$ is a rational number.
-It can be written as $\displaystyle -17 \over 10$, where $-17$ and $10$ are co-prime.
+It can be written as $\displaystyle{ -17 \over 10}$, where $-17$ and $10$ are co-prime.
 
 $-2012 \div -1501$ is a rational number.
-It can be written as $2 \over 1$, where $2$ and $1$ are co-prime.
+It can be written as $\displaystyle{2 \over 1}$, where $2$ and $1$ are co-prime.
 
-Note that $x \over y$ and $x \div y$ and $x / y$ are all equivalent ways to write the same division operation.
+Note that $\displaystyle{x \over y}$ and $x \div y$ and $x / y$ are all equivalent ways to write the same division operation.
 :::
 
 There are numbers that are not rational numbers, such as $\pi$.
@@ -481,12 +481,12 @@ For any given base $b > 1$,
 - $\log_b : \mathbb R^+ \rightarrow \mathbb R$ is bijective
 - $\log_b$ is monotonically increasing; that is $(x > y) \equiv \big(\log_b(x) > \log_b(y)\big)$
     - (note if $0 < b < 1$, $\log_b$ is monotonically decreasing instead)
-- $\displaystyle \log_b(b^x) = x$
-- $\displaystyle b^{\log_b(x)} = x$
-- $\displaystyle \log_b(x y) = \log_b(x) + \log_b(y)$
-- $\displaystyle \log_b\left(\frac{x}{y}\right) = \log_b(x) - \log_b(y)$
-- $\displaystyle \log_b(x^y) = y \log_b(x)$
-- $\displaystyle \log_b(x) = \frac{\log_a(x)}{\log_a(b)}$
-- $\displaystyle \log_{a^c}(x) = c^{-1}\log_a(x)$
+- $\displaystyle{ \log_b(b^x) = x }$
+- $\displaystyle{ b^{\log_b(x)} = x }$
+- $\displaystyle{ \log_b(x y) = \log_b(x) + \log_b(y) }$
+- $\displaystyle{ \log_b\left(\frac{x}{y}\right) = \log_b(x) - \log_b(y) }$
+- $\displaystyle{ \log_b(x^y) = y \log_b(x) }$
+- $\displaystyle{ \log_b(x) = \frac{\log_a(x)}{\log_a(b)} }$
+- $\displaystyle{ \log_{a^c}(x) = c^{-1}\log_a(x) }$
 
 Logarithms have many other interesting properties and show up in many areas of computing; the above identities will be sufficient for this class.
