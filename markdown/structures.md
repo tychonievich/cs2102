@@ -157,7 +157,9 @@ $\big\{
 \{1,2,3\}
 \big\}$, which has $2^3 = 8$ members, each a subset of $\{1,2,3\}$.
 
-The set of two-element subsets of $\{1,2,3,4,5\}$ has 
+The set of two-element subsets of $\{1,2,3,4,5\}$,
+which can be formally written as $\Big\{S \;\Big|\; \big(S \subseteq \{1,2,3,4,5\}\big) \land \big(|S| = 2\big)\Big\}$,
+has 
 $\displaystyle {5 \choose 2} = {5! \over 3! 2!} = {5 \cdot 4 \over 2} = 10$ members
 and is
 $\big\{
