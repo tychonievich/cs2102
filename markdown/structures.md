@@ -4,6 +4,82 @@ title: Structures
 
 This page attempts to provide a summary of all of the discrete structures that will be used in this class.
 
+# Propositional logic
+
+What in programming is called a Boolean expression (i.e., an expression that evaluates to either `true` or `false`) is called a **proposition** in mathematical logic.
+When propositions are represented by a symbol, that symbol is almost always a single upper-case letter, optionally with a numeric subscript, like $P$ or $P_{23}$.
+
+There are two logical values many logical operators;
+the three best operators known are shown in the following table
+together with various symbols used to represent them.
+
+Concept          Java/C      Python      This class                      Bitwise    Other
+--------        --------    --------    ---------------------------     ---------   ------
+true            `true`      `True`      $\top$ or $1$                   `-1`        T, tautology
+false           `false`     `False`     $\bot$ or $0$                   `0`         F, contradiction
+not $P$         `!p`        `not p`     $\lnot P$ or $\overline{P}$     `~p`
+$P$ and $Q$     `p && q`    `p and q`   $P \land Q$                     `p & q`     $P Q$, $P \cdot Q$
+$P$ or $Q$      `p || q`    `p or q`    $P \lor Q$                      `p | q`     $P + Q$
+
+$\lnot$ has higher precedence than $\land$ and $\lor$;
+thus $(\lnot P \land Q)$ means $\big((\lnot P) \land Q\big)$ not $\color{red} \big(\lnot (P \land Q)\big)$.
+It is typical not to define the precedence of $\land$ and $\lor$ compared to one another, and to require parentheses if they both appear together; thus $\color{red} (P \land Q \lor R)$ has undefined meaning and must not be written; use $\big((P \land Q) \lor R\big)$ or $\big(P \land (Q \lor R)\big)$ instead.
+
+Because $\land$ and $\lor$ are associative, it does not matter in what order an expression like $(P \land Q \land R)$ is evaluated; it is equivalent to both $\big((P \land Q) \land R\big)$ and $\big(P \land (Q \land R)\big)$.
+
+# First-order Logic
+
+An incomplete or parameterized proposition is called a **predicate**.
+It is represented using function notation with variables as placeholders for its incomplete parts.
+When a predicate is given propositions as its arguments, it becomes a proposition.
+
+The **variables** used in a predicate, and with quantifiers as discussed next,  
+are almost always represented by a single lower-case letter, optionally with a numeric subscript, like $x$ or $x_{23}$.
+
+:::example
+$P(x,y) = (x > y)$ is a predicate.
+$P(3, 2)$ is proposition made from that predicate, and is in particular equivalent to $\bot$.
+:::
+
+The notation $\forall x \in S \;.\; P(x)$ is read "for all $x$ in $S$, $P(x)$", where $S$ is a [set] and $P$ is a predicate. The full expression is called a **universally quantified** statement and is itself a proposition, which is true if and only if $P(x)$ is true for every $x$ in $S$. If $S$ is empty, $\forall x \in S \;.\; P(x)$ is trivially true.
+
+The notation $\exists x \in S \;.\; P(x)$ is read "there exists some $x$ in $S$ such that $P(x)$", where $S$ is a set and $P$ is a predicate. The full expression is called a **existentially quantified** statement and is itself a proposition, which is true if and only if $P(x)$ is true one or more $x$ in $S$. If $S$ is empty, $\exists x \in S \;.\; P(x)$ is trivially false.
+
+A variable defined by a quantifier is considered to be **bound** from the period following the quantifier until the end of the expression, or until the end of the parenthetical in which the quantifier appeared;
+that portion of the expression is called the variable's **scope**.
+A variable must not be bound more than once inside the same scope.
+
+A quantifier may omit the set, as $\forall x \;.\; P(x)$; in this usage there is an implicit set, sometimes called the **domain** or the **universe of discourse**, which the variable is assumed to be quantified over.
+
+Adjacent quantifiers may be combined with commas as a shorthand, but only if they are the same quantifier; $\forall$ and $\exists$ cannot be combined.
+
+:::example
+$\forall x \in A\;.\; \forall y \in B \;.\; P(x,y)$
+can also be written 
+$\forall x \in A, y \in B\;.\; P(x,y)$
+
+$\forall x \in A\;.\; \forall y \in A \;.\; P(x,y)$
+can also be written 
+$\forall x,y \in A\;.\; P(x,y)$
+
+$\forall x \in A\;.\; \exists y \in A \;.\; P(x,y)$
+cannot be abbreviated further because $\forall$ and $\exists$ are different quantifiers.
+:::
+
+Quantifiers have lower precedence than any propositional logic operator.
+
+:::example
+The expression
+$\forall x \in S \;.; \exits y \in T\;.\; x \lor y$
+means 
+$\forall x \in S \;.; \big(\exits y \in T\;.\; (x \lor y)\big)$
+not
+$\color{red} \big(\forall x \in S \;.; (\exits y \in T\;.\; x) \lor y\big)$
+or
+$\color{red} \big(\forall x \in S \;.; (\exits y \in T\;.\; x)\big) \lor y$.
+:::
+
+
 # Set
 
 A **set** is a value whose only property is having other values as its **members**.
@@ -308,6 +384,7 @@ The function is defined for $g(12,2) = 6$ but is not defined for the following:
 :::
 
 A function is called a **predicate** if its co-domain is the set $\{\top,\bot\}$, where $\top$ represents the concept "true" and $\bot$ represents the concept "false".
+This is equivalent to the definition of predicate given in [First-Order Logic].
 
 A **relation** can equivalently be considered as any of
 
@@ -382,3 +459,28 @@ For $R(x,y) : \mathbb Z^2 \rightarrow \{\bot,\top\}$,
     - it is not transitive because $R(9,6)$ and $R(6,4)$ but not $R(9,4)$
     - it is antisymmetric because the system of equations $2x=3y$ and $2y=3x$ has only one solution: $x=y=0$
 :::
+
+# Logarithm
+
+*note: logarithms are not technically part of _discrete_ mathematics, being instead a topic within continuous mathematics. However, they are widely used in computing and not universally understood by entering students, so we'll cover them in this course.*
+
+The logarithm is a family of functions that are the inverses of exponentiation.
+They are defined by the following identity:
+$$\big(x^y = z\big) \equiv \big(\log_x(z) = y\big)$$
+The expression $\log_x(y)$ is read "the log base $x$ of $y$".
+
+Logarithms are defined for all positive bases except 0,
+though we almost always assume the base is greater than 1.
+
+For any given base $b > 1$,
+
+- $\log_b : \mathbb R^+ \rightarrow \mathbb R$ is bijective
+- monotonically increasing; that is $(x > y) \equiv \big(\log_b(x) > \log_b(y)\big)$
+- $\displaystyle \log_b(b^x) = x$
+- $\displaystyle b^{\log_b(x)} = x$
+- $\displaystyle \log_b(x y) = \log_b(x) + \log_b(y)$
+- $\displaystyle \log_b\left(\frac{x}{y}\right) = \log_b(x) - \log_b(y)$
+- $\displaystyle \log_b(x^y) = y \log_b(x)$
+- $\displaystyle \log_b(x) = \frac{\log_a(x)}{\log_a(b)}$
+- $\displaystyle \log_{a^c}(x) = c^{-1}\log_a(x)$
+
