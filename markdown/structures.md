@@ -13,8 +13,8 @@ There are two logical values many logical operators;
 the three best operators known are shown in the following table
 together with various symbols used to represent them.
 
-Concept          Java/C      Python      This class                      Bitwise    Other
---------        --------    --------    ---------------------------     ---------   ------
+Concept          Java/C++    Python      This class                      Bitwise    Other
+--------        ----------  --------    ---------------------------     ---------   ------
 true            `true`      `True`      $\top$ or $1$                   `-1`        T, tautology
 false           `false`     `False`     $\bot$ or $0$                   `0`         F, contradiction
 not $P$         `!p`        `not p`     $\lnot P$ or $\overline{P}$     `~p`
