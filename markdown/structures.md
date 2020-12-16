@@ -183,19 +183,19 @@ The *elements* of a *sequence* are in a specific order,
 and each may appear any number of times.
 The most common representation of a sequence is as its elements written in order, left to right, between parentheses.
 
-In computing (only), it is somewhat more common to use the term "sequence" if all of the elements are taken from the same [set]
-and "tuple" if they are taken from different sets.
+In computing it is somewhat more common to use the term "sequence" when all of the elements are taken from the same [set]
+and "tuple" when they are taken from different sets.
 However, this tradition is not universally observed.
 
 The number of elements of a sequence is called the sequence's **length**.
-
-The empty sequence can be denoted $()$, $\epsilon$, or $\varepsilon$.
-Note that $\epsilon$ (Greek letter epsilon, the empty sequence) and $\in$ (the set member-of operator) are distinct symbols. 
 
 :::example
 The sequence $(2,1,0,2)$ has length 4.
 It is a different  sequence than $(0,1,2,2)$.
 :::
+
+The empty sequence can be denoted $()$, $\epsilon$, or $\varepsilon$.
+Note that $\epsilon$ (Greek letter epsilon, the empty sequence) and $\in$ (the set member-of operator) are distinct symbols. 
 
 A sequence of length 2 is called a **pair**.
 A sequence of length 3 is sometimes called a triple, but that term is not commonly used in computing
@@ -204,7 +204,7 @@ There are names for longer sequences too, but they are almost never used.
 If two sequences have the same elements but in different order,
 they are called **permutations** of one another.
 The number of permutations of a sequence
-if the factorial of the length of the sequence
+is the factorial of the length of the sequence
 divided by the product of the factorials of the number of copies of each value in the sequence.
 
 :::example
@@ -223,7 +223,7 @@ $(2,1,2,0)$,
 $(2,2,0,1)$, and
 $(2,2,1,0)$.
 
-The sequence $\big(1,1,1,\{1\},\{1\},\{1\},\{1\},(1),(1),(1),(1),(1)\big)$
+The sequence $\big(1,1,1,\{1\},\{1\},\{1\},\{1\},(),(),(),(),()\big)$
 has $\displaystyle {12! \over 3! 4! 5!} = 27,720$ permutations.
 :::
 
