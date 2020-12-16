@@ -249,7 +249,7 @@ where all elements of each sequence in the set are members of $S$.
 
 $|S^k| = |S|^k$
 
-The **Kleene star** is the union of all Cartesian powers, $S^* = S^0 \cup S^1 \cup S^2 \cup S^3 \cup dots$.
+The **Kleene star** is the union of all Cartesian powers, $S^* = S^0 \cup S^1 \cup S^2 \cup S^3 \cup \dots$.
 In other words, $S^*$ is the set of all sequences where all elements of each sequence in the set are members of $S$.
 More formally, $S^* = \big\{x\;\big|\;\exists k \in \mathbb N \;.\; x \in S^k\big\}$.
 
