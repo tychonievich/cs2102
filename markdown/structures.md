@@ -142,7 +142,7 @@ and can also be written $\{ T \;|\; T \subseteq S\}$.
 
 $\big|S\big| = 2^{\big|\mathcal P(S)\big|}$.
 
-The number of distinct $k$-member subsets of a $n$-member set is denoted $\displaystyle{ n \choose k }$, read "$n$ choose $k$", and is equal to $\displaystyle{ n! \over (n-k)! k! }$,
+The number of distinct $k$-member subsets of a $n$-member set is denoted $\displaystyle{ n \choose k }$, read "$n$ **choose** $k$", and is equal to $\displaystyle{ n! \over (n-k)! k! }$,
 where $x!$ is the [factorial](#summation) of $x$.
 
 :::example
@@ -483,16 +483,16 @@ is shorthand for $\displaystyle{ \sum_{x \in S} f(x) }$
 where $S = \big\{ x \;\big|\; (x \in \mathbb Z) \land (x \ge a) \land (x \le b) \big\}$.
 
 :::example
-$\sum_{n=0}^{3} 2^n = 2^0 + 2^1 + 2^2 + 2^3 = 15$
+$\displaystyle{ \sum_{n=0}^{3} 2^n = 2^0 + 2^1 + 2^2 + 2^3 = 15 ]$
 
-$\sum_{n=3}^{0} 2^n = 0$ because there are no integers $x$ such that both $x\ge 3$ and $x \le 0$.
+$\displaystyle{ \sum_{n=3}^{0} 2^n = 0 }$ because there are no integers $x$ such that both $x\ge 3$ and $x \le 0$.
 :::
 
-The notation $\prod_{x \in S}$ and $\prod_{x=a}^{b}$ are equivalently defined, but are products, not sums.
+The notation $\displaystyle{ \prod_{x \in S} }$ and $\displaystyle{ \prod_{x=a}^{b} }$ are defined similarly but as products, not sums, of their elements.
 The product of an empty set is defined to be 1.
 
 $n!$ is called the **factorial** of $n$ and is defined as
-$\prod_{x=1}^{n} x$.
+$\displaystyle{ \prod_{x=1}^{n} x }$.
 
 # Logarithm
 
