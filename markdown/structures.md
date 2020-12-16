@@ -142,7 +142,7 @@ and can also be written $\{ T \;|\; T \subseteq S\}$.
 
 $\big|S\big| = 2^{\big|\mathcal P(S)\big|}$.
 
-The number of distinct $k$-member subsets of a $n$-member set is denoted $\displaystyle{ n \choose k }$, read "$n$ choose $k$", and is equal to $\displaystyle n! \over (n-k)! k!$
+The number of distinct $k$-member subsets of a $n$-member set is denoted $\displaystyle{ n \choose k }$, read "$n$ choose $k$", and is equal to $\displaystyle{ n! \over (n-k)! k! }$
 
 :::example
 The power set of $\{1,2,3\}$ is 
@@ -160,7 +160,7 @@ $\big\{
 The set of two-element subsets of $\{1,2,3,4,5\}$,
 which can be formally written as $\Big\{S \;\Big|\; \big(S \subseteq \{1,2,3,4,5\}\big) \land \big(|S| = 2\big)\Big\}$,
 has 
-$\displaystyle {5 \choose 2} = {5! \over 3! 2!} = {5 \cdot 4 \over 2} = 10$ members
+$\displaystyle{5 \choose 2} = {5! \over 3! 2!} = {5 \cdot 4 \over 2} = 10$ members
 and is
 $\big\{
 \{1,2\},
@@ -209,7 +209,7 @@ divided by the product of the factorials of the number of copies of each value i
 
 :::example
 The sequence $(2,1,0,2)$ has length 4.
-It has $\displaystyle {4! \over 2! 1! 1!} = 12$ permutations:
+It has $\displaystyle{ {4! \over 2! 1! 1!} = 12}$ permutations:
 $(0,1,2,2)$, 
 $(0,2,1,2)$,
 $(0,2,2,1)$,
@@ -224,7 +224,7 @@ $(2,2,0,1)$, and
 $(2,2,1,0)$.
 
 The sequence $\big(1,1,1,\{1\},\{1\},\{1\},\{1\},(),(),(),(),()\big)$
-has $\displaystyle {12! \over 3! 4! 5!} = 27,720$ permutations.
+has $\displaystyle{ {12! \over 3! 4! 5!} = 27,720 }$ permutations.
 :::
 
 The **Cartesian product** of two sets $S \times T$ is the set of all pairs where the first element comes from $S$ and the second from $T$;
