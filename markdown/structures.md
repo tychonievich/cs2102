@@ -143,7 +143,7 @@ and can also be written $\{ T \;|\; T \subseteq S\}$.
 $\big|S\big| = 2^{\big|\mathcal P(S)\big|}$.
 
 The number of distinct $k$-member subsets of a $n$-member set is denoted $\displaystyle{ n \choose k }$, read "$n$ choose $k$", and is equal to $\displaystyle{ n! \over (n-k)! k! }$,
-where $!$ is the [factorial](#summation)
+where $x!$ is the [factorial](#summation) of $x$.
 
 :::example
 The power set of $\{1,2,3\}$ is 
@@ -480,7 +480,7 @@ By definition, the sum of an empty set is 0.
 
 The notation $\displaystyle{ \sum_{x = a}^{b} f(x) }$
 is shorthand for $\displaystyle{ \sum_{x \in S} f(x) }$
-where $S = \big{ x \;\big|\; (x \in \mathbb Z) \land (x \ge a) \land (x \le b) \big}$.
+where $S = \big\{ x \;\big|\; (x \in \mathbb Z) \land (x \ge a) \land (x \le b) \big\}$.
 
 :::example
 $\sum_{n=0}^{3} 2^n = 2^0 + 2^1 + 2^2 + 2^3 = 15$
