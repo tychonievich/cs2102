@@ -70,13 +70,13 @@ Quantifiers have lower precedence than any propositional logic operator.
 
 :::example
 The expression
-$\forall x \in S \;.; \exits y \in T\;.\; x \lor y$
+$\forall x \in S \;.; \exists y \in T\;.\; x \lor y$
 means 
 $\forall x \in S \;.; \big(\exits y \in T\;.\; (x \lor y)\big)$
 not
-$\color{red} \big(\forall x \in S \;.; (\exits y \in T\;.\; x) \lor y\big)$
+$\color{red} \big(\forall x \in S \;.; (\exists y \in T\;.\; x) \lor y\big)$
 or
-$\color{red} \big(\forall x \in S \;.; (\exits y \in T\;.\; x)\big) \lor y$.
+$\color{red} \big(\forall x \in S \;.; (\exists y \in T\;.\; x)\big) \lor y$.
 :::
 
 
