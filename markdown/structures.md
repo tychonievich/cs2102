@@ -27,6 +27,9 @@ It is typical not to define the precedence of $\land$ and $\lor$ compared to one
 
 Because $\land$ and $\lor$ are associative, it does not matter in what order an expression like $(P \land Q \land R)$ is evaluated; it is equivalent to both $\big((P \land Q) \land R\big)$ and $\big(P \land (Q \land R)\big)$.
 
+We also discuss other boolean operators in this class, including $\rightarrow$, $\oplus$, and $\leftrightarrow$,
+as well as many properties of and techniques for manipulating logical expressions.
+
 # First-order Logic
 
 An incomplete or parameterized proposition is called a **predicate**.
@@ -78,6 +81,8 @@ $\color{darkred} \big(\forall x \in S \;.\; (\exists y \in T\;.\; x) \lor y\big)
 or
 $\color{darkred} \big(\forall x \in S \;.\; (\exists y \in T\;.\; x)\big) \lor y$.
 :::
+
+We also discuss the quantifier $\nexists$ and various properties of quantifiers and quantified statements in this class.
 
 
 # Set
