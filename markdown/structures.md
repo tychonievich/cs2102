@@ -72,7 +72,7 @@ Quantifiers have lower precedence than any propositional logic operator.
 The expression
 $\forall x \in S \;.\; \exists y \in T\;.\; x \lor y$
 means 
-$\forall x \in S \;.\; \big(\exits y \in T\;.\; (x \lor y)\big)$
+$\forall x \in S \;.\; \big(\exists y \in T\;.\; (x \lor y)\big)$
 not
 $\color{red} \big(\forall x \in S \;.\; (\exists y \in T\;.\; x) \lor y\big)$
 or
