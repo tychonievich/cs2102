@@ -491,8 +491,9 @@ $\displaystyle{ \sum_{n=3}^{0} 2^n = 0 }$ because there are no integers $x$ such
 The notation $\displaystyle{ \prod_{x \in S} }$ and $\displaystyle{ \prod_{x=a}^{b} }$ are defined similarly but as products, not sums, of their elements.
 The product of an empty set is defined to be 1.
 
-$n!$ is called the **factorial** of $n$ and is defined as
+$n!$ is called the **factorial** of $n$ and is defined to be
 $\displaystyle{ \prod_{x=1}^{n} x }$.
+Thus, $0! = 1$ because it is the product of an empty set.
 
 # Logarithm
 
