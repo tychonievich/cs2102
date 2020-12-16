@@ -22,8 +22,8 @@ $P$ and $Q$     `p && q`    `p and q`   $P \land Q$                     `p & q` 
 $P$ or $Q$      `p || q`    `p or q`    $P \lor Q$                      `p | q`     $P + Q$
 
 $\lnot$ has higher precedence than $\land$ and $\lor$;
-thus $(\lnot P \land Q)$ means $\big((\lnot P) \land Q\big)$ not $\color{red} \big(\lnot (P \land Q)\big)$.
-It is typical not to define the precedence of $\land$ and $\lor$ compared to one another, and to require parentheses if they both appear together; thus $\color{red} (P \land Q \lor R)$ has undefined meaning and must not be written; use $\big((P \land Q) \lor R\big)$ or $\big(P \land (Q \lor R)\big)$ instead.
+thus $(\lnot P \land Q)$ means $\big((\lnot P) \land Q\big)$ not $\color{darkred} \big(\lnot (P \land Q)\big)$.
+It is typical not to define the precedence of $\land$ and $\lor$ compared to one another, and to require parentheses if they both appear together; thus $\color{darkred} (P \land Q \lor R)$ has undefined meaning and must not be written; use $\big((P \land Q) \lor R\big)$ or $\big(P \land (Q \lor R)\big)$ instead.
 
 Because $\land$ and $\lor$ are associative, it does not matter in what order an expression like $(P \land Q \land R)$ is evaluated; it is equivalent to both $\big((P \land Q) \land R\big)$ and $\big(P \land (Q \land R)\big)$.
 
@@ -74,9 +74,9 @@ $\forall x \in S \;.\; \exists y \in T\;.\; x \lor y$
 means 
 $\forall x \in S \;.\; \big(\exists y \in T\;.\; (x \lor y)\big)$
 not
-$\color{red} \big(\forall x \in S \;.\; (\exists y \in T\;.\; x) \lor y\big)$
+$\color{darkred} \big(\forall x \in S \;.\; (\exists y \in T\;.\; x) \lor y\big)$
 or
-$\color{red} \big(\forall x \in S \;.\; (\exists y \in T\;.\; x)\big) \lor y$.
+$\color{darkred} \big(\forall x \in S \;.\; (\exists y \in T\;.\; x)\big) \lor y$.
 :::
 
 
@@ -142,7 +142,7 @@ and can also be written $\{ T \;|\; T \subseteq S\}$.
 
 $\big|S\big| = 2^{\big|\mathcal P(S)\big|}$.
 
-The number of distinct $k$-member subsets of a $n$-member set is denoted $n \choose k$, read "$n$ choose $k$", and is equal to $n! \over (n-k)! k!$
+The number of distinct $k$-member subsets of a $n$-member set is denoted $\displaystyle n \choose k$, read "$n$ choose $k$", and is equal to $\displaystyle n! \over (n-k)! k!$
 
 :::example
 The power set of $\{1,2,3\}$ is 
@@ -158,7 +158,7 @@ $\big\{
 \big\}$, which has $2^3 = 8$ members, each a subset of $\{1,2,3\}$.
 
 The set of two-element subsets of $\{1,2,3,4,5\}$ has 
-${5 \choose 2} = {5! \over 3! 2!} = {5 \cdot 4 \over 2} = 10$ members
+$\displaystyle {5 \choose 2} = {5! \over 3! 2!} = {5 \cdot 4 \over 2} = 10$ members
 and is
 $\big\{
 \{1,2\},
@@ -207,7 +207,7 @@ divided by the product of the factorials of the number of copies of each value i
 
 :::example
 The sequence $(2,1,0,2)$ has length 4.
-It has ${4! \over 2! 1! 1!} = 12$ permutations:
+It has $\displaystyle {4! \over 2! 1! 1!} = 12$ permutations:
 $(0,1,2,2)$, 
 $(0,2,1,2)$,
 $(0,2,2,1)$,
@@ -222,7 +222,7 @@ $(2,2,0,1)$, and
 $(2,2,1,0)$.
 
 The sequence $\big(1,1,1,\{1\},\{1\},\{1\},\{1\},(1),(1),(1),(1),(1)\big)$
-has ${12! \over 3! 4! 5!} = 27,720$ permutations.
+has $\displaystyle {12! \over 3! 4! 5!} = 27,720$ permutations.
 :::
 
 The **Cartesian product** of two sets $S \times T$ is the set of all pairs where the first element comes from $S$ and the second from $T$;
@@ -336,7 +336,7 @@ where $y$ is a positive integer, $x$ is an integer, and $x$ and $y$ are co-prime
 
 :::example
 $34 / -20$ is a rational number.
-It can be written as $-17 \over 10$, where $-17$ and $10$ are co-prime.
+It can be written as $\displaystyle -17 \over 10$, where $-17$ and $10$ are co-prime.
 
 $-2012 \div -1501$ is a rational number.
 It can be written as $2 \over 1$, where $2$ and $1$ are co-prime.
