@@ -473,7 +473,7 @@ and means "the sum of all $f(x)$ where $x$ is an element of $S$".
 
 :::example
 Let $S = \{0,1,2,4\}$.
-Then $\sum_{n\in S} 2^n = 2^0 + 2^1 + 2^2 + 2^4 = 23$.
+Then $\displaystyle{ \sum_{n\in S} 2^n = 2^0 + 2^1 + 2^2 + 2^4 = 23 }$.
 :::
 
 By definition, the sum of an empty set is 0.
