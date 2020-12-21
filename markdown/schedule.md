@@ -1,10 +1,6 @@
 ---
-title: Fall 2020 Schedule
+title: Spring 2021 Schedule
 ...
-
-At the time this note was written, UVA had not stated the exact structure of the semester. They've stated we'll not return to grounds after Thanksgiving break, but not stated if that means we'll have finals before then, or after then, or have a post-Thanksgiving week of online courses before finals. As that information is released, the schedule is likely to be updated.
-
-<hr/>
 
 <style id="schedule-css">
 
@@ -109,8 +105,9 @@ readings can be <input type="button" value="shown" onclick="document.querySelect
 
 <script src="schedule.js"></script>
 
-To subscribe to the above calendar, add <http://www.cs.virginia.edu/luther/2102/F2020/cal.ics> to your calender application of choice.
+To subscribe to the above calendar, add <http://www.cs.virginia.edu/luther/2102/S2021/cal.ics> to your calender application of choice.
 
 <hr/>
 
-At the time this note was written, the exact structure and timing of final exams had not been released. The official information about finals can be found at <https://www2.virginia.edu/registrar/exams.html#1208>
+The official information about finals can be found at <https://www2.virginia.edu/registrar/exams.html#1212>.
+Note that CS 2102 has a special combined exam time, listed at the bottom of that page, regardless of your particular section's meeting time.
