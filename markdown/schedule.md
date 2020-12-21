@@ -110,4 +110,4 @@ To subscribe to the above calendar, add <http://www.cs.virginia.edu/luther/2102/
 <hr/>
 
 The official information about finals can be found at <https://www2.virginia.edu/registrar/exams.html#1212>.
-Note that CS 2102 has a special combined exam time, listed at the bottom of that page, regardless of your particular section's meeting time.
+Note that CS 2102 has a special combined exam time, listed at the bottom of that page, regardless of your particular section's meeting time.
