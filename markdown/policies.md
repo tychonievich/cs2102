@@ -12,19 +12,15 @@ This entire document is likely to be adjusted before the semester begins.
 Due to COVID-19 student density restrictions, we do not have adequate classroom space for this course, so all class meetings will happen online.
 
 A link to join your section's lectures via Zoom can be found in your section's Collab site.
+We noticed a strong correlation last semester between student happiness with the course and attending synchronously with cameras on.
+We recommend you arrange your schedule and environment to permit that mode of engagement.
 
-You can engage with this course in several ways:
-
-| You can | Notes |
-| ------- | ----- |
-| Skip Monday and Wednesday classes | Recordings will be posted on the schedule by end-of-day so you can catch up |
-| Attend via zoom with camera off | We'll respond to what you say or type |
-| Attend via zoom with camera on | We'll respond to your expression and what you say or type |
-
-Note that some quizzes will be given with the time window of Friday class as the only time they can be taken, so skipping Friday class is not advised.
+We will generally have time-limited, and sometimes group-work, assignments during the Friday class time.
+Monday and Wednesday classes will generally not have such work and can be skipped to be reviewed by recording later if necessary.
 
 ## Tasks {#tasks}
 
+:::{style="color:red"}
 The course is organized around four 3-week modules:
 
 1. **Propositions**: sets, propositions, direct proof, proof by cases
@@ -79,6 +75,7 @@ At the end of the semester, you will also be able to take a **final quiz**.
 The final will be a set of four additional makeup quizzes, one for each module, of similar format to earlier makeup quizzes. 
 If you chose to take any of these four, your results will replace your grade for that module.
 You may chose to take 0, 1, 2, 3, or all 4 of these modules' finals, at your discretion, and can make that choice after you see the contents of the quiz.
+:::
 
 ## Contact
 
@@ -89,9 +86,6 @@ All
     A discord server join link is in the course's Collab site.
     We recommend downloading the desktop app (at <https://discord.com/>), which has more features and better-quality audio and video, but the browser version should also work.
 
-    We will use **piazza** for longer discussions and questions.
-    See <https://piazza.com/class/kbqiscuy2ns55a> or the link in Piazza.
-        
     For communication about personal circumstances, contact an instructor **directly** via email, telephone, or office hours.
 
 Luther Tychonievich
@@ -112,7 +106,7 @@ TAs
         Our TAs are students too, with duties and work outside of their TAing. Please do not ask them to act as your TA except at the scheduled on-the-clock times they have listed as their office hours. They are also kind people; please don't put them in the position of having to say no or (worse) being nice to you at the expense of their own schooling.
     
     Names
-    :   Aidan, Annie, Chloe, Emily, Giovanni, Hayden, Isabelle, Kallie, Keerat, Miriam, Rushil, and Zachary
+    :   Annie, Chloe, Emily, Giovanni, Hayden, Isabelle, Kallie, Keerat, Miriam, Rushil, and Zachary
 
 
 ## Readings
@@ -152,6 +146,7 @@ In February 2019 the CS faculty approved [a definition](http://ugrads.cs.virgini
 We hope that the following numerical system will approximate that.
 If you think your score in the course does not reflect your understanding of course material, please let us know.
 
+:::{style="color:red"}
 Your grade is divided into 4 modules, each with 23.5% of your grade.
 Each part's is either your average on the four module quizzes,
 or your score on the module makeup,
@@ -183,6 +178,7 @@ F           NC  otherwise              0.0
     CS prereqs require a C&minus or better grad in CS 2102.
     But the university has defined the line between GC and CR as the line between C and C&minus;.
     To avoid any "I would have made the prereq if I'd chosen a different grading system" concerns, we've removed the C&minus; grade so these two systems become compatible.
+:::
 
 Missed auto-graded evaluations will not be rescheduled, extended, nor made up during the semester.
 Missed hand-graded evaluations may be rescheduled with adequate notice and reasoning (sent to your instructor via email).
@@ -243,7 +239,7 @@ please let us know as soon as you are aware of this impact.
 ### Culture
 
 All communication relies on shared context and understanding.
-Because no member of our course staff has the same context and experience as you, it is likely we will inadvertently say and do things you find confusing or offensive. Please let us know if this happens! We will do our best to learn and adjust so we can become better and more welcoming communicators in the future, and to do what we can to fix any problems our mistakes caused.
+Because no member of our course staff has the same context and experience as you, it is likely we will inadvertently say and do things you find confusing or offensive. Please let us know if this happens! We will do our best to learn and adjust so we can become better and more welcoming communicators in the future, and do what we can to fix any problems our mistakes we've caused.
 
 ### Life
 

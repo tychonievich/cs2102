@@ -3,19 +3,18 @@ title: Discrete Mathematics
 ...
 
 # Course Overview 
-This is one of two offerings of Discrete Mathematics this semester,
-a course designed to provide the mathematical tools needed for later CS courses.
-This version is shared by Elizabeth Orrico and Luther Tychonievich (sections 002 through 008).
+Discrete Mathematics is a course designed to provide the mathematical tools needed for later CS courses.
+This version of the course is shared by Elizabeth Orrico and Luther Tychonievich, including sharing a common set of assessments and grading schemes.
 
-Connecting to the course is managed through Collab:
+Course meetings are synchronous, with recordings posted after class for asynchronous review.
+Some class meetings will be announced as mandatory with no recordings provided.
+Connecting to the course meetings is managed through Collab:
 
-- 09:00 section: <https://collab.its.virginia.edu/portal/site/87b0131b-78ba-4d1a-9eec-ed65343647a4>
-- 10:00 section: <https://collab.its.virginia.edu/portal/site/4dbc9ed7-f832-466a-ac19-657a3a14b5af>
-- 15:30 section: <https://collab.its.virginia.edu/portal/site/4dbc9ed7-f832-466a-ac19-657a3a14b5af>
+- 10:00 section: (link to appear)
+- 11:00 section: (link to appear)
+- 14:00 section: (link to appear)
 
 Collab pulls participant information once each day from SIS. If you add the course, you may need to wait up to 24 hours before you have Collab access.
-
-If you are in Kevin Sullivan's section (001), please see <http://provablesystems.com/> instead.
 
 ## Eligibility
 
