@@ -178,10 +178,10 @@ F           NC  otherwise              0.0
     CS prereqs require a C&minus or better grad in CS 2102.
     But the university has defined the line between GC and CR as the line between C and C&minus;.
     To avoid any "I would have made the prereq if I'd chosen a different grading system" concerns, we've removed the C&minus; grade so these two systems become compatible.
-:::
 
 Missed auto-graded evaluations will not be rescheduled, extended, nor made up during the semester.
 Missed hand-graded evaluations may be rescheduled with adequate notice and reasoning (sent to your instructor via email).
+:::
 
 UVA does not award credit for placement tests.
 Hence, you must show continuing evidence of engagement and learning throughout the course.
