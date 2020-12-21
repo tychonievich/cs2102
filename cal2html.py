@@ -78,6 +78,11 @@ def raw2cal(data, links):
             if (v['start'] > d or v['end'] < d) if type(v) is dict else d not in v if type(v) is list else v != d:
                 continue # does not apply
             if 'recess' in k or 'Reading' in k or 'break' in k:
+                ans.append({
+                    "title":k,
+                    "kind":"special",
+                    "day":d
+                })
                 return ans # no classes
             if 'exam' in k.lower() or 'test' in k.lower() or 'midterm' in k.lower():
                 isexam = True
