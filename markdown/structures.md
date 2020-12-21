@@ -147,7 +147,7 @@ The **power set** of another set $S$ is the set of all the subsets of $S$.
 The *power set* is denoted $\mathcal P(S)$ or pow($S$)
 and can also be written $\{ T \;|\; T \subseteq S\}$.
 
-$\big|S\big| = 2^{\big|\mathcal P(S)\big|}$.
+$\big|\mathcal P(S)\big|  = 2^{\big|S\big|}$.
 
 The number of distinct $k$-member subsets of a $n$-member set is denoted $\displaystyle{ n \choose k }$, read "$n$ **choose** $k$", and is equal to $\displaystyle{ n! \over (n-k)! k! }$,
 where $x!$ is the [factorial](#summation) of $x$.
