@@ -38,14 +38,18 @@ sections:
 
 lectures:
     - welcome
-    - [predicates, integers, rationals, sums]
+    - [propositions, integers, rationals, sums]
     - log identities
     
     - [sets, sequences, counting]
     - [quantifiers, predicates, implies]
+    - quantifiers
+    
+    - quantifiers
     - quiz
     
-    - functions, relations
+    - English
+    - Eglish
     - quiz
     
     
@@ -68,9 +72,9 @@ lectures:
     - group
     
     - induction
-    - induction
     - quiz
     
+    - induction
     - induction
     - quiz
     
