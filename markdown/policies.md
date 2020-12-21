@@ -20,17 +20,16 @@ Monday and Wednesday classes will generally not have such work and can be skippe
 
 ## Tasks {#tasks}
 
-:::{style="color:red"}
 The course is organized around four 3-week modules:
 
-1. **Propositions**: sets, propositions, direct proof, proof by cases
-2. **First Order Logic**: predicates, quantifiers, and English
-3. **Proof techniques**: induction, contradiction, prose proof style
-4. **Operations**: functions, summation, combinatorics, logarithms
+1. **Discrete Structures**: sets, sequences, quantifiers, numbers
+2. **First-order Logic**: instantiation, direct proofs, proof-by-cases
+3. **Contradiction**: proof-by-contradiction, well-ordering principle
+4. **Induction**: proof-by-induction, multi-part proofs
 
 Each module will have the following components:
 
-- Between 6 and 10 **lectures**
+- Between 5 and 11 **lectures**
 
 - Two manually-graded **paper quizzes**
     - You will
@@ -58,6 +57,7 @@ Each module will have the following components:
     - A mix of manually-graded and automatically-graded components
     - Delivered the week after a module concludes
     - If taken, replaces your grade for the module (whether better or worse)
+    - Due to the very early final exam time given by the university, module 4 will not have this quiz
 
 - One **group project** (except for the fourth module, which has no project)
     - You will
@@ -75,7 +75,6 @@ At the end of the semester, you will also be able to take a **final quiz**.
 The final will be a set of four additional makeup quizzes, one for each module, of similar format to earlier makeup quizzes. 
 If you chose to take any of these four, your results will replace your grade for that module.
 You may chose to take 0, 1, 2, 3, or all 4 of these modules' finals, at your discretion, and can make that choice after you see the contents of the quiz.
-:::
 
 ## Contact
 
@@ -147,27 +146,32 @@ We hope that the following numerical system will approximate that.
 If you think your score in the course does not reflect your understanding of course material, please let us know.
 
 :::{style="color:red"}
-Your grade is divided into 4 modules, each with 23.5% of your grade.
-Each part's is either your average on the four module quizzes,
-or your score on the module makeup,
-or your score on the module final.
+Your grade is divided into 4 modules.
+We want you to do well in all four of the modules, as each covers content needed in later courses.
+To incentivize mastering all four areas, your grade will be computed as follows:
+your four module grades will be computed independently and then combined as follows:
+
+$$M =\min\big(
+    \max(m_1, m_2, m_3, m_4),
+    10+\min(m_1, m_2, m_3, m_4)
+\big)$$
 
 The three group projects are counted separately and are each worth 2% of your grade.
 
-After combining your scores, we will round to a GPA and record the corresponding letter grade in SIS, as follows:
+Your full grade will be 94% $M$, 6% group projects.
+After combining your scores, we will convert to letters and record the corresponding letter grade in SIS, as follows:
 
 You get     or  if you score     Which is worth
 ----------  --- ------------    ----------------
 A+          CR  near the top           4.0
 A           CR  &ge; 93%               4.0
 A&minus;    CR  &ge; 90%               3.7
-B+          CR  &ge; 86%               3.3
+B+          CR  &ge; 87%               3.3
 B           CR  &ge; 83%               3.0
 B&minus;    CR  &ge; 80%               2.7
-C+          CR  &ge; 76%               2.3
-C           CR  &ge; 73%               2.0
-also[^1] C  CR  &ge; 70%               1.7
-D+          GC  &ge; 66%               1.3
+C+          CR  &ge; 77%               2.3
+C[^1]       CR  &ge; 70%               2.0
+D+          GC  &ge; 67%               1.3
 D           GC  &ge; 63%               1.0
 D&minus;    GC  &ge; 60%               0.7
 F           NC  otherwise              0.0
