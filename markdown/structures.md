@@ -9,8 +9,8 @@ This page attempts to provide a summary of all of the discrete structures that w
 What in programming is called a Boolean expression (i.e., an expression that evaluates to either `true` or `false`) is called a **proposition** in mathematical logic.
 When propositions are represented by a symbol, that symbol is almost always a single upper-case letter, optionally with a numeric subscript, like $P$ or $P_{23}$.
 
-There are two logical values many logical operators;
-the three best operators known are shown in the following table
+There are two logical values and many logical operators;
+the three best known operators are shown in the following table
 together with various symbols used to represent them.
 
 Concept          Java/C++    Python      This class                      Bitwise    Other
@@ -32,12 +32,8 @@ as well as many properties of and techniques for manipulating logical expression
 
 # First-order Logic
 
-An incomplete or parameterized proposition is called a **predicate**.
-It is represented using function notation with variables as placeholders for its incomplete parts.
-When a predicate is given propositions as its arguments, it becomes a proposition.
-
-The **variables** used in a predicate, and with quantifiers as discussed next,  
-are almost always represented by a single lower-case letter, optionally with a numeric subscript, like $x$ or $x_{23}$.
+A [function] that evaluates to either true or false is called a **predicate**.
+The **variables** used in a predicate are almost always represented by a single lower-case letter, optionally with a numeric subscript, like $x$ or $x_{23}$.
 
 :::example
 $P(x,y) = (x > y)$ is a predicate.
@@ -46,7 +42,7 @@ $P(3, 2)$ is proposition made from that predicate, and is in particular equivale
 
 The notation $\forall x \in S \;.\; P(x)$ is read "for all $x$ in $S$, $P(x)$", where $S$ is a [set] and $P$ is a predicate. The full expression is called a **universally quantified** statement and is itself a proposition, which is true if and only if $P(x)$ is true for every $x$ in $S$. If $S$ is empty, $\forall x \in S \;.\; P(x)$ is trivially true.
 
-The notation $\exists x \in S \;.\; P(x)$ is read "there exists some $x$ in $S$ such that $P(x)$", where $S$ is a set and $P$ is a predicate. The full expression is called a **existentially quantified** statement and is itself a proposition, which is true if and only if $P(x)$ is true one or more $x$ in $S$. If $S$ is empty, $\exists x \in S \;.\; P(x)$ is trivially false.
+The notation $\exists x \in S \;.\; P(x)$ is read "there exists some $x$ in $S$ such that $P(x)$", where $S$ is a set and $P$ is a predicate. The full expression is called an **existentially quantified** statement and is itself a proposition, which is true if and only if $P(x)$ is true for at least one $x$ in $S$. If $S$ is empty, $\exists x \in S \;.\; P(x)$ is trivially false.
 
 A variable defined by a quantifier is considered to be **bound** from the period following the quantifier until the end of the expression, or until the end of the parenthetical in which the quantifier appeared;
 that portion of the expression is called the variable's **scope**.
@@ -92,14 +88,20 @@ The most common representation of a set is as its members written between braces
 The members of a set have no position, order, number of times appearing in the set, or any other properties beyond being a member of the set.
 
 The number of distinct members of a set $S$ is called the set's **cardinality** and is denoted $|S|$.
+A set with cardinality 1 is sometimes called a **singleton set**.
 
 :::example
 The set $\{2,3,5,7\}$ has cardinality 4; its members are $2$, $3$, $5$, and $7$.
 This same set can equivalently be written $\{3,7,2,5\}$ or with its members in any other order.
+
+The notation $\{2,2,3\}$ is nonsensical; it asserts $2$ and $3$ are members of the set, which is fine,
+but also asserts $2$ is a member of the set twice, which doesn't make sense.
+It's a bit like writing 03 instead of 3: $\{2,2,3\}$ means $\{2,3\}$ but is written oddly,
+and if we don't have some reason to expect it from context we'd assume it was a typo or other error.
 :::
 
 The empty set has no members and is denoted either $\{\}$ or $\emptyset$.
-Note that $\emptyset$ is a different symbol than $0$ (zero) or $\phi$ (the Greek letter phi).
+Note that $\emptyset$ (the empty set, also called the null set) is a different symbol than $0$ (zero) or $\phi$ (the Greek letter phi).
 
 The expression $x \in S$ is true if and only if $x$ is a member of $S$ (and thus only if $S$ is a set).
 $x \notin S = \lnot(x \in S)$.
@@ -192,8 +194,10 @@ The most common representation of a sequence is as its elements written in order
 In computing it is somewhat more common to use the term "sequence" when all of the elements are taken from the same [set]
 and "tuple" when they are taken from different sets.
 However, this tradition is not universally observed.
+We use both terms interchangeably in this course.
 
 The number of elements of a sequence is called the sequence's **length**.
+A sequence with length 1 is sometimes called a **singleton sequence**.
 
 :::example
 The sequence $(2,1,0,2)$ has length 4.
@@ -202,6 +206,8 @@ It is a different  sequence than $(0,1,2,2)$.
 
 The empty sequence can be denoted $()$, $\epsilon$, or $\varepsilon$.
 Note that $\epsilon$ (Greek letter epsilon, the empty sequence) and $\in$ (the set member-of operator) are distinct symbols. 
+The symbols $\epsilon$ and $\varepsilon$ are both lower-case Greek epsilons, just written in two different ways.
+Because epsilon is also a common symbol in computing (though not in this class) for "a small nonzero value," it is useful to have two different epsilon symbols to choose from.
 
 A sequence of length 2 is called a **pair**.
 A sequence of length 3 is sometimes called a triple, but that term is not commonly used in computing
@@ -240,20 +246,20 @@ such that $S \times T \times U$ is a set of triples
 but $(S \times T) \times U$ and $S \times (T \times U)$ are both sets of pairs.
 
 :::example
-$\{1,2\} \times \{4,5,6\}$ contains $(2,4)$ but not $(4,2)$.
+$\{1,2\} \times \{4,5,6\}$ is $\big\{(1,4),(1,5),(1,6),(2,4),(2,5),(2,6)\big\}$.
 
-$\{1\} \times \{2\} \times \{3\}$ contains one triple, $(1,2,3)$.
+$\{1\} \times \{2\} \times \{3\}$ is $\big{(1,2,3)\big}$.
 
-$\big(\{1\} \times \{2\}\big) \times \{3\}$ contains one pair, $\big((1,2),3\big)$.
+$\big(\{1\} \times \{2\}\big) \times \{3\}$ is $\Big\{\big((1,2),3\big)\Big\}$.
 
-$\{1\} \times \big(\{2\} \times \{3\}\big)$ contains one pair, $\big(1,(2,3)\big)$.
+$\{1\} \times \big(\{2\} \times \{3\}\big)$ is $\Big\{\big(1,(2,3)\big)\Big\}$.
 :::
 
 The **Cartesian power** is defined analogously to the power in mathematics: $S^k = \overbrace{S\times S\times\dots\times S}^{k\text{~}S\text{s}}$.
 In other words, $S^k$ is the set of all sequences of length $k$
 where all elements of each sequence in the set are members of $S$.
 
-$|S^k| = |S|^k$
+For all finite sets $S$, $|S^k| = |S|^k$
 
 The **Kleene star** is the union of all Cartesian powers, $S^* = S^0 \cup S^1 \cup S^2 \cup S^3 \cup \dots$.
 In other words, $S^*$ is the set of all sequences where all elements of each sequence in the set are members of $S$.
@@ -265,34 +271,24 @@ $\{1,2\}^4$ contains $(1,1,1,1)$, $(2,2,1,1)$, and 14 other sequences.
 $\{1,2\}^*$ contains $()$, $(1,1)$, $(2,2,1,1,2,1,2)$, and infinitely many other sequences.
 :::
 
-A sequence where all elements are symbols is called a **string**
-and is commonly written with quotes and no commas
-instead of in parentheses.
-
-:::example
-"`discrete`" = (`d`, `i`, `s`, `c`, `r`, `e`, `t`, `e`)
-
-If $\Sigma$ is the set of all symbols,
-then $\Sigma^*$ is the set of all strings.
-:::
-
-In most (but not all) contexts, a value and a sequence containing just that value are treated as being equal (i.e. $x = (x)$).
-If some (but not most) contexts, a sequence of sequences is treated as being equal to a flattened version of the same sequence (e.g., $((x,y),z) = (x,y,z)$).
+In most (but not all) contexts, a value and a singletone sequence containing just that value are treated as being equal (i.e. $x = (x)$).
 There is no standard way of determining which context is being used.
 
 # Integer
 
 The [set] of all integers is denoted $\mathbb Z$.
+It is an **infinite** set, meaning it has infinitely many members.
 
 The set of all non-negative integers is denoted $\mathbb N$.
 
 The set of all positive integers is denoted $\mathbb Z^+$ or $\mathbb N^+$. In general, a superscript $+$ after a set means "only the positive elements" and a superscript $-$ means "only the negative elements".
 
-An integer $x$ is a **divisor** of an integer $y$ if and only if $y \div x$ is an integer. $y$ is said to be **divisible by** $x$.
-**Factor** is a synonym for *divisor*.
-Although both positive and negative integers can be divisors of both positive and negative integers, it is common to only list the positive factors.
+In computing, **the natural numbers** refers to $\mathbb N$.
+In some other disciplines, "the natural numbers" refers to $\mathbb Z^+$ instead.
 
-If $x$ is a *divisor* of $y$, then $y$ is a **multiple** of $x$.
+An integer $x$ is a **divisor** of an integer $y$ if and only if $y \div x$ is an integer.
+**Factor** is a synonym for *divisor*.
+If $x$ is a *divisor* of $y$, then we say that $y$ is **divisible by** $x$ and $y$ is a **multiple** of $x$.
 
 We can denote the concept "$x$ is a *divisor* of $y$" as "$x|y$", but this notation is unusual in computing because $|$ is already used for so many other concepts (e.g, for absolute values, cardinality, set-builder notation, conditional probability, complex magnitude, determinant, etc).
 
@@ -334,8 +330,6 @@ so in this prime factorization $2$ has multiplicity 8, $5$ has multiplicity 1, a
 The **greatest common divisor** (GCD) of a set of integers is the largest integer that is a divisor of all of the integers in the set.
 If the GCD of two integers is 1, then the integers are called **co-prime** or **relatively prime**.
 
-The **least common multiple** (LCM) of a set of integer is the smallest integer that is a multiple of all integers in the set.
-
 # Rational
 
 Any number that can be constructed by dividing one [integer] by another is called a **rational number**.
@@ -354,8 +348,8 @@ It can be written as $\displaystyle{2 \over 1}$, where $2$ and $1$ are co-prime.
 Note that $\displaystyle{x \over y}$ and $x \div y$ and $x / y$ are all equivalent ways to write the same division operation.
 :::
 
-There are numbers that are not rational numbers, such as $\pi$.
-We we occasionally used the set of **real** numbers, $\mathbb R$.
+There are numbers that are not rational numbers, such as $\pi$,
+but which belong to the set of **real** numbers, $\mathbb R$.
 
 $\mathbb R \supset \mathbb Q \supset \mathbb Z \supset \mathbb N$.
 
@@ -376,16 +370,16 @@ $\lceil -3\rceil = \lceil -3.1\rceil = \lceil -3.8\rceil = -3$
 
 A **function** maps a [sequence] (or single value, which is treated as equivalent to a singleton sequence for this purpose) to a value.
 It does this in a deterministic, single-valued way;
-for example, if $f(2,3,4) = 11$ once, then (for that $f$) $f(2,3,4)$ only and always is 11.
+for example, if $f(2,3,4) = 11$ once, then (for that $f$) $f(2,3,4)$ is only and always 11, never any other value.
 
-Each function is defined with a **domain**, the [set] of sequences two which it may be applied; and a **co-domain**, the set of values it may result in. That function $f$ is defined with domain $D$ and co-domain $C$ can be denoted $f:D\rightarrow C$.
+Each function is defined with a **domain**, the [set] of sequences to which it may be applied; and a **co-domain**, the set of values it may result in. That function $f$ is defined with domain $D$ and co-domain $C$ can be denoted $f:D\rightarrow C$.
 
 A function need not be defined for all values in its domain, nor be able to produce all values in its co-domain.
 If a function is defined with a domain, co-domain, and formula then it is defined only for that subset of the domain where the formula produces a member of the co-domain.
 The subset of the co-domain that is mapped to by at least one element of the domain is called the **range** of the function.
 
 :::example
-Consider a function $g$ defined as $g:\mathbb Z \times \mathbb Z \rightarrow \mathbb Z$ where $g(x,y) = x \div y$.
+Consider a function $g$ defined as $g:\mathbb Z \times \mathbb Z \rightarrow \mathbb Z$ by the formula $g(x,y) = x \div y$.
 The function is defined for $g(12,2) = 6$ but is not defined for the following:
 
 - $g(1,2)$ (because the formula would produce a value not in the co-domain)
@@ -414,7 +408,7 @@ A *relation* is called **functional** if it is a function; that is, each element
 A **binary relation** is a relation that resembles a single-argument function or two-argument predicate. Binary relations are by far the most common type of non-functional relation in computing.
 
 Binary relations are often written as a formula defining their predicate, but with a special symbol instead of an equals sign, like $R(x,y): x < y$ or $R(x,y) \Coloneqq x<y$ for the less-than relation.
-Many different symbols are used, though only one per text;
+Many different symbols are used, though typically only one in any given document;
 the most common are $:$, $\triangleq$, $\coloneqq$, $\Coloneqq$, and $\overset{\text{def}}{=}$.
 
 
