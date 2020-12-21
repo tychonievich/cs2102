@@ -38,6 +38,58 @@ sections:
 
 lectures:
     - welcome
+    - [predicates, integers, rationals, sums]
+    - log identities
+    
+    - [sets, sequences, counting]
+    - [quantifiers, predicates, implies]
+    - quiz
+    
+    - functions, relations
+    - quiz
+    
+    
+    
+    - [propositions,operators]
+    - equivalence proofs
+    - group
+    
+    - direct proof
+    - direct proof
+    - quiz
+    
+    - instantiation
+    - instantiation
+    - quiz
+    
+    
+    - induction
+    - induction
+    - group
+    
+    - induction
+    - induction
+    - quiz
+    
+    - induction
+    - induction
+    - quiz
+    
+    - contradiction
+    - contradiction
+    - group
+    
+    - contradiction
+    - contradiction
+    - quiz
+    
+    - contradiction
+    - contradiction
+    - quiz
+    
+old-lectures:
+    
+    - welcome
     - real maths
 
     - sets
