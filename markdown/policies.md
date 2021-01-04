@@ -149,17 +149,14 @@ If you think your score in the course does not reflect your understanding of cou
 Your grade is divided into 4 modules.
 We want you to do well in all four of the modules, as each covers content needed in later courses.
 To incentivize mastering all four areas, your grade will be computed as follows:
-your four module grades will be computed independently and then combined as follows:
 
-$$M =\min\big(
-    \max(m_1, m_2, m_3, m_4),
-    10+\min(m_1, m_2, m_3, m_4)
-\big)$$
+- We score the assessments each module separately, as $m_1$, $m_2$, $m_3$, and $m_4$
+- We compute the minimum of those four scores, $n = \min(m_1, m_2, m_3, m_4)$
+- We compute the maximum of those four scores, $x = \min(m_1, m_2, m_3, m_4)$
+- Your combined modules score is the lesser of $10+n$ and $x$: $s = \min(10+n,x)$
+- Your overall score is 94% the combined modules scores, 6% the three group projects: $0.94 s + 0.02 (g_1 + g_2 + g_3)$
 
-The three group projects are counted separately and are each worth 2% of your grade.
-
-Your full grade will be 94% $M$, 6% group projects.
-After combining your scores, we will convert to letters and record the corresponding letter grade in SIS, as follows:
+Your overall score will be converted to a letter and recording in SIS, as follows:
 
 You get     or  if you score     Which is worth
 ----------  --- ------------    ----------------
