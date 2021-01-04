@@ -248,7 +248,7 @@ but $(S \times T) \times U$ and $S \times (T \times U)$ are both sets of pairs.
 :::example
 $\{1,2\} \times \{4,5,6\}$ is $\big\{(1,4),(1,5),(1,6),(2,4),(2,5),(2,6)\big\}$.
 
-$\{1\} \times \{2\} \times \{3\}$ is $\big{(1,2,3)\big}$.
+$\{1\} \times \{2\} \times \{3\}$ is $\big\{(1,2,3)\big\}$.
 
 $\big(\{1\} \times \{2\}\big) \times \{3\}$ is $\Big\{\big((1,2),3\big)\Big\}$.
 
