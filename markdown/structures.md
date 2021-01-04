@@ -201,7 +201,7 @@ A sequence with length 1 is sometimes called a **singleton sequence**.
 
 :::example
 The sequence $(2,1,0,2)$ has length 4.
-It is a different  sequence than $(0,1,2,2)$.
+It is a different sequence than $(0,1,2,2)$.
 :::
 
 The empty sequence can be denoted $()$, $\epsilon$, or $\varepsilon$.
@@ -320,7 +320,7 @@ The **fundamental theorem of arithmetic** states that every positive integer $x$
 The prime factorization of 2102 is $2 \times 1051$
 :::
 
-A prime factorization may include the same prime number more than once; the number of times a prime number $p$ appears in the prime factorization of $x$ is called the **multiplicity** of $p$.
+A prime factorization may include the same prime number more than once; the number of times a prime number $p$ appears in the prime factorization of $x$ is called the **multiplicity** of $p$ in that factorization.
 
 :::example
 $1280 = 2^8 \times 5$
