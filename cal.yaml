@@ -57,12 +57,12 @@ lectures:
     - quantifiers
     - group
 
-    - quantifiers
+    - [quantifiers, english]
     - functions
     - quiz
     
     - functions
-    - cases
+    - proof by cases
     - quiz
 
 
