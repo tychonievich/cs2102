@@ -80,13 +80,12 @@ lectures:
     - induction
     - group
     
-    - induction
-    - induction
+    - [counting, induction]
+    - [counting, induction]
     - quiz
     
     - logarithms
-    - logarithms
-    - quiz
+    - review
     
 
 speculative:
