@@ -65,27 +65,27 @@ lectures:
     - relations
     - quiz
 
-    -
-    -
+    - contradiction
+    - contradiction
     - group
     
-    -
+    - [contradiction, integers]
     - quiz
     
-    -
-    -
+    - well-ordering
+    - well-ordering
     - quiz
     
-    -
-    -
+    - induction
+    - induction
     - group
     
-    -
-    -
+    - induction
+    - induction
     - quiz
     
-    -
-    -
+    - logarithms
+    - logarithms
     - quiz
     
 
