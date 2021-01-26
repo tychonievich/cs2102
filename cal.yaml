@@ -39,54 +39,32 @@ sections:
 lectures:
     - welcome
     - real maths
+    - sets
 
     - sets
     - sets
-    - sets
-    
     - [propositions, operators]
-    - operators
-    - module 1 lab 1
-
-    - [equivalence proofs, direct proof]
-    - [equivalence proofs, direct proof]
-    - module 1 lab 2
-
-    - [combination]
-    - [permutation]
-    - [module 3 group project, module 3 makeup]
-
-    - functions
-    - functions
-    - module 4 lab 1
     
-    - logs
-    - logs
-    - module 4 lab 2
+    - operators
+    
+    - quiz
+
+    - [equivalence proofs, direct proof]
+    - [equivalence proofs, direct proof]
+    - quiz
 
     - predicates
     - quantifiers
-    - [module 1 group project, module 2 makeup]
-    
+    - group
+
     - quantifiers
-    - [proof by cases, english]
-    - module 2 lab 1
+    - functions
+    - quiz
+    
+    - functions
+    - cases
+    - quiz
 
-    - english
-    - english
-    - module 2 lab 2
-
-    - integers
-    - contradiction
-    - [module 2 group project, module 2 makeup]
-
-    - contradiction
-    - contradiction
-    - module 3 lab 1
-
-    - [summation, induction]
-    - [induction, counting proofs]
-    - module 3 lab 2
 
     
     - review
