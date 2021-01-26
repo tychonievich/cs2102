@@ -89,6 +89,61 @@ lectures:
     - contradiction
     - contradiction
     - quiz
+
+speculative
+
+    - welcome
+    - [propositions, integers, rationals, sums]
+    - log identities
+    
+    - [sets, sequences, counting]
+    - [quantifiers, predicates, implies]
+    - quantifiers
+    
+    - [functions, relations]
+    - quiz
+    
+    - English
+    - English
+    - quiz
+    
+    
+    
+    - [propositions,operators]
+    - equivalence proofs
+    - group
+    
+    - direct proof
+    - direct proof
+    - quiz
+    
+    - instantiation
+    - instantiation
+    - quiz
+    
+    
+    - induction
+    - induction
+    - group
+    
+    - induction
+    - quiz
+    
+    - induction
+    - induction
+    - quiz
+    
+    - contradiction
+    - contradiction
+    - group
+    
+    - contradiction
+    - contradiction
+    - quiz
+    
+    - contradiction
+    - contradiction
+    - quiz
     
 previous:
     
