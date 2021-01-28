@@ -11,7 +11,7 @@ Some class meetings will be announced as mandatory with no recordings provided.
 Connecting to the course meetings is managed through Collab:
 
 - 10:00 section: (link to appear)
-- 11:00 section: (link to appear)
+- 11:00 section: <https://collab.its.virginia.edu/portal/site/9c5db4ed-7a44-41b1-8243-95da5c55229c>
 - 14:00 section: (link to appear)
 
 Collab pulls participant information once each day from SIS. If you add the course, you may need to wait up to 24 hours before you have Collab access.
@@ -38,7 +38,7 @@ At the conclusion of this course, a successful student will be able to
     - set operators (notation and meaning)
     - set-builder notation
     - cardinality, both finite and infinite (but not classes of infinity)
-- Categorize functions as invertable, 1-to-1, and onto
+- Categorize functions as invertible, 1-to-1, and onto
 - Identify relations with the reflexive, transitive, and associative properties, and identify equivalence relations in particular
 - Understand and use 
     - summation notation
