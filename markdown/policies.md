@@ -2,9 +2,6 @@
 title: Policies
 ...
 
-This entire document is likely to be adjusted before the semester begins.
-[Red text indicates something we plan on changing.]{style="color:red"}
-
 # Logistics
 
 ## Meetings
@@ -147,7 +144,6 @@ In February 2019 the CS faculty approved [a definition](http://ugrads.cs.virgini
 We hope that the following numerical system will approximate that.
 If you think your score in the course does not reflect your understanding of course material, please let us know.
 
-:::{style="color:red"}
 Your grade is divided into 4 modules.
 We want you to do well in all four of the modules, as each covers content needed in later courses.
 To incentivize mastering all four areas, your grade will be computed as follows:
@@ -184,7 +180,6 @@ F           NC  otherwise              0.0
 
 Missed auto-graded evaluations will not be rescheduled, extended, nor made up during the semester.
 Missed hand-graded evaluations may be rescheduled with adequate notice and reasoning (sent to your instructor via email).
-:::
 
 UVA does not award credit for placement tests.
 Hence, you must show continuing evidence of engagement and learning throughout the course.
