@@ -350,7 +350,10 @@ reading:
 assignments:
     ".groups":
         M:
-            portion: "96"
+            portion: "94"
+            link: https://kytos.cs.virginia.edu/cs2102/quizzes/
+        G:
+            portion: "6"
             link: https://kytos.cs.virginia.edu/cs2102/quizzes/
 
     M1P1:
