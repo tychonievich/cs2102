@@ -150,7 +150,7 @@ To incentivize mastering all four areas, your grade will be computed as follows:
 
 - We score the assessments each module separately, as $m_1$, $m_2$, $m_3$, and $m_4$
 - We compute the minimum of those four scores, $n = \min(m_1, m_2, m_3, m_4)$
-- We compute the maximum of those four scores, $x = \min(m_1, m_2, m_3, m_4)$
+- We compute the maximum of those four scores, $x = \max(m_1, m_2, m_3, m_4)$
 - Your combined modules score is the lesser of $10+n$ and $x$: $s = \min(10+n,x)$
 - Your overall score is 94% the combined modules scores, 6% the three group projects: $0.94 s + 0.02 (g_1 + g_2 + g_3)$
 
