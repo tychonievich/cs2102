@@ -352,7 +352,7 @@ assignments:
         M:
             portion: "94"
             link: https://kytos.cs.virginia.edu/cs2102/quizzes/
-        G:
+        Group:
             portion: "6"
             link: https://kytos.cs.virginia.edu/cs2102/quizzes/
 
