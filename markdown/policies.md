@@ -102,7 +102,7 @@ TAs
         Our TAs are students too, with duties and work outside of their TAing. Please do not ask them to act as your TA except at the scheduled on-the-clock times they have listed as their office hours. They are also kind people; please don't put them in the position of having to say no or (worse) being nice to you at the expense of their own schooling.
     
     Names
-    :   Annie, Chloe, Eeshma, Emily, Giovanni, Isabelle, Jingyuan, Keerat, Ketian, Miriam, Param, Rachel, Ronith, TJ, Yuxin, Zachary
+    :   Annie, Chloe, Eeshma, Emily, Giovanni, Isabelle, Jingyuan, Kallie, Keerat, Ketian, Miriam, Param, Rachel, Ronith, TJ, Yuxin, Zachary
 
 
 
