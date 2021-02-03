@@ -10,9 +10,9 @@ Course meetings are synchronous, with recordings posted after class for asynchro
 Some class meetings will be announced as mandatory with no recordings provided.
 Connecting to the course meetings is managed through Collab:
 
-- 10:00 section: (link to appear)
+- 10:00 section: <https://collab.its.virginia.edu/portal/site/5f8620a6-2dcf-458f-9b41-34b8207aca35>
 - 11:00 section: <https://collab.its.virginia.edu/portal/site/9c5db4ed-7a44-41b1-8243-95da5c55229c>
-- 14:00 section: (link to appear)
+- 14:00 section: <https://collab.its.virginia.edu/portal/site/5f8620a6-2dcf-458f-9b41-34b8207aca35>
 
 Collab pulls participant information once each day from SIS. If you add the course, you may need to wait up to 24 hours before you have Collab access.
 
