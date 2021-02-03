@@ -1,2 +1,9 @@
 2021-02-01:
-   files: [lectures/2021-02-01.pdf, lectures/2021-02-01-qa.txt]
+  files:
+  - lectures/2021-02-01.pdf
+  - lectures/2021-02-01-qa.txt
+2021-02-03:
+  audio: lectures/tychonievich-2021-02-03.mp3
+  files:
+  - lectures/tychonievich-2021-02-03-2021-02-03-slides.pdf
+  video: lectures/tychonievich-2021-02-03.webm
