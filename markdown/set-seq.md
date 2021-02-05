@@ -26,10 +26,10 @@ more than once;                 any number of times;
 writing $\color{darkred}        $(1,1)$ is a sequence and is
 \{1,1\}$ doesn't make sense     distinct from $(1)$ and $(1,1,1)$
 
-Members have no order;          Elements have order;
+Members have no order;          Items have order;
 $\{2,3\} = \{3,2\}$             $(2,3) \ne (3,2)$
 
-The number of members in a set  The number of elements in a
+The number of members in a set  The number of items in a
 is called its "cardinality"     sequence is called its "length"
 
 The empty set (the only set     The empty sequence (the only
@@ -43,7 +43,7 @@ $\{1,2\} \cup \{x^2 \;|\; x \in
 \mathbb N^{+}\}$
 
 A singleton set is always       A singleton sequence is often
-distinct from its member;       considered equal to its element;
+distinct from its member;       considered equal to its item;
 $\{2\} \ne 2$                   $(2) = 2$
 
 Always called "set"             Called "sequence" or "tuple",
@@ -53,6 +53,6 @@ Always called "set"             Called "sequence" or "tuple",
                                 (e.g. "string")
 
 Contained values are called     Contained values are called
-"members"; "element" is also    "elements"; "items" is also
+"members"; "element" is also    "items"; "elements" is also
 sometimes used.                 sometimes used.
 ---------------------------------------------------------------
