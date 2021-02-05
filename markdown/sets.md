@@ -70,14 +70,14 @@ $m \in S$ is defined to mean "$m$ is a member of $S$"
     
     Set membership is ubiquitous in computing's use of sets.    
 
-$m \notin S$ is defined to mean $\lnot(m \in S)$
+$m \notin S$ is defined to mean "$m$ is not a member of $S$"; that is, $\lnot(m \in S)$
 :   You'll also rarely see ∋ and ∌, which mean the same thing as ∈ and ∉ but with the set on the left and the member on the right instead of the other way around.
 
 Checking for membership in sets is a very common component of discrete mathematics as it is used by computer scientists.
 
 ## Sub- and super-sets
 
-$A \subseteq B$ is defined to mean $\forall x. ((x \in A) \rightarrow (x \in B))$"
+$A \subseteq B$ is defined to mean "every member of $A$ is also a member of $B$"; that is, $\forall x. ((x \in A) \rightarrow (x \in B))$"
 :   The $\subseteq$ symbol is pronounced "is a subset of".
     It intentionally looks somewhat like the symbol $\leq$
     because if $A \subseteq B$ then $A$ is "less than or equal to" $B$ in the sense that everything $A$ has, $B$ has too, and $B$ may have more.
@@ -91,7 +91,7 @@ $A \subseteq B$ is defined to mean $\forall x. ((x \in A) \rightarrow (x \in B))
     
     Subsets are very common in computing's use of sets.
 
-$A \subset B$ is defined to mean $(A \subseteq B) \land (A \neq B)$
+$A \subset B$ is defined to mean both "$A \subseteq B$" and "$A \ne B$"; that is $(A \subseteq B) \land (A \neq B)$
 :   The $\subset$ symbol is pronounced "is a proper subset of".
     
         $\top$                 $\bot$
@@ -132,7 +132,7 @@ Checking for subsets is not used directly very often, but is often used to defin
 
 ## Sets from other sets
 
-$A \cup B$ is defined to mean "a set $S$ such that $\forall x. (x \in S \leftrightarrow ((x \in A) \lor (x \in B)))$"
+$A \cup B$ is defined to mean "a set containing every member of $A$, every member of $B$, and no other members"; that is, "a set $S$ such that $\forall x. (x \in S \leftrightarrow ((x \in A) \lor (x \in B)))$"
 :   The $\cup$ symbol is pronounced "union", and $A \cup B$ is called "the union of $A$ and $B$".
     It intentionally looks similar to $\lor$ to suggest a value is a member of the union of $A$ and $B$ if it is a member of $A$ *or* a member of $B$.
     
@@ -150,7 +150,7 @@ $A \cup B$ is defined to mean "a set $S$ such that $\forall x. (x \in S \leftrig
 
     Union is common in computing's use of sets.
 
-$A \cap B$ is defined to mean "a set $S$ such that $\forall x. (x \in S \leftrightarrow ((x \in A) \land (x \in B)))$"
+$A \cap B$ is defined to mean "a set containing every member shared by both $A$ and $B$, and no other members"; that is, "a set $S$ such that $\forall x. (x \in S \leftrightarrow ((x \in A) \land (x \in B)))$"
 :   The $\cap$ symbol is pronounced "intersection", and $A \cap B$ is called "the intersection of $A$ and $B$".
     It intentionally looks similar to $\land$ to suggest a value is a member of the intersection of $A$ and $B$ if it is a member of $A$ *and* a member of $B$.
     
@@ -170,7 +170,7 @@ $A \cap B$ is defined to mean "a set $S$ such that $\forall x. (x \in S \leftrig
 
     Intersection is common in computing's use of sets.
 
-$A \setminus B$ is defined to mean "a set $S$ such that $\forall x. (x \in S \leftrightarrow ((x \in A) \land (x \notin B)))$"
+$A \setminus B$ is defined to mean "a set containing every member of $A$ that is not a member of $B$, and no other members"; that is,  "a set $S$ such that $\forall x. (x \in S \leftrightarrow ((x \in A) \land (x \notin B)))$"
 :   The $\setminus$ symbol is pronounced either "minus" or "set minus".
     $A \setminus B$ has everything that $A$ has provided $B$ does not have it.
     It is rarely used in computing, but does show up from time to time.
@@ -189,7 +189,7 @@ $A \setminus B$ is defined to mean "a set $S$ such that $\forall x. (x \in S \le
     
     Set minus is relatively uncommon in computing's use of sets.
 
-pow$(A)$ or $\mathcal{P}(A)$ is defined to mean "a set $S$ such that $\forall x. (x \in S \leftrightarrow (x \subseteq A))$" 
+pow$(A)$ or $\mathcal{P}(A)$ is defined to mean "the set of all subsets of $A$"; that is, "a set $S$ such that $\forall x. (x \in S \leftrightarrow (x \subseteq A))$" 
 :   pow$(A)$ or $\mathcal{P}(A)$ (the two are used interchangeably, though any given text will use only one of the two) is called "the power set of $A$" and is the set of all subsets of $A$.
     
     Note that every set (even {}) has at least one subset: {}; thus a power set is *never* empty, $\emptyset \in \mathcal{P}(A)$ is a tautology, and $\emptyset = \mathcal{P}(A)$ is a contradiction regardless of what set $A$ is.
@@ -215,7 +215,7 @@ $A$ "xor" $B$       $(A \cup B) \setminus (A \cap B)$   a set with elements in $
 
 ## Counting Members
 
-$|A|$ means "the number of distinct values that are members of $A$
+$|A|$ means "the number of distinct values that are members of $A$"
 :   We call this notion **cardinality**
     and read $|A|$ as "the cardinality of $A$".
     
