@@ -186,7 +186,7 @@ $\big\{
 
 # Sequence
 
-A **sequence** or **tuple** is a value which contains zero or more other values inside it, commonly called its **elements**.
+A **sequence** or **tuple** is a value which contains zero or more other values inside it, commonly called its **elements** or **items**.
 The *elements* of a *sequence* are in a specific order,
 and each may appear any number of times.
 The most common representation of a sequence is as its elements written in order, left to right, between parentheses.
@@ -259,7 +259,7 @@ The **Cartesian power** is defined analogously to the power in mathematics: $S^k
 In other words, $S^k$ is the set of all sequences of length $k$
 where all elements of each sequence in the set are members of $S$.
 
-For all finite sets $S$, $|S^k| = |S|^k$
+For all finite sets $S$ and $T$, $|S^k| = |S|^k$ and $|S \times T| = |S| \cdot |T|$
 
 The **Kleene star** is the union of all Cartesian powers, $S^* = S^0 \cup S^1 \cup S^2 \cup S^3 \cup \dots$.
 In other words, $S^*$ is the set of all sequences where all elements of each sequence in the set are members of $S$.
