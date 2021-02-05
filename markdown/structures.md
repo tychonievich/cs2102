@@ -449,13 +449,14 @@ Several combinations of the above properties have special names:
     - Note (confusingly) that it is possible for a partial order to be neither strict nor non-strict
 - a **total order** is a partial order such that every pair of values is either related or is related in the reverse order; that is, $\forall x,y\;.\; (x \ne y) \rightarrow \big(R(x,y) \lor R(y,x))$.
     - total orders also have strict and non-strict variants.
+    - note the overloaded use of the word "total": "total order" is a type of binary relation; "total" is a property of some functions
 
 
 :::example
 For $R(x,y) : \mathbb Z^2 \rightarrow \{\bot,\top\}$,
 
 - $R(x,y) \coloneqq \big(x = y\big)$ is an equivalence relation: that is, reflexive, transitive, and symmetric
-- $R(x,y) \coloneqq \big(x < y\big)$ is a strict total order: that is, irreflexive, transitive, antisymmetric, and total
+- $R(x,y) \coloneqq \big(x < y\big)$ is a strict total order: that is, irreflexive, transitive, antisymmetric, and every pair of values is related in one direction or the other
 - $R(x,y) \coloneqq$ "$x$ is a factor of $y$" is a non-strict partial order: that is, reflexive, transitive, and antisymmetric
 - $R(x,y) \coloneqq 2x = 3y$ is antisymmetric but has none of the other above properties
     - it is not reflexive because 2 is not related to 2
