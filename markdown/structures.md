@@ -36,7 +36,7 @@ A [function] that evaluates to either true or false is called a **predicate**.
 The **variables** used in a predicate are almost always represented by a single lower-case letter, optionally with a numeric subscript, like $x$ or $x_{23}$.
 
 :::example
-$P(x,y) = (x > y)$ is a predicate.
+$P(x,y) = (x < y)$ is a predicate.
 $P(3, 2)$ is proposition made from that predicate, and is in particular equivalent to $\bot$.
 :::
 
