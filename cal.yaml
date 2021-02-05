@@ -259,10 +259,12 @@ reading:
     sets:
         - lnk: "values.html"
           txt: "sets are values"
+        - lnk: "set-seq.html"
+          txt: "sets vs sequences"
         - lnk: "sets.html"
           txt: "sets writeup"
         - lnk: "set-practice.html"
-          txt: "practice"
+          txt: "set practice"
         - "MCS 4.1.1"
     
     english:
