@@ -77,7 +77,7 @@ Checking for membership in sets is a very common component of discrete mathemati
 
 ## Sub- and super-sets
 
-$A \subseteq B$ is defined to mean "every member of $A$ is also a member of $B$"; that is, $\forall x. ((x \in A) \rightarrow (x \in B))$"
+$A \subseteq B$ is defined to mean "every member of $A$ is also a member of $B$"; that is, $\forall x. ((x \in A) \rightarrow (x \in B))$
 :   The $\subseteq$ symbol is pronounced "is a subset of".
     It intentionally looks somewhat like the symbol $\leq$
     because if $A \subseteq B$ then $A$ is "less than or equal to" $B$ in the sense that everything $A$ has, $B$ has too, and $B$ may have more.
