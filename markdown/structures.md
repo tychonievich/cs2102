@@ -210,8 +210,8 @@ The symbols $\epsilon$ and $\varepsilon$ are both lower-case Greek epsilons, jus
 Because epsilon is also a common symbol in computing (though not in this class) for "a small nonzero value," it is useful to have two different epsilon symbols to choose from.
 
 A sequence of length 2 is called a **pair**.
-A sequence of length 3 is sometimes called a triple, but that term is not commonly used in computing
-There are names for longer sequences too, but they are almost never used.
+A sequence of length 3 is sometimes called a triple, but that term is not commonly used in computing.
+There are names for longer sequences too, but they are rarely used.
 
 If two sequences have the same elements but in different order,
 they are called **permutations** of one another.
@@ -447,7 +447,7 @@ Several combinations of the above properties have special names:
     - a **strict** partial order is also irreflexive, implying it is also asymmetric
     - a **non-strict** partial order is also reflexive
     - Note (confusingly) that it is possible for a partial order to be neither strict nor non-strict
-- a **total order** is a partial order such that every pair of values is either related or is related in the reverse order; that is, $\forall x,y\;.\; R(x,y) \lor R(y,x)$.
+- a **total order** is a partial order such that every pair of values is either related or is related in the reverse order; that is, $\forall x,y\;.\; (x \ne y) \rightarrow \big(R(x,y) \lor R(y,x))$.
     - total orders also have strict and non-strict variants.
 
 
@@ -455,7 +455,7 @@ Several combinations of the above properties have special names:
 For $R(x,y) : \mathbb Z^2 \rightarrow \{\bot,\top\}$,
 
 - $R(x,y) \coloneqq \big(x = y\big)$ is an equivalence relation: that is, reflexive, transitive, and symmetric
-- $R(x,y) \coloneqq \big(x < y\big)$ is a strict total order: that is, irreflexive, transitive, antisymmetric, and $\forall x,y\;.\; R(x,y) \lor R(y,x)$
+- $R(x,y) \coloneqq \big(x < y\big)$ is a strict total order: that is, irreflexive, transitive, antisymmetric, and total
 - $R(x,y) \coloneqq$ "$x$ is a factor of $y$" is a non-strict partial order: that is, reflexive, transitive, and antisymmetric
 - $R(x,y) \coloneqq 2x = 3y$ is antisymmetric but has none of the other above properties
     - it is not reflexive because 2 is not related to 2
