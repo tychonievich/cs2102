@@ -458,7 +458,7 @@ For $R(x,y) : \mathbb Z^2 \rightarrow \{\bot,\top\}$,
 - $R(x,y) \coloneqq \big(x = y\big)$ is an equivalence relation: that is, reflexive, transitive, and symmetric
 - $R(x,y) \coloneqq \big(x < y\big)$ is a strict total order: that is, irreflexive, transitive, antisymmetric, and every pair of values is related in one direction or the other
 - $R(x,y) \coloneqq$ "$x$ is a factor of $y$" is a non-strict partial order: that is, reflexive, transitive, and antisymmetric
-- $R(x,y) \coloneqq 2x = 3y$ is antisymmetric but has none of the other above properties
+- $R(x,y) \coloneqq (2x = 3y)$ is antisymmetric but has none of the other above properties
     - it is not reflexive because 2 is not related to 2
     - it is not irreflexive because 0 is related to 0
     - it is not transitive because $R(9,6)$ and $R(6,4)$ but not $R(9,4)$
