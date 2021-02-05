@@ -48,7 +48,7 @@ A variable defined by a quantifier is considered to be **bound** from the period
 that portion of the expression is called the variable's **scope**.
 A variable must not be bound more than once inside the same scope.
 
-A quantifier may omit the set, as $\forall x \;.\; P(x)$; in this usage there is an implicit set, sometimes called the **domain** or the **universe of discourse**, which the variable is assumed to be quantified over.
+A quantifier may omit the set, as $\forall x \;.\; P(x)$; in this usage there is an implicit set, sometimes called the **domain** or the **universe of discourse**, which the variable is assumed to be quantified over. Quantifiers in this form may only be used if the domain is specified or may be inferred from context.
 
 Adjacent quantifiers may be combined with commas as a shorthand, but only if they are the same quantifier; $\forall$ and $\exists$ cannot be combined.
 
@@ -113,7 +113,7 @@ $\big\{ f(x) \;\big|\; P(x)\big\}$ is the set of all $f(x)$ where $P(x)$ is true
 :::example
 $\{ x+2 \;|\; 1 < x \le 2 \}$ is the set of all numbers greater than 3 and no greater than 4.
 
-$x \in \big\{x\;\big|\;P(x)\big\}$ is a long way of writing $x \in P(x)$.
+$x \in \big\{x\;\big|\;P(x)\big\}$ is a long way of writing $P(x)$.
 
 $\big\{x\;\big|\;x \in S\big\}$ is a long way of writing $S$.
 :::
