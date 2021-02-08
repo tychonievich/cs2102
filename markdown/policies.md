@@ -90,6 +90,9 @@ Luther Tychonievich
 
     Email
     :   <a href="mailto:tychonievich@virginia.edu?subject=2102">tychonievich@virginia.edu</a>; include 2102 in the subject
+    
+    Office Hours
+    :   Monday, Tuesday, Wednesday 3:00–4:00; Friday 2:30–3:30
 
 Elizabeth Orrico
 :   Email
