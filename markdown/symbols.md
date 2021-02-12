@@ -1,5 +1,5 @@
 ---
-title: Symbols we'll use
+title: Logic Symbols
 ...
 
 Concept          Java/C      Python      This class                      Bitwise    Other
