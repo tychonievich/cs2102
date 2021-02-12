@@ -6,6 +6,7 @@ TEXTBOOKS = {
     'MCS': 'files/mcs.pdf',
     u'\u2200x': 'files/forallx.pdf'
 }
+ANCHORS = ["chapter.","section.","subsection."]
 
 def yamlfile(f):
     from yaml import load
@@ -122,6 +123,11 @@ def raw2cal(data, links):
                                 if type(reading) == str:
                                     for name, link in TEXTBOOKS.items():
                                         if name in reading:
+                                            sect = re.search(r'\d+(?:\.\d+)*', reading)
+                                            if sect and '#' not in link:
+                                                sect = sect.group(0)
+                                                anchor = '#'+ANCHORS[sect.count('.')]+sect
+                                                link += anchor
                                             tmp[i] = {'txt': reading, 'lnk': link}
 
                             if 'reading' in ans[-1]:
