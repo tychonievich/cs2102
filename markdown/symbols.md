@@ -19,5 +19,5 @@ Concept          Symbol         Meaning
 --------        --------        --------------
 equivalent      $\equiv$        "$A \equiv B$" means "$A \leftrightarrow B$ is a tautology"
 entails         $\vDash$        "$A \vDash B$" means "$A \rightarrow B$ is a tautology"
-provable        $\vdash$        "$A \vdash B$" means "$A$ proves $B$"; it means both "$A \vDash B$" and "I know $B$ is true because $A$ is true"<br/>"$\vdash B$" (i.e., without $A$) means "I know $B$ is true"
-therefore       $\therefore$    "$\therefore A$" means both "the lines above this $\vdash A$"<br/>"$\therefore A$" also connotes "$A$ is the thing we wanted to show"
+provable        $\vdash$        "$A \vdash B$" means "$A$ proves $B$"; it means both "$A \vDash B$" and "I know $B$ is true because $A$ is true"<br/>"$\vdash B$" (without $A$) means "I know $B$ is true"
+therefore       $\therefore$    "$\therefore A$" means "the lines above this $\vdash A$"<br/>"$\therefore A$" also connotes "$A$ is the thing we wanted to show"
