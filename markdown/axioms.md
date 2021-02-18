@@ -53,11 +53,7 @@ Parentheses can be changed in two ways:
 either as allowed by associativity,
 or because they are redundant and do not change the order of operations.
 An example of redundant parentheses (i.e., not requiring associativity to change) are those around $P$ in the expression $(P) \rightarrow Q$,
-which can be re-written as $P \land Q$ or $(((P \rightarrow ((Q)))))$ or any other parenthesization desired.
-
-In addition to changes in parentheses that are allowed by associativity, parentheses can also be added or removed anytime that change does not change the order of operations.
-For example, "$((P) \rightarrow Q)$" and "$P \rightarrow (Q)$" are two ways of writing the same expression, and this is not an application of an associative rule.
-
+which can be re-written as $P \rightarrow Q$ or $(((P \rightarrow ((Q)))))$ or any other parenthesization desired.
 
 ## Other equivalences
 
