@@ -49,8 +49,7 @@ Note that mixing associative operators does not create mutual associativity; for
 When several associative operators are used, it is common to write them without parentheses;
 for example, writing "$P \lor Q \lor R \lor S$" instead of "$P \lor \big(Q \lor (R \lor S)\big)$"
 
-Note that associativity is a property of an operator, but some parentheses do not depend on this.
-Parentheses can also be added or removed anytime that change does not change the order of operations.
+In addition to changes in parentheses allowed by associativity, parentheses can also be added or removed anytime that change does not change the order of operations.
 For example, "$((P) \rightarrow Q)$" and "$P \rightarrow (Q)$" are two ways of writing the same expression.
 
 
