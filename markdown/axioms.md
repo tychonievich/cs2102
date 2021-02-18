@@ -28,10 +28,10 @@ and the rest are either less commonly useful or can be derived from the five abo
 | $P$ op $P$ | $\top$ | $\top$ | $\bot$ | $P$ | $P$ |
 | $P$ op $\lnot P$ | $\lnot P$ | $\bot$ | $\top$ | $\bot$ | $\top$ |
 | $\lnot P$ op $P$ | $P$ | $\bot$ | $\top$ | $\bot$ | $\top$ |
-| $\top$ op $P$ | $P$ | $P$ | $P$ | $\lnot P$ | $\top$ |
-| $P$ op $\top$ | | | | | |
-| $\bot$ op $P$ | | | | | |
-| $P$ op $\bot$ | | | | | |
+| $\top$ op $P$ | $P$ | $P$ | $P$ | $P$ | $\top$ |
+| $P$ op $\top$ | $\top$ | $P$ | $\lnot P$ | $P$ | $\top$ |
+| $\bot$ op $P$ | $\top$ | $\lnot P$ | $P$ | $\bot$ | $P$ |
+| $P$ op $\bot$ | $\lnot P$ | $\lnot P$ | $P$ | $\bot$ | $P$ |
 
 
 
