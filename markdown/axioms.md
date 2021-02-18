@@ -23,7 +23,6 @@ $P \lor \top$           $\top$
 
 and the rest are either less commonly useful or can be derived from the five above rules
 
-
 | simplified |$\rightarrow$|$\leftrightarrow$|$\oplus$|$\land$|$\lor$|
 |:------:|:-----------:|:---------------:|:------:|:-----:|:----:|
 |$P$|$\top \rightarrow P$<br/>$\lnot P \rightarrow P$|$\top \leftrightarrow P$|$\bot \oplus P$|$\top \land P$<br/>$P \land P$|$\bot \lor P$<br/>$P \lor P$|
@@ -46,6 +45,9 @@ A binary operator is associative if a pair of them can be re-parenthesized witho
 |$\leftrightarrow$|$(P \leftrightarrow Q) \leftrightarrow R \equiv P \leftrightarrow (Q \leftrightarrow R)$|$P \leftrightarrow Q \equiv Q \leftrightarrow P$|
 
 Note that mixing associative operators does not create mutual associativity; for example $(P \land Q) \lor R$ is *not* equivalent to $P \land (Q \lor R)$.
+
+Parentheses can also be added or removed around a single term regardless of the operators used.
+For example, $((P) \rightarrow Q)$ and $P \rightarrow (Q)$ are equivalent and this equivalence does not depend on the properties of $\rightarrow$
 
 When several associative operators are used, it is common to write them without parentheses;
 for example, writing "$P \lor Q \lor R \lor S$" instead of "$P \lor \big(Q \lor (R \lor S)\big)$"
