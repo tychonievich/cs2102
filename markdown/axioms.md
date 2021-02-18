@@ -23,6 +23,16 @@ $P \lor \top$           $\top$
 
 and the rest are either less commonly useful or can be derived from the five above rules
 
+| Operands |$\rightarrow$|$\leftrightarrow$|$\oplus$|$\land$|$\lor$|
+|:--------:|:-----------:|:---------------:|:------:|:-----:|:----:|
+| $P$ op $P$ | $\top$ | $\top$ | $\bot$ | $P$ | $P$ |
+| $P$ op $\lnot P$ | $\lnot P$ | $\bot$ | $\top$ | $\bot$ | $\top$ |
+| $\lnot P$ op $P$ | $P$ | $\bot$ | $\top$ | $\bot$ | $\top$ |
+| $\top$ op $P$ | $P$ | $P$ | $P$ | $\lnot P$ | $\top$ |
+
+
+
+
 | simplified |$\rightarrow$|$\leftrightarrow$|$\oplus$|$\land$|$\lor$|
 |:------:|:-----------:|:---------------:|:------:|:-----:|:----:|
 |$P$|$\top \rightarrow P$<br/>$\lnot P \rightarrow P$|$\top \leftrightarrow P$|$\bot \oplus P$|$\top \land P$<br/>$P \land P$|$\bot \lor P$<br/>$P \lor P$|
