@@ -23,13 +23,15 @@ $P \lor \top$           $\top$
 
 and the rest are either less commonly useful or can be derived from the five above rules
 
-
-| simplified |$\rightarrow$|$\leftrightarrow$|$\oplus$|$\land$|$\lor$|
-|:------:|:-----------:|:---------------:|:------:|:-----:|:----:|
-|$P$|$\top \rightarrow P$<br/>$\lnot P \rightarrow P$|$\top \leftrightarrow P$|$\bot \oplus P$|$\top \land P$<br/>$P \land P$|$\bot \lor P$<br/>$P \lor P$|
-|$\lnot P$|$P \rightarrow \bot$<br/>$P \rightarrow \lnot P$|$\bot \leftrightarrow P$|$\top \oplus P$|||
-|$\top$|$\bot \rightarrow P$<br/>$P \rightarrow \top$<br/>$P \rightarrow P$|$P \leftrightarrow P$|$P \oplus \lnot P$||$\top \lor P$<br/>$P \lor \lnot P$|
-|$\bot$||$P \leftrightarrow \lnot P$|$P \oplus P$|$\bot \land P$<br/>$P \land \lnot P$||
+| Operands |$\rightarrow$|$\leftrightarrow$|$\oplus$   |$\land$ |$\lor$  |
+|:--------:|:-----------:|:---------------:|:---------:|:------:|:------:|
+| $P$ op $P$       | $\top$    | $\top$    | $\bot$    | $P$    | $P$    |
+| $P$ op $\lnot P$ | $\lnot P$ | $\bot$    | $\top$    | $\bot$ | $\top$ |
+| $\lnot P$ op $P$ | $P$       | $\bot$    | $\top$    | $\bot$ | $\top$ |
+| $\top$ op $P$    | $P$       | $P$       | $\lnot P$ | $P$    | $\top$ |
+| $P$ op $\top$    | $\top$    | $P$       | $\lnot P$ | $P$    | $\top$ |
+| $\bot$ op $P$    | $\top$    | $\lnot P$ | $P$       | $\bot$ | $P$    |
+| $P$ op $\bot$    | $\lnot P$ | $\lnot P$ | $P$       | $\bot$ | $P$    |
 
 ## Associative and Commutative properties
 
@@ -49,6 +51,12 @@ Note that mixing associative operators does not create mutual associativity; for
 
 When several associative operators are used, it is common to write them without parentheses;
 for example, writing "$P \lor Q \lor R \lor S$" instead of "$P \lor \big(Q \lor (R \lor S)\big)$"
+
+Parentheses can be changed in two ways:
+either as allowed by associativity,
+or because they are redundant and do not change the order of operations.
+An example of redundant parentheses (i.e., not requiring associativity to change) are those around $P$ in the expression $(P) \rightarrow Q$,
+which can be re-written as $P \rightarrow Q$ or $(((P \rightarrow ((Q)))))$ or any other parenthesization desired.
 
 ## Other equivalences
 
