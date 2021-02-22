@@ -56,7 +56,7 @@ I have no obvious place to list those supplements so I'm listing them here. They
 - [Symbols we'll use](symbols.html), which is made available during in-class quizzes
 - [Six meanings of "everyone can fit in a bus"](bus-example.html), an introduction to quantifiers and the purpose of jargon
 - [Operator precedence](mainoperator.html) and how it helps convert between English and logic
-- [Axioms](axioms.html), being useful tools out of which we build proofs
+- [Logical Rules](axioms.html), being useful tools out of which we build proofs
 - [Guide to Direct Proof](direct.html)
 - [English to Quantifiers](eng2quant.html)
 - [Sets primer](sets.html)

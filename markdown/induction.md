@@ -27,11 +27,11 @@ This outline may make intuitive sense, but we need to formalize it to make it in
     a. we assume it starts true; this assumption is called the **inductive hypothesis**
     b. we use that assumption to prove that it will still be true one step later
 
-3. We conclude it must always be true. This step is not a proof, it's an axiom called the **principle of induction**.
+3. We conclude it must always be true. This step is not a proof, it's a rule called the **principle of induction**.
 
 # The idea, formal logic version
 
-The **principle of induction** is an axiom or proof rule that looks like:
+The **principle of induction** is a proof rule that looks like:
 
 $$\begin{aligned}
 &P(0)\\

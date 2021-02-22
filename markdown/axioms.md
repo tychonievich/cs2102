@@ -1,5 +1,5 @@
 ---
-title: Axioms
+title: Logic Rules
 ...
 
 # Equivalences

@@ -6,9 +6,9 @@ A direct proof works by applying a sequence of axiomatic steps to transform the 
 
 # Axioms
 
-An **axiom** is something we take as true without proof. $\lnot \lnot A \equiv A$ is an example of an axiom. During proof writing, we commonly treat as axiomatic a much larger set of truths than we wold call axiomatic when designing a logic: effectively, we treat any step we expect our readers can follow and not doubt as if it were an axiom. Sometimes the larger truths used as axioms during a proof are called **proof rules**.
+An **axiom** is something we take as true without proof. $\lnot \lnot A \equiv A$ is an example of an axiom. During proof writing, we commonly treat as axiomatic a much larger set of truths than we wold call axiomatic when designing a logic: effectively, we treat any step we expect our readers can follow and not doubt as if it were an axiom. Sometimes the larger truths used as axioms during a proof are called **logic rules** or **proof rules**.
 
-Direct-proof axioms are of two types:
+Direct-proof rules are of two types:
 
 Equivalences
 :   If $\mathcal A \equiv \mathcal B$ then $\mathcal A$ is true whenever $\mathcal B$ is true and false whenever it is false.
@@ -31,7 +31,7 @@ Entailments
     
     If $\mathcal A \equiv \mathcal B$ then both $\mathcal A \vDash \mathcal B$ and $\mathcal B \vDash \mathcal A$, and vice-versa.
     
-We have a [list of axioms](axioms.html) you may find helpful, and will add to it from time to time as we discuss new kinds of axioms during class.
+We have a [list of logic rules](axioms.html) you may find helpful.
 
 # Strategy
 
@@ -65,12 +65,12 @@ you may want to have several chains you combine later on.
 
 ## See what can fit
 
-There are only a few axioms that apply in most situations,
+There are only a few rules that apply in most situations,
 generally dictated by the connectives in a what you know.
 
 You can always use double negation, and in many places, since it does not depend on anything;
 you can also always add an $\lor \bot$ or an $\land \top$, though those are rarely helpful.
-And there are a few axioms that can be used for each logical connective.
+And there are a few rules that can be used for each logical connective.
 
 :::example
 Prove that $P \land (P \rightarrow Q)$ is equivalent to $P \land Q$.
@@ -92,7 +92,7 @@ We can
 
 ## Pick one that makes progress
 
-Not all axioms are equally useful; you want to use the one that will get you closer to your goal. While not always sufficient, the following can help:
+Not all rule are equally useful; you want to use the one that will get you closer to your goal. While not always sufficient, the following can help:
 
 - don't undo what you've done
 - turn everything to ands and ors, work with those, then change back
