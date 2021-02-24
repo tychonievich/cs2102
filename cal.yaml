@@ -50,7 +50,7 @@ lectures:
     - quiz
 
     - [equivalence proofs, direct proof]
-    - [equivalence proofs, proof by cases]
+    - [equivalence proofs, direct proof]
     - quiz
 
     - predicates
@@ -65,7 +65,7 @@ lectures:
     - relations
     - quiz
 
-    - contradiction
+    - [proof by cases, contradiction]
     - contradiction
     - group
     
