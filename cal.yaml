@@ -57,7 +57,7 @@ lectures:
     - quantifiers
     - group
 
-    - quantifiers
+    - [quantifiers, entailment]
     - english
     - quiz
     
@@ -90,118 +90,6 @@ lectures:
     
     - flex day
     - review
-    
-
-speculative:
-
-    - welcome
-    - [propositions, integers, rationals, sums]
-    - log identities
-    
-    - [sets, sequences, counting]
-    - [quantifiers, predicates, implies]
-    - quantifiers
-    
-    - [functions, relations]
-    - quiz
-    
-    - English
-    - English
-    - quiz
-    
-    
-    
-    - [propositions,operators]
-    - equivalence proofs
-    - group
-    
-    - direct proof
-    - direct proof
-    - quiz
-    
-    - instantiation
-    - instantiation
-    - quiz
-    
-    
-    - induction
-    - induction
-    - group
-    
-    - induction
-    - quiz
-    
-    - induction
-    - induction
-    - quiz
-    
-    - contradiction
-    - contradiction
-    - group
-    
-    - contradiction
-    - contradiction
-    - quiz
-    
-    - contradiction
-    - contradiction
-    - quiz
-    
-previous:
-    
-    - welcome
-    - real maths
-
-    - sets
-    - sets
-    - sets
-    
-    - [propositions, operators]
-    - operators
-    - module 1 lab 1
-
-    - [equivalence proofs, direct proof]
-    - [equivalence proofs, direct proof]
-    - module 1 lab 2
-
-    - predicates
-    - quantifiers
-    - [module 1 group project, module 2 makeup]
-    
-    - quantifiers
-    - [proof by cases, english]
-    - module 2 lab 1
-
-    - english
-    - english
-    - module 2 lab 2
-
-    - integers
-    - contradiction
-    - [module 2 group project, module 2 makeup]
-
-    - contradiction
-    - contradiction
-    - module 3 lab 1
-
-    - [summation, induction]
-    - [induction, counting proofs]
-    - module 3 lab 2
-
-    - [combination]
-    - [permutation]
-    - [module 3 group project, module 3 makeup]
-
-    - functions
-    - functions
-    - module 4 lab 1
-    
-    - logs
-    - logs
-    - module 4 lab 2
-    
-    - review
-
 
 reading:
 
@@ -246,6 +134,8 @@ reading:
           txt: "proof techniques"
         - lnk: "direct.html"
           txt: "direct proof"
+    entailment:
+        - "∀x 11.4–7"
         
     predicates:
         - "MCS 1.2"
