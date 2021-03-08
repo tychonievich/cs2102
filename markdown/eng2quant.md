@@ -51,7 +51,7 @@ Only one person is happy
         
         $$\exists x \;.\; \forall y\;.\;  H(x) \land \big((x \neq y) \rightarrow \lnot H(y)\big)$$
         
-        We cannot commute $\forall$ over operators other than $\land$ or over $\exists$ quantifiers.
+        We cannot commute $\forall$ over operators other than $\land$, nor over $\exists$ quantifiers.
         For example $\forall y\;.\; \exists x \;.\; H(x) \land \big((x \neq y) \rightarrow \lnot H(y)\big)$ means "Pick anyone you want and I can find someone who is happy such that either my person is your person or your person is unhappy"; this is trivially true because I can always pick the same person you picked.
     
     If two people are both happy, they are the same person
