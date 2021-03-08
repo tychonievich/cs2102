@@ -47,11 +47,12 @@ Only one person is happy
     Someone is happy, and everyone other than them is unhappy
     :   $$\exists x \;.\; H(x) \land \forall y\;.\; \big((x \neq y) \rightarrow \lnot H(y)\big)$$
         
-        We can commute quantifiers over expressions that do not involve their variable:
+        Because $\forall$ is a bunch of "and"s, and "and" is commutative, we can commute the quantifiers over the and:
         
         $$\exists x \;.\; \forall y\;.\;  H(x) \land \big((x \neq y) \rightarrow \lnot H(y)\big)$$
         
-        We cannot commute quantifiers over other quantifiers; for example $\forall y\;.\; \exists x \;.\; H(x) \land \big((x \neq y) \rightarrow \lnot H(y)\big)$ means "Pick anyone you want and I can find someone who is happy such that either my person is your person or your person is unhappy"; this is trivially true because I can always pick the same person you picked.
+        We cannot commute $\forall$ over operators other than $\land$ or over $\exists$ quantifiers.
+        For example $\forall y\;.\; \exists x \;.\; H(x) \land \big((x \neq y) \rightarrow \lnot H(y)\big)$ means "Pick anyone you want and I can find someone who is happy such that either my person is your person or your person is unhappy"; this is trivially true because I can always pick the same person you picked.
     
     If two people are both happy, they are the same person
     :   $\forall x, y \;.\; \big(H(x) \land H(y)\big) \rightarrow (x = y)$
@@ -77,7 +78,7 @@ Only one person in this class is happy
     Someone in the class is happy, and everyone in the class other than them is unhappy
     :   $$\exists x \;.\; \big(C(x) \land H(x)\big) \land \Big(\forall y \;.\; \big(C(y) \land (x \neq y)\big) \rightarrow \lnot H(y)\Big)$$
         
-        Again, we can commute the $\forall y$: $$\exists x \;.\; \forall y \;.\; \big(C(x) \land H(x)\big) \land \Big(\big(C(y) \land (x \neq y)\big) \rightarrow \lnot H(y)\Big)$$
+        Again, we can commute the $\forall y$ over the $\land$: $$\exists x \;.\; \forall y \;.\; \big(C(x) \land H(x)\big) \land \Big(\big(C(y) \land (x \neq y)\big) \rightarrow \lnot H(y)\Big)$$
     
     If two people are both in the class and both happy, they are the same person
     :   $$\forall x, y \;.\; \big(C(x) \land C(y) \land H(x) \land H(y)\big) \rightarrow (x = y)$$
