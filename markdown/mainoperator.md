@@ -195,7 +195,7 @@ $\forall p \;.\; P(p) \rightarrow\Big(\exists i \;.\; I(i,p) \land\big(\forall j
 
 # English to logic with main operators
 
-When turning English, the following process will always work:
+When turning English into logic, the following process will always work:
 
 1. Identify the main operator implied by the English
 2. Write that operator as a symbol with its scope in parentheses
