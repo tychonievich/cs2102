@@ -62,6 +62,9 @@
   - lectures/tychonievich-2021-03-03-2021-03-03-slides.pdf
   video: lectures/tychonievich-2021-03-03.webm
 2021-03-08:
-  mkv: "/tmp/2021-03-08 11-00-05.mkv"
+  audio: lectures/tychonievich-2021-03-08.mp3
   files:
-    - /tmp/2021-03-08-slides.pdf
+  - lectures/tychonievich-2021-03-08-2021-03-08-slides.pdf
+  video: lectures/tychonievich-2021-03-08.webm
+2021-03-10:
+  video: https://collab.its.virginia.edu/portal/site/9c5db4ed-7a44-41b1-8243-95da5c55229c/page-reset/aae56273-0d73-42f2-a915-a602f129638f
