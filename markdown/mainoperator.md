@@ -333,6 +333,8 @@ Convert "the best program is never the cheapest program" to logic
     $\forall p\;.\; \lnot\big(\nexists b\;.\; B(b,p)\big) \lor \lnot\big(\nexists c\;.\; C(c,p)\big)$
 
     $\forall p\;.\; \big(\exists b\;.\; B(b,p)\big) \lor \big(\exists c\;.\; C(c,p)\big)$
+    
+    to get "every program either has another cheaper than it or another better than it", which is also equivalent to our starting statement.
 :::
 
 
