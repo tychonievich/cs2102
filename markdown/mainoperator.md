@@ -327,6 +327,12 @@ Convert "the best program is never the cheapest program" to logic
     $B(x,y)$    $x$ is better than $y$
 
     $\forall p\;.\; \lnot\Big(\big(\nexists b\;.\; B(b,p)\big) \land \big(\nexists c\;.\; C(c,p)\big)\Big)$
+
+4. We could optionally apply De Morgan and double negation:
+
+    $\forall p\;.\; \lnot\big(\nexists b\;.\; B(b,p)\big) \lor \lnot\big(\nexists c\;.\; C(c,p)\big)$
+
+    $\forall p\;.\; \big(\exists b\;.\; B(b,p)\big) \lor \big(\exists c\;.\; C(c,p)\big)$
 :::
 
 
