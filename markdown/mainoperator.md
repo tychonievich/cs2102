@@ -203,8 +203,8 @@ When turning English into logic, the following process will always work:
 4. Convert each parenthesized English to logic
 
 When doing this, be sure to look for implicit quantifiers.
-$\forall$ is often omitted by making a "general statement" instead,
-which $\exists$ may be as subtle as the user of "a" instead of "the".
+$\forall$ is often omitted by making a "general statement" instead;
+$\exists$ may be as subtle as the use of "a" instead of "the".
 
 Also be careful about adding $\exists$ and if-then statements.
 "I'll marry someone who proposes" means "$\exists x$ . I'll marry $x$ **and** $x$ proposes" not "$\exists x$ . I'll marry $x$ **if** $x$ proposes"; the latter is trivially true as long as there is someone somewhere who will never propose.
