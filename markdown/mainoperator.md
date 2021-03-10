@@ -326,7 +326,7 @@ Convert "the best program is never the cheapest program" to logic
     $C(x,y)$    $x$ is cheaper than $y$
     $B(x,y)$    $x$ is better than $y$
 
-    $\forall p\;.\; \lnot\Big(\big(\nexists b\;.\; B(b,p)\big)p \land \big(\nexists c\;.\; C(c,p)\big)\Big)$
+    $\forall p\;.\; \lnot\Big(\big(\nexists b\;.\; B(b,p)\big) \land \big(\nexists c\;.\; C(c,p)\big)\Big)$
 :::
 
 
