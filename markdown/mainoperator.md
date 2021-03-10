@@ -71,7 +71,7 @@ $x \land y$             both $x$ and $y$
 $x \lor y$              either $x$ or $y$ or both
 $x \oplus y$            either $x$ or $y$ but not both
 $x \rightarrow y$       if $x$ then $y$
-$x \leftrightarrow y$   $y$ if and only if $x$
+$x \leftrightarrow y$   $x$ if and only if $y$
 $\forall x \;.\; y$     for each $x$ it is the case that $y$
 $\exists x \;.\; y$     there exists some $x$ such that $y$
 $\nexists x \;.\; y$    there is no $x$ such that $y$
