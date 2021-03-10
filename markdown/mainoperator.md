@@ -224,7 +224,7 @@ Identify the main operator of each of the following and re-write the sentence to
 - A floating-point value is either normalized, denormalized, infinite, or NaN ^[$\forall n$ . (if $n$ is a floating-point value then $n$ is either normalized, denormalized, infinite, or NaN)]
 - This variable is either normalized, denormalized, infinite, or NaN ^[(this variable is normalized) $\oplus$ (this variable is denormalized) $\oplus$ (this variable is infinite) $\oplus$ (this variable is NaN)]
 - A floating-point value is a number ^[$\forall n$ . (if $n$ is a floating-point value then $n$ is a number)]
-- A floating-point value is missing ^[$\exists n$ . (if $n$ is a floating-point value and $n$ is missing)]
+- A floating-point value is missing ^[$\exists n$ . ($n$ is a floating-point value and $n$ is missing)]
 - Using a floating-point value is a mistake ^[(using a float-point value) $\rightarrow$ (a mistake)]
 :::
 
