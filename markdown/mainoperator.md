@@ -255,11 +255,11 @@ Convert "the best program is never the cheapest program" to logic
         
         $\nexists c \;.\; C(c,p)$.
         
-    The consequent is "$p$ is the best program".
+    The consequent is "$p$ is not the best program".
     
-    a. This is about the absence of something (nothing is better than $p$).
+    a. This is about the existence of something (something is better than $p$).
         
-        $\nexists b\;.$ $b$ is better than $p$
+        $\exists b\;.$ $b$ is better than $p$
 
     b. This is about goodness. Which is not part of logic. So we turn it into a predicate:
 
@@ -267,7 +267,7 @@ Convert "the best program is never the cheapest program" to logic
         ----------  --------
         $B(x,y)$    $x$ is better than $y$
         
-        $\nexists b \;.\; B(b,p)$.
+        $\exists b \;.\; B(b,p)$.
 
 3. Putting it all together:
 
@@ -276,7 +276,7 @@ Convert "the best program is never the cheapest program" to logic
     $C(x,y)$    $x$ is cheaper than $y$
     $B(x,y)$    $x$ is better than $y$
 
-    $\forall p\;.\; \big(\nexists c \;.\; C(c,p)\big) \rightarrow \big(\nexists b \;.\; B(b,p)\big)$
+    $\forall p\;.\; \big(\nexists c \;.\; C(c,p)\big) \rightarrow \big(\exists b \;.\; B(b,p)\big)$
 :::
 
 

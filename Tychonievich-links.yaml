@@ -61,3 +61,7 @@
   files:
   - lectures/tychonievich-2021-03-03-2021-03-03-slides.pdf
   video: lectures/tychonievich-2021-03-03.webm
+2021-03-08:
+  mkv: "/tmp/2021-03-08 11-00-05.mkv"
+  files:
+    - /tmp/2021-03-08-slides.pdf
