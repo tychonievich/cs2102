@@ -280,3 +280,53 @@ Convert "the best program is never the cheapest program" to logic
 :::
 
 
+:::example
+Convert "the best program is never the cheapest program" to logic
+
+1. This is a statement about all programs.
+
+    $\forall p\;.$ "$p$'s the best" and "$p$ is not the cheapest" are never both true
+    
+2. This is an not-and statement.
+
+    $\forall p\;.\; \lnot\big(p$'s the best $\land$ $p$ is the cheapest$\big)$
+
+    The first conjunct is "$p$ is the best program".
+    
+    a. This is about the absence of something (nothing is better than $p$).
+        
+        $\nexists b\;.$ $b$ is better than $p$
+        
+    b. This is about goodness. Which is not part of logic. So we turn it into a predicate:
+        
+        Predicate   Meaning
+        ----------  --------
+        $B(x,y)$    $x$ is better than $y$
+        
+        $\nexists b \;.\; B(b,p)$.
+        
+    The second conjunct is "$p$ is cheapest program".
+    
+    a. This is about the absence of something (nothing is cheaper than $p$).
+        
+        $\nexists c\;.$ $c$ is cheaper than $p$
+        
+    b. This is about cost. Which is not part of logic. So we turn it into a predicate:
+        
+        Predicate   Meaning
+        ----------  --------
+        $C(x,y)$    $x$ is cheaper than $y$
+        
+        $\nexists c \;.\; C(c,p)$.
+
+3. Putting it all together:
+
+    Predicate   Meaning
+    ----------  --------
+    $C(x,y)$    $x$ is cheaper than $y$
+    $B(x,y)$    $x$ is better than $y$
+
+    $\forall p\;.\; \lnot\Big(\big(\nexists b\;.\; B(b,p)\big)p \land \big(\nexists c\;.\; C(c,p)\big)\Big)$
+:::
+
+
