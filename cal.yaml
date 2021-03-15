@@ -228,7 +228,9 @@ reading:
     integers:
         - "MCS 8.0–8.7"
     functions:
-        - "MCS 4.3–4.4"
+        - "MCS 4.3"
+    relations:
+        - "MCS 4.4"
     logs:
         - txt: wikipedia
           lnk: https://en.m.wikipedia.org/wiki/Logarithm
