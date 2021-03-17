@@ -394,7 +394,7 @@ A **relation** can equivalently be considered as any of
 
 - a generalization of functions that allows a single domain value to map to more than one co-domain value
 - an interpretation of the meaning of a predicate
-- a set of sequences
+- a set of sequences (this set is called the **graph** of the relation; a relation is not itself a set)
 
 A *relation* is called **functional** if it is a function; that is, each element of the domain is related to at most one element in co-domain.
 
