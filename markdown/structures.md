@@ -390,16 +390,18 @@ The function is defined for $g(12,2) = 6$ but is not defined for the following:
 A function is called a **predicate** if its co-domain is the set $\{\top,\bot\}$, where $\top$ represents the concept "true" and $\bot$ represents the concept "false".
 This is equivalent to the definition of predicate given in [First-Order Logic].
 
-A **relation** can equivalently be considered as any of
+A **relation** is a generalization of a function that allows a single domain value to map to more than one co-domain value.
+Each relation can also be defined using
 
-- a generalization of functions that allows a single domain value to map to more than one co-domain value
-- an interpretation of the meaning of a predicate
-- a set of sequences (this set is called the **graph** of the relation; a relation is not itself a set)
+- a predicate indicating which domain + co-domain elements are related
+- a set of sequences, called the **graph** of the relation
+
+Note that the relation itself is neither the predicate nor the set, but the predicate and set can express the meaning of the relation.
 
 A *relation* is called **functional** if it is a function; that is, each element of the domain is related to at most one element in co-domain.
 
 :::example
-|Function-like|Predicate|Set|Functional?|
+|Function-like|corresponding Predicate|Graph of|Functional?|
 |:-|:-|:-|:-:|
 |$f(x) = x^2$|$P(x,y) = (y = x^2)$|$\big\{ (x,y) \;\big|\; x^2 = y \big\}$|Yes|
 |$f(x) = \pm \sqrt{x}$|$P(x,y) = (y^2 = x)$|$\big\{ (x,y) \;\big|\; x = y^2 \big\}$|No|
@@ -431,7 +433,7 @@ For $f : \mathbb Z \rightarrow \mathbb Z$,
 - $f(x) = \lfloor x \div 2 \rfloor$ is total and surjective but not injective
 :::
 
-A *binary relation* $R(x,y)$ is
+A *binary relation* defined by predicate $R(x,y)$ is
 
 - **reflexive** if every $x$ is related to itself; that is, $\forall x\;.\; R(x,x)$
 - **irreflexive** if no $x$ is related to itself; that is, $\forall x\;.\; \lnot R(x,x)$
