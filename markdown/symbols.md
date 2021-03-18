@@ -30,8 +30,8 @@ floor       $\lfloor x \rfloor$                 the largest integer not larger t
 ceiling     $\lceil x \rceil$                   the smallest integer not smaller than $x$<br/>$x$ rounded up to an integer
 exponent    $x^y$                               $x$ multiplied by itself $y$ times
 sum         $\displaystyle \sum_{x \in S} f(x)$ the sum of all members of $\{ f(x) \;|\; x \in S\}$
-sum         $\displaystyle \sum_{x=a}^{b} f(x)$ $\displaystyle \sum_{x\in S} f(x)$ where $S = \{ f(x) \;|\; (x \in \mathbb Z) \land (a \le x \le b)\}$<br/>the sum of $f(x)$ applied to integers between $a$ and $b$ inclusive
+sum         $\displaystyle \sum_{x=a}^{b} f(x)$ $\displaystyle \sum_{x\in S} f(x)$ where $S = \{ x \;|\; (x \in \mathbb Z) \land (a \le x \le b)\}$<br/>the sum of $f(x)$ applied to integers between $a$ and $b$ inclusive
 product     $\displaystyle \prod_{x \in S} f(x)$ the product of all members of $\{ f(x) \;|\; x \in S\}$
-product     $\displaystyle \prod_{x=a}^{b} f(x)$ $\displaystyle \prod{x\in S} f(x)$ where $S = \{ f(x) \;|\; (x \in \mathbb Z) \land (a \le x \le b)\}$<br/>the product of $f(x)$ applied to integers between $a$ and $b$ inclusive
+product     $\displaystyle \prod_{x=a}^{b} f(x)$ $\displaystyle \prod{x\in S} f(x)$ where $S = \{ x \;|\; (x \in \mathbb Z) \land (a \le x \le b)\}$<br/>the product of $f(x)$ applied to integers between $a$ and $b$ inclusive
 factorial   $x!$                                $\displaystyle \prod_{i=1}^{x} i$<br/>The product of all positive integers less than or equal to $x$<br/>The number of permutations of a length-$x$ sequence with distinct members
 choose      $\displaystyle {n \choose k}$                       $\displaystyle {n! \over (n-k)! k!}$<br/>the number of $k$-member subsets of an $n$-element set
