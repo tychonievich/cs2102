@@ -2,7 +2,7 @@
 title: Symbols we'll use
 ...
 
-# Logic symbols
+: Propositions
 
 Concept          Java/C      Python      This class                      Bitwise    Name            Other
 --------        --------    --------    ---------------------------     ---------   ------          ---------
@@ -15,14 +15,23 @@ $P$ xor $Q$     `p != q`    `p != q`    $P \oplus Q$                    `p ^ q` 
 $P$ implies $Q$                         $P \rightarrow Q$                           implication     $P \supset Q$, $P \Rightarrow Q$
 $P$ iff $Q$     `p == q`    `p == q`    $P \leftrightarrow Q$                       bi-implication  $P \Leftrightarrow Q$, $P$ xnor $Q$
 
+
+: Proofs
+
 Concept          Symbol         Meaning
 --------        --------        --------------
 equivalent      $\equiv$        "$A \equiv B$" means "$A \leftrightarrow B$ is a tautology"
 entails         $\vDash$        "$A \vDash B$" means "$A \rightarrow B$ is a tautology"
 provable        $\vdash$        "$A \vdash B$" means "$A$ proves $B$"; it means both "$A \vDash B$" and "I know $B$ is true because $A$ is true"<br/>"$\vdash B$" (without $A$) means "I know $B$ is true"
 therefore       $\therefore$    "$\therefore A$" means "the lines above this $\vdash A$"<br/>"$\therefore A$" also connotes "$A$ is the thing we wanted to show"
+proof done      ∎<br>q.e.d.     marks the end of a written (prose) proof
+hypothesis                      something we expect is true
+theorem                         something we've proven is true
+corollary                       small theorem that builds off of the main theorem
+lemma                           small theorem that helps set up the proof of the main theorem
 
-# Arithmetic symbols
+
+: Arithmetic
 
 Concept      Symbol                             Meaning
 --------    --------                            --------------
