@@ -4,16 +4,16 @@ title: Symbols we'll use
 
 # Logic symbols
 
-Concept          Java/C      Python      This class                      Bitwise    Other
---------        --------    --------    ---------------------------     ---------   ------
-true            `true`      `True`      $\top$ or $1$                   `-1`        T, tautology
-false           `false`     `False`     $\bot$ or $0$                   `0`         F, contradiction
-not $P$         `!p`        `not p`     $\lnot P$ or $\overline{P}$     `~p`
-$P$ and $Q$     `p && q`    `p and q`   $P \land Q$                     `p & q`     $P Q$, $P \cdot Q$
-$P$ or $Q$      `p || q`    `p or q`    $P \lor Q$                      `p | q`     $P + Q$
-$P$ xor $Q$     `p != q`    `p != q`    $P \oplus Q$                    `p ^ q`     $P ⊻ Q$
-$P$ implies $Q$                         $P \rightarrow Q$                           $P \supset Q$, $P \Rightarrow Q$
-$P$ iff $Q$     `p == q`    `p == q`    $P \leftrightarrow Q$                       $P \Leftrightarrow Q$, $P$ xnor $Q$
+Concept          Java/C      Python      This class                      Bitwise    Name            Other
+--------        --------    --------    ---------------------------     ---------   ------          ---------
+true            `true`      `True`      $\top$ or $1$                   `-1`        tautology       T
+false           `false`     `False`     $\bot$ or $0$                   `0`         contradiction   F
+not $P$         `!p`        `not p`     $\lnot P$ or $\overline{P}$     `~p`        negation
+$P$ and $Q$     `p && q`    `p and q`   $P \land Q$                     `p & q`     conjunction     $P Q$, $P \cdot Q$
+$P$ or $Q$      `p || q`    `p or q`    $P \lor Q$                      `p | q`     disjunction     $P + Q$
+$P$ xor $Q$     `p != q`    `p != q`    $P \oplus Q$                    `p ^ q`     parity          $P ⊻ Q$, 
+$P$ implies $Q$                         $P \rightarrow Q$                           implication     $P \supset Q$, $P \Rightarrow Q$
+$P$ iff $Q$     `p == q`    `p == q`    $P \leftrightarrow Q$                       bi-implication  $P \Leftrightarrow Q$, $P$ xnor $Q$
 
 Concept          Symbol         Meaning
 --------        --------        --------------
@@ -29,8 +29,9 @@ Concept      Symbol                             Meaning
 floor       $\lfloor x \rfloor$                 the largest integer not larger than $x$<br/>$x$ rounded down to an integer
 ceiling     $\lceil x \rceil$                   the smallest integer not smaller than $x$<br/>$x$ rounded up to an integer
 exponent    $x^y$                               $x$ multiplied by itself $y$ times
-factorial   $x!$                                $\displaystyle \prod_{i=1}^{x} i$<br/>The product of all positive integers less than or equal to $x$
 sum         $\displaystyle \sum_{x \in S} f(x)$ the sum of all members of $\{ f(x) \;|\; x \in S\}$
-sum         $\displaystyle \sum_{x=a}^{b} f(x)$ the sum of all members of $\{ f(x) \;|\; (x \in \mathbb Z) \land (a \le x \le b)\}$
+sum         $\displaystyle \sum_{x=a}^{b} f(x)$ $\displaystyle \sum_{x\in S} f(x)$ where $S = \{ f(x) \;|\; (x \in \mathbb Z) \land (a \le x \le b)\}$<br/>the sum of $f(x)$ applied to integers between $a$ and $b$ inclusive
 product     $\displaystyle \prod_{x \in S} f(x)$ the product of all members of $\{ f(x) \;|\; x \in S\}$
-product     $\displaystyle \prod_{x=a}^{b} f(x)$ the product of all members of $\{ f(x) \;|\; (x \in \mathbb Z) \land (a \le x \le b)\}$
+product     $\displaystyle \prod_{x=a}^{b} f(x)$ $\displaystyle \prod{x\in S} f(x)$ where $S = \{ f(x) \;|\; (x \in \mathbb Z) \land (a \le x \le b)\}$<br/>the product of $f(x)$ applied to integers between $a$ and $b$ inclusive
+factorial   $x!$                                $\displaystyle \prod_{i=1}^{x} i$<br/>The product of all positive integers less than or equal to $x$<br/>The number of permutations of a length-$x$ sequence with distinct members
+choose      $n \choose k$                       ${n! \over (n-k)! k!}$<br/>the number of $k$-member subsets of an $n$-element set
