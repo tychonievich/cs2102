@@ -439,9 +439,11 @@ A *binary relation* defined by predicate $R(x,y)$ is
 - **irreflexive** if no $x$ is related to itself; that is, $\forall x\;.\; \lnot R(x,x)$
 - **transitive** if $\forall x,y,z\;.\; \big(R(x,y) \land R(y,z)\big) \rightarrow R(x,z)$
 - **symmetric** if $\forall x,y\;.\; R(x,y) \rightarrow R(y,x)$
-- **asymmetric** if $\forall x,y\;.\; R(x,y) \rightarrow \lnot R(y,x)$
+- **asymmetric** if $\forall x,y\;.\; R(x,y) \rightarrow \lnot R(y,x)$.
 - **antisymmetric** if $\forall x,y\;.\; \big((x \ne y) \land R(x,y)\big) \rightarrow \lnot R(y,x)$
 
+Note that a relation is asymmetric if and only if it is both antisymmetric and irreflexive.
+ 
 Several combinations of the above properties have special names:
 
 - an **equivalence relation** is reflexive, transitive, and symmetric
