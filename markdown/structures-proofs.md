@@ -16,7 +16,7 @@ We proceed by induction on the cardinality of $S$.
 Base case
 :   $|S| = 0$
     
-    In this case, $S = \{\}$ and $\mathcal P(S) = big\{\{\}\big\}$.
+    In this case, $S = \{\}$ and $\mathcal P(S) = \big\{\{\}\big\}$.
     Thus, $\big|P(S)\big| = 1 = 2^0$.
 
 Inductive Step
