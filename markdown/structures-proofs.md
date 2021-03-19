@@ -207,7 +207,7 @@ We provide only a proof outline for each claim:
     - $f(x) = x \times 2$ is not surjective because $f^{-1}(1) \notin \mathbb Z$
 - $f(x) = \lfloor x \div 2 \rfloor$
     - $f(x) = \lfloor x \div 2 \rfloor$ is total because all integers can be divided by 2 and the floor of any number is an integer
-    - $f(x) = \lfloor x \div 2 \rfloor$  is surjective because $forall y \ in mathbb Z \;.\; f(2y) = y$ and $2y \in \mathbb Z$.
+    - $f(x) = \lfloor x \div 2 \rfloor$  is surjective because $\forall y \in \mathbb Z \;.\; f(2y) = y$ and $2y \in \mathbb Z$.
     - $f(x) = \lfloor x \div 2 \rfloor$ is not injective because $f(2) = f(3)$ but $2 \ne 3$.
 
 
