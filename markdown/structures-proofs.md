@@ -191,24 +191,25 @@ For $f : \mathbb Z \rightarrow \mathbb Z$,
 - $f(x) = \lfloor x \div 2 \rfloor$ is total and surjective but not injective
 :::
 
-:::proof
+We provide only a proof outline for each claim:
+
 - $f(x) = x + 2$
     - $f(x) = x + 2$ is total because $x+2$ is defined for all integers and always results in an integer.
     - $f(x) = x + 2$ is bijective because its inverse is a function: $f^{-1}(x) = x-2$
     - $f(x) = x + 2$ is injective and surjective because it is bijective
 - $f(x) = x \div 2$
-    - $f(x) = x \div 2$ is not total because $f(1) \notin \matbb Z$.
+    - $f(x) = x \div 2$ is not total because $f(1) \notin \mathbb Z$.
     - $f(x) = x \div 2$ is injective and surjective because its inverse $f^{-1}(x) = 2x$ is total
         - $f^{-1}(x) = 2x$ is total because $2x$ is  defined for all integers and always results in an integer.
 - $f(x) = x \times 2$
     - $f(x) = x \times 2$ is total because $2x$ is  defined for all integers and always results in an integer.
     - $f(x) = x \times 2$ is injective because $(2x \ne 2y) \leftrightarrow (x \ne y)$ (by the algebraic rule of division of 2 on both sides)
-    - $f(x) = x \times 2$ is not surjective because $f^{-1}(1) \notin \matbb Z$
+    - $f(x) = x \times 2$ is not surjective because $f^{-1}(1) \notin \mathbb Z$
 - $f(x) = \lfloor x \div 2 \rfloor$
     - $f(x) = \lfloor x \div 2 \rfloor$ is total because all integers can be divided by 2 and the floor of any number is an integer
     - $f(x) = \lfloor x \div 2 \rfloor$  is surjective because $forall y \ in mathbb Z \;.\; f(2y) = y$ and $2y \in \mathbb Z$.
     - $f(x) = \lfloor x \div 2 \rfloor$ is not injective because $f(2) = f(3)$ but $2 \ne 3$.
-:::
+
 
 # Binary relation properties
 
@@ -232,9 +233,9 @@ Transitive
     Then $z = k y$ and $y = c x$ for some integers $c$ and $k$,
     meaning $z = k c x$; because $kc$ is also an integer, $x$ is a factor of $z$; that is, $R(x,z)$.
     Because assuming $R(x,y)$ and $R(y,z)$ allowed us to prove $R(x,z)$,
-    we know that $\big(R(x,y) \land R(y,z)\) \rightarrow R(x,z)$.
+    we know that $\big(R(x,y) \land R(y,z)\big) \rightarrow R(x,z)$.
     By universal instantiation it follows that 
-    $\forall x,y,z \in \mathbb Z^+ \;.\; \big(R(x,y) \land R(y,z)\) \rightarrow R(x,z)$ meaning $R$ is transitive.
+    $\forall x,y,z \in \mathbb Z^+ \;.\; \big(R(x,y) \land R(y,z)\big) \rightarrow R(x,z)$ meaning $R$ is transitive.
 
 Antisymmetric
 :   Consider arbitrary $x,y \in \mathbb Z^+$.
@@ -251,6 +252,7 @@ Because $R$ is reflexive, transitive, and antisymmetric,
 $R$ is a partial order.
 :::
 
+----
 
 :::theorem
 $R(x,y) \coloneqq 2x = 3y$ for $x,y \in \mathbb Z$ is antisymmetric
@@ -274,7 +276,7 @@ Because assuming that $R$ is not antisymmetric entailed a contradiction, it must
 :::
 
 
-<@--
+<!--
 
 # Summation
 
