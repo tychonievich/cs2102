@@ -104,7 +104,7 @@ Base case $n=0$
 
 Base case $n=1$
 :   There is only one permutation of a singleton sequence,
-    and $1! = \prod_{i=1}^{1} i = 1$.
+    and $\displaystyle 1! = \prod_{i=1}^{1} i = 1$.
 
 Inductive step
 :   Assume that a $n-1$-element sequence with distinct elements has $(n-1)!$ permutations.
