@@ -47,8 +47,7 @@ but those proofs are beyond the scope of this class.
 # Number of subsets
 
 :::theorem
-The number of distinct $k$-member subsets of a $n$-member set is denoted $\displaystyle{ n \choose k }$, read "$n$ **choose** $k$", and is equal to $\displaystyle{ n! \over (n-k)! k! }$,
-where $x!$ is the [factorial](#summation) of $x$.
+The number of distinct $k$-member subsets of a $n$-member set is denoted $\displaystyle{ n \choose k }$, read "$n$ **choose** $k$", and is equal to $\displaystyle{ n! \over (n-k)! k! }$.
 :::
 
 :::proof
