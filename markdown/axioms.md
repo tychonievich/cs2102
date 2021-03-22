@@ -106,11 +106,32 @@ $\lnot(A \land B)$, $A$                                     ${\lnot B}$
 
 A proof that assumes $A$ and derives $B$ entails that $A \rightarrow B$. This is commonly used in the inductive step of a proof by induction.
 
+$$\begin{matrix}
+& A \vdash B\\
+\therefore & A \rightarrow B
+\end{matrix}$$
+
 A proof that assumes $A$ and derives $\bot$ entails that $\lnot A$. This is called "proof by contradiction" or "indirect proof."
 
-A proof $x \in S \vdash P(x)$ entails $\forall x \in S \;.\; P(x)$. This is called "universal installation".
+$$\begin{matrix}
+& A \vdash \bot\\
+\therefore & \lnot A
+\end{matrix}$$
 
-A proof $\vdash P(x)$ where $x$ is some specific member of $S$ entails $\exists x \in S \;.\; P(x)$. This is called "existential installation".
+A proof $x \in S \vdash P(x)$ entails $\forall x \in S \;.\; P(x)$. This is called "universal instantiation".
+
+$$\begin{matrix}
+& x \in S \vdash P(x)\\
+\therefore & \forall x \in S \;.\; P(x)
+\end{matrix}$$
+
+If $P(x)$ and $x$ is some specific member of $S$, that entails $\exists x \in S \;.\; P(x)$. This is called "existential instantiation".
+
+$$\begin{matrix}
+& x \in S\\
+& P(x)\\
+\therefore & \exists x \in S \;.\; P(x)
+\end{matrix}$$
 
 
 ## Set entailment
