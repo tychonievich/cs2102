@@ -108,6 +108,9 @@ A proof that assumes $A$ and derives $B$ entails that $A \rightarrow B$. This is
 
 A proof that assumes $A$ and derives $\bot$ entails that $\lnot A$. This is called "proof by contradiction" or "indirect proof."
 
+A proof $x \in S \vdash P(x)$ entails $\forall x \in S \;.\; P(x)$. This is called "universal installation".
+
+A proof $\vdash P(x)$ where $x$ is some specific member of $S$ entails $\exists x \in S \;.\; P(x)$. This is called "existential installation".
 
 
 ## Set entailment
