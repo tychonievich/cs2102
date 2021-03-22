@@ -65,18 +65,18 @@ lectures:
     - relations
     - quiz
 
-    - [proof by cases, contradiction]
     - contradiction
+    - [contradiction, integers]
     - group
     
     - [contradiction, integers]
     - quiz
     
-    - well-ordering
-    - well-ordering
+    - [contradiction, well-ordering]
+    - [contradiction, well-ordering]
     - quiz
     
-    - induction
+    - [proof by cases, induction]
     - induction
     - group
     
