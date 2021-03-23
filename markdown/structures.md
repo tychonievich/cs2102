@@ -283,8 +283,7 @@ The set of all non-negative integers is denoted $\mathbb N$.
 
 The set of all positive integers is denoted $\mathbb Z^+$ or $\mathbb N^+$. In general, a superscript $+$ after a set means "only the positive elements" and a superscript $-$ means "only the negative elements".
 
-In computing, **the natural numbers** refers to $\mathbb N$.
-In some other disciplines, "the natural numbers" refers to $\mathbb Z^+$ instead.
+In computing^[In some other disciplines (not computing), "the natural numbers" refers to $\mathbb Z^+$ instead of $\mathbb Z^+ \cup \{0\}$.], **the natural numbers** refers to $\mathbb N$.
 
 An integer $x$ is a **divisor** of an integer $y$ if and only if $y \div x$ is an integer.
 **Factor** is a synonym for *divisor*.
