@@ -93,3 +93,9 @@
   files:
   - lectures/tychonievich-2021-03-22-2021-03-22-slides.pdf
   video: lectures/tychonievich-2021-03-22.webm
+2021-03-24:
+  audio: lectures/tychonievich-2021-03-24.mp3
+  files:
+  - lectures/tychonievich-2021-03-24-2021-03-24-slides.pdf
+  - lectures/tychonievich-2021-03-24-2021-03-24-proofs.txt
+  video: lectures/tychonievich-2021-03-24.webm
