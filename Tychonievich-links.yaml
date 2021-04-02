@@ -105,6 +105,7 @@
   - lectures/tychonievich-2021-03-31-2021-03-31-slides.pdf
   video: lectures/tychonievich-2021-03-31.webm
 2021-04-02:
-  mkv: "/tmp/2021-04-02 11-00-16.mkv"
+  audio: lectures/tychonievich-2021-04-02.mp3
   files:
-    - /tmp/2021-04-02-slides.pdf
+  - lectures/tychonievich-2021-04-02-2021-04-02-slides.pdf
+  video: lectures/tychonievich-2021-04-02.webm
