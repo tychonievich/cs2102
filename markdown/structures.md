@@ -507,7 +507,7 @@ It is defined by the following identity:
 $$\big(x^y = z\big) \equiv \big(\log_x(z) = y\big)$$
 The expression $\log_x(y)$ is read "the log base $x$ of $y$".
 
-Logarithms are defined for all positive bases except 0,
+Logarithms are defined for all positive bases except 1,
 though we almost always assume the base is greater than 1.
 
 For any given base $b > 1$,
