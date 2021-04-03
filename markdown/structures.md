@@ -303,7 +303,7 @@ $0$ is not a divisor of any integer, not even itself.
 Every other integer is a divisor of $0$.
 
 The **trivial divisors** of any nonzero integer $x$ are $-x$, $-1$, $1$, and $x$.
-An integer $x$ is **prime** if its greater than $1$ and has no non-trivial divisors.
+An integer $x$ is **prime** if it is greater than $1$ and has no non-trivial divisors.
 
 :::example
 $2102$ is not prime because it has non-trivial factors, including $2$.
