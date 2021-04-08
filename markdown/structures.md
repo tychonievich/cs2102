@@ -329,6 +329,9 @@ so in this prime factorization $2$ has multiplicity 8, $5$ has multiplicity 1, a
 The **greatest common divisor** (GCD) of a set of integers is the largest integer that is a divisor of all of the integers in the set.
 If the GCD of two integers is 1, then the integers are called **co-prime** or **relatively prime**.
 
+The notation "$x = y \mod q$" means "$x$ and $y$ have the same remainder when divided by $q$",
+and can be formally expressed as $\exists a,b,c \in \mathbb Z \;.\; (x = aq+c) \land (y = bq+c)$.
+
 # Rational
 
 Any number that can be constructed by dividing one [integer] by another is called a **rational number**.
