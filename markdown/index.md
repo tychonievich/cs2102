@@ -61,7 +61,7 @@ I have no obvious place to list those supplements so I'm listing them here. They
 - [English to Quantifiers](eng2quant.html)
 - [Sets primer](sets.html)
 - [induction addenda](induction.html)
-- [Proof Techniques](techniques-q8.html), a list of techniques with tips on proof writing
+- [Proof Techniques](techniques.html), a list of techniques with tips on proof writing
 - [Logical Reduction](reducibility.html)
 - [MCS 4 addenda](chap4.html)
 - [Glossary of logical terms](glossary.html)

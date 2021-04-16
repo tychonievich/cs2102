@@ -219,7 +219,7 @@ reading:
         - txt: reductions writeup
           lnk: reducibility.html
         - txt: proof techniques
-          lnk: techniques-q8.html
+          lnk: techniques.html
     
     graphs:
         - "MCS 9"
