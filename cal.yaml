@@ -231,7 +231,7 @@ reading:
         - "MCS 4.3"
     relations:
         - "MCS 4.4"
-    logs:
+    logarithms:
         - txt: wikipedia
           lnk: https://en.m.wikipedia.org/wiki/Logarithm
         - txt: writeup
