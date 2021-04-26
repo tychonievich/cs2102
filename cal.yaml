@@ -290,6 +290,8 @@ assignments:
         due: 2021-03-30 09:00:00
     M3 Makeup:
         due: 2021-04-19 09:00:00
+    M4 Autograded Makeup:
+        due: 2021-05-06 23:59:00
 
     M1 Final:
         due: 2021-05-07 23:59:59
