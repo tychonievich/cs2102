@@ -8,7 +8,7 @@ and were once taught extensively in pre-college algebra courses;
 however, we have observed that fewer and fewer students come in to UVA already knowing them each year,
 and thus have decided to cover them in this course.
 
-As a summary, your should know that
+As a summary, you should know that
 
 - $\displaystyle \log_b(x) = w \equiv b^w = x$ 
     - which implies that $\displaystyle b^{\log_b(x)} = x$
