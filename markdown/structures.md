@@ -524,6 +524,5 @@ For any given base $b > 1$,
 - $\displaystyle{ \log_b\left(\frac{x}{y}\right) = \log_b(x) - \log_b(y) }$
 - $\displaystyle{ \log_b(x^y) = y \log_b(x) }$
 - $\displaystyle{ \log_b(x) = \frac{\log_a(x)}{\log_a(b)} }$
-- $\displaystyle{ \log_{a^c}(x) = c^{-1}\log_a(x) }$
 
 Logarithms have many other interesting properties and show up in many areas of computing; the above identities will be sufficient for this class.
