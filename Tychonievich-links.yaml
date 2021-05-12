@@ -159,3 +159,11 @@
   files:
   - lectures/tychonievich-2021-04-28-2021-04-28-slides.pdf
   video: lectures/tychonievich-2021-04-28.webm
+2021-04-30:
+  mkv: "/tmp/2021-04-30 10-59-57.mkv"
+  files:
+    - /tmp/2021-04-30-slides.pdf
+2021-05-03:
+  mkv: "/tmp/2021-05-03 10-59-44.mkv"
+  files:
+    - /tmp/2021-05-03-slides.pdf

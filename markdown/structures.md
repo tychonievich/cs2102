@@ -283,10 +283,10 @@ The set of all non-negative integers is denoted $\mathbb N$.
 
 The set of all positive integers is denoted $\mathbb Z^+$ or $\mathbb N^+$. In general, a superscript $+$ after a set means "only the positive elements" and a superscript $-$ means "only the negative elements".
 
-In computing^[In some other disciplines (not computing), "the natural numbers" refers to $\mathbb Z^+$ instead of $\mathbb Z^+ \cup \{0\}$.], **the natural numbers** refers to $\mathbb N$.
+In computing^[In some other disciplines (not computing), "the natural numbers" refers to $\mathbb Z^+$ instead of $\mathbb Z^+ \cup \{0\}$. In computing if we need to name $\mathbb Z^{+}$ we call it "the positive integers" or "the whole numbers".], **the natural numbers** refers to $\mathbb N$.
 
 An integer $x$ is a **divisor** of an integer $y$ if and only if $y \div x$ is an integer.
-**Factor** is a synonym for *divisor*.
+**Factor** is a synonym for *divisor*^[Usually. You can find various websites saying various "A factor is like a divisor except *X*" but they don't agree on what the *X* is.].
 If $x$ is a *divisor* of $y$, then we say that $y$ is **divisible by** $x$ and $y$ is a **multiple** of $x$.
 
 We can denote the concept "$x$ is a *divisor* of $y$" as "$x|y$", but this notation is unusual in computing because $|$ is already used for so many other concepts (e.g, for absolute values, cardinality, set-builder notation, conditional probability, complex magnitude, determinant, etc).
